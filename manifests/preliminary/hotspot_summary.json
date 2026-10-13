@@ -1,0 +1,72 @@
+{
+  "status": "SELECTED",
+  "pre_mean_C": 40.61898066352994,
+  "pre_std_C": 2.687081250361345,
+  "pre_threshold_C": 43.306061913891284,
+  "post_mean_C": 29.84798330495922,
+  "post_std_C": 2.0509267579026105,
+  "post_threshold_C": 31.89891006286183,
+  "built_threshold_fraction": 0.36474066972732544,
+  "built_quantile": 0.75,
+  "std_ddof": 0,
+  "sigma_multiplier": 1.0,
+  "joint_LST_valid_cells": 66761,
+  "valid_built_population_cells": 66761,
+  "joint_selection_valid_cells": 66761,
+  "candidate_cells": 447,
+  "candidate_regions": 126,
+  "surviving_regions": 22,
+  "connectivity": 4,
+  "minimum_component_cells": 5,
+  "minimum_component_area_m2": 112500.0,
+  "selection_order": [
+    "built_weighted_area_m2 descending",
+    "mean_pre_excess_C descending",
+    "n_cells descending",
+    "component_id ascending"
+  ],
+  "grid": {
+    "crs": "EPSG:32643",
+    "shape": [
+      352,
+      331
+    ],
+    "transform": [
+      150.0,
+      0.0,
+      679200.0,
+      0.0,
+      -150.0,
+      3197100.0
+    ],
+    "bounds_xy_m": [
+      679200.0,
+      3144300.0,
+      728850.0,
+      3197100.0
+    ],
+    "resolution_m": [
+      150.0,
+      150.0
+    ],
+    "axis_convention": "north-up; row 0 north"
+  },
+  "component_id": 28,
+  "n_cells": 44,
+  "physical_area_m2": 990000.0,
+  "built_weighted_area_m2": 510439.4307732582,
+  "mean_built_fraction": 0.5155953846194528,
+  "mean_pre_excess_C": 1.4817058572042399,
+  "mean_post_excess_C": 1.0056142163351014,
+  "survives_minimum": true,
+  "centroid_xy_m": [
+    691125.0,
+    3174893.1818181816
+  ],
+  "selected_cell_bounds_xy_m": [
+    690600.0,
+    3173850.0,
+    691800.0,
+    3175800.0
+  ]
+}

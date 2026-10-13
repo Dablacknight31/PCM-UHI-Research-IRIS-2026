@@ -1,0 +1,10 @@
+{
+  "workbook": "data/inputs/materials/PCM_Details_As_Executed.xlsx",
+  "weather": "data/inputs/weather/annual_weather.csv",
+  "geospatial": "data/inputs/geospatial",
+  "roof_footprints": "data/inputs/roof_coverage/footprints.geojson",
+  "category1": "results/category1",
+  "category3": "results/category3/accepted_baselines",
+  "earth_engine_project_environment": "PCM_UHI_EE_PROJECT",
+  "future_output_environment": "PCM_UHI_OUTPUT_ROOT"
+}

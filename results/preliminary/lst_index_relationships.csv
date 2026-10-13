@@ -1,0 +1,5 @@
+season,index,sample_count,excluded_boundary_cells,method,coefficient,missing_handling,status
+PREMONSOON,NDVI,66761,0,Pearson r; ddof-independent normalized covariance,-0.4581997455834425,pairwise finite overlap within real Delhi mask; no imputation,COMPUTED
+PREMONSOON,NDBI,66761,0,Pearson r; ddof-independent normalized covariance,0.7185540933621078,pairwise finite overlap within real Delhi mask; no imputation,COMPUTED
+POSTMONSOON,NDVI,66761,0,Pearson r; ddof-independent normalized covariance,-0.2585171258312404,pairwise finite overlap within real Delhi mask; no imputation,COMPUTED
+POSTMONSOON,NDBI,66761,0,Pearson r; ddof-independent normalized covariance,0.5277508419515757,pairwise finite overlap within real Delhi mask; no imputation,COMPUTED

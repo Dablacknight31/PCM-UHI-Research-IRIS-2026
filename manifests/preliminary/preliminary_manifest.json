@@ -1,0 +1,977 @@
+{
+  "cumulative_run_id": "through_category4_20261009T205224361728Z_745195a6",
+  "cumulative_source_identity": {
+    "source_content_sha256": "39f3a8d6707020cd2d67e7d97ba50fd3345e7e7f19ce208c523227e26ec91ca5",
+    "executable_source_sha256": "5a44293120e3b2ee58f12718fcc86772f91212c530ca6a8c39d4eeec3f0010bc",
+    "fingerprint_policy": "Recorded source fingerprint; private source evidence is not distributed."
+  },
+  "screen_method": "MELTING_INTERVAL_OVERLAP_INCLUSIVE_V1",
+  "screen_derivation": {
+    "method_origin": "Inclusive melting-interval overlap with hotspot local-day air maxima and premonsoon surface-temperature percentile.",
+    "lower_equation": "round(mean_local_days(max_hourly_hotspot(T_air_C per Asia/Kolkata date)), 1)",
+    "local_daily_audit_file": "results/preliminary/pcm_screen_local_daily_audit.csv",
+    "upper_equation": "round(percentile(valid Delhi pre-monsoon common-grid LST_C, 95, linear), 1)",
+    "pass_equation": "Tm_high_C >= lower_C AND Tm_low_C <= upper_C; PCM_RUNNABLE only",
+    "screen_method": "MELTING_INTERVAL_OVERLAP_INCLUSIVE_V1",
+    "boundary_contact_passes": true,
+    "purpose": "thermal relevance only; annual activation/saturation/utilisation/regeneration belong to Category 1",
+    "candidate_population_final": false,
+    "result_use": "DEVELOPMENT",
+    "daily_air": {
+      "source": "ECMWF/ERA5_LAND/HOURLY",
+      "derived_from": "ANNUAL_WEATHER.T_air_C",
+      "raw_source_file": "data/inputs/weather/era5_hourly_raw.csv",
+      "annual_source_file": "data/inputs/weather/annual_weather.csv",
+      "temperature_band": "temperature_2m",
+      "timezone": "Asia/Kolkata",
+      "window": [
+        "2025-04-01",
+        "2025-06-01"
+      ],
+      "window_basis": "local calendar dates; [local midnight start, local midnight stop)",
+      "local_start_inclusive": "2025-04-01T00:00:00+05:30",
+      "local_end_exclusive": "2025-06-01T00:00:00+05:30",
+      "UTC_start_inclusive": "2025-03-31T18:30:00+00:00",
+      "UTC_end_exclusive": "2025-05-31T18:30:00+00:00",
+      "hourly_sample_semantics": "instantaneous canonical midpoint; exact acquired UTC source hour; no interpolation",
+      "first_sample_local": "2025-04-01T00:30:00+05:30",
+      "last_sample_local": "2025-05-31T23:30:00+05:30",
+      "expected_day_count": 61,
+      "observed_day_count": 61,
+      "required_hours_per_day": 24,
+      "expected_hour_count": 1464,
+      "observed_hour_count": 1464,
+      "complete_local_days": true,
+      "missing_policy": "fail on missing/duplicate/extra hours or days; no interpolation/substitution",
+      "unrounded_lower_C": 37.784155073322246,
+      "statistic": "mean of complete local daily Tmax from hourly hotspot T_air_C",
+      "spatial_support": {
+        "spatial_scope": "SELECTED_HOTSPOT_NATIVE_ERA5_CELL",
+        "hotspot_location": {
+          "spatial_scope": "SELECTED_HOTSPOT_NATIVE_ERA5_CELL",
+          "location_method": "selected cell center nearest built-fraction-weighted hotspot centroid; row-major tie",
+          "selected_grid_row": 147,
+          "selected_grid_col": 79,
+          "point_xy_m": [
+            691125.0,
+            3174975.0
+          ],
+          "point_lon_lat": [
+            76.95621601352588,
+            28.687899639119852
+          ],
+          "point_crs": "EPSG:4326",
+          "weighted_centroid_xy_m": [
+            691143.2565834251,
+            3174946.6584667945
+          ],
+          "selected_hotspot_cells": 44,
+          "location_grid": {
+            "crs": "EPSG:32643",
+            "shape": [
+              352,
+              331
+            ],
+            "transform": [
+              150.0,
+              0.0,
+              679200.0,
+              0.0,
+              -150.0,
+              3197100.0
+            ],
+            "bounds_xy_m": [
+              679200.0,
+              3144300.0,
+              728850.0,
+              3197100.0
+            ],
+            "resolution_m": [
+              150.0,
+              150.0
+            ],
+            "axis_convention": "north-up; row 0 north"
+          },
+          "hotspot_mask_numeric_sha256": "8ca31fccf54f64100821b8b6dbf63de341a3e3527296fc8e8dfa8eed22c69e2a",
+          "selected_built_numeric_sha256": "da7686bdff927969fcb026cef27e35dacb581bef57e7e8f1d44e1c9fe6862a0f",
+          "weather_resolution_note": "150 m grid locates hotspot only; weather remains one coarse native ERA5-Land cell."
+        },
+        "extraction_method": "Image.sample at hotspot point; exact native projection; no scale/factor/numPixels; dropNulls=False",
+        "native_projection": {
+          "crs": "EPSG:4326",
+          "transform": [
+            0.1,
+            0.0,
+            -360.05,
+            0.0,
+            -0.1,
+            90.05
+          ]
+        },
+        "native_provider_projection_metadata": {
+          "type": "Projection",
+          "crs": "EPSG:4326",
+          "transform": [
+            0.1,
+            0,
+            -360.05,
+            0,
+            -0.1,
+            90.05
+          ]
+        },
+        "native_crs_definition": "EPSG:4326",
+        "native_transform": [
+          0.1,
+          0.0,
+          -360.05,
+          0.0,
+          -0.1,
+          90.05
+        ],
+        "native_nominal_scale_m": 11131.949079327358,
+        "catalog_nominal_resolution_m": 11132,
+        "sampled_native_cell_center_lon_lat": [
+          77.0,
+          28.699999999999996
+        ],
+        "native_pixel_col_row": [
+          4370,
+          613
+        ],
+        "pixel_coordinate_convention": "EE pixelCoordinates continuous center=(col+0.5,row+0.5); integer containing-cell indices=floor(coordinates).",
+        "native_cells_per_hour": 1,
+        "weather_resampled_to_common_grid": false,
+        "projection_validation": "Every source hour and required band: semantic CRS + six numeric affine coefficients; fixed integer pixel and center containing hotspot point.",
+        "affine_absolute_tolerance": 1e-12,
+        "cell_center_absolute_tolerance_degrees": 1e-12,
+        "support_limitation": "Single coarse regional reanalysis cell at hotspot location; no 150 m meteorological resolution."
+      },
+      "data_nature": "REAL"
+    },
+    "lower_unrounded_C": 37.784155073322246,
+    "upper_unrounded_C": 46.06435396219843,
+    "lower_C": 37.8,
+    "upper_C": 46.1,
+    "lst_sample_count": 66761,
+    "lst_percentile": 95.0,
+    "quantile_method": "linear",
+    "round_decimals": 1,
+    "workbook_sha256": "0dda90b01987f99819c24ff1f7b18d51bfee4d3ea73358f73c7e616977e76aed",
+    "evaluated_runnable_rows": 32,
+    "passing_rows": 3,
+    "candidate_order": "original verified workbook order; no ranking",
+    "material_source_quality": "NOT CHECKED; unchanged Section-0 status",
+    "review_status": "REVIEW_REQUIRED_BEFORE_CATEGORY1",
+    "limitations": "coarse hotspot hourly-sampled local daily air maxima plus Delhi overpass composite LST roof proxy; not measured roof bounds or a regeneration result"
+  },
+  "candidate_population_final": false,
+  "result_use": "DEVELOPMENT",
+  "run_id": "20261009T205224821456Z_f21f8449",
+  "status": "PRELIMINARY_COMPLETE_REVIEW_REQUIRED",
+  "scientific_source_policy": "REAL_ONLY; NO_SUBSTITUTION; EXPLICIT_PROVIDER_SHORTWAVE_PHYSICAL_QC",
+  "source_quality_limit": "PCM workbook identity/schema checked; physical citations remain NOT CHECKED",
+  "global_config": {
+    "city": "Delhi",
+    "country": "India",
+    "study_year": 2025,
+    "timezone": "Asia/Kolkata",
+    "study_start_local": "2025-01-01",
+    "study_end_local_exclusive": "2026-01-01",
+    "timestamp_label": "start",
+    "hourly_interval_seconds": 3600,
+    "data_mode": "REAL",
+    "pcm_workbook_path": "Original dependency retained privately; see DATA_AVAILABILITY.md",
+    "pcm_sheet_name": "pcm_properties",
+    "pcm_expected_sha256": "0dda90b01987f99819c24ff1f7b18d51bfee4d3ea73358f73c7e616977e76aed",
+    "spatial": {
+      "crs": "EPSG:32643",
+      "resolution_m": [
+        150.0,
+        150.0
+      ],
+      "anchor_xy_m": [
+        0.0,
+        0.0
+      ],
+      "alignment_tolerance_m": 1e-06,
+      "bounds_xy_m": null
+    }
+  },
+  "preliminary_config": {
+    "ee_auth_mode_colab": "colab",
+    "boundary": {
+      "collection": "FAO/GAUL/2015/level1",
+      "version": "2015",
+      "filters": {
+        "ADM0_NAME": "India",
+        "ADM1_NAME": "Delhi"
+      },
+      "required_feature_count": 1,
+      "geographic_crs": "EPSG:4326",
+      "raster_membership": "cell center; all_touched=False"
+    },
+    "landsat": {
+      "collections": [
+        "LANDSAT/LC08/C02/T1_L2",
+        "LANDSAT/LC09/C02/T1_L2"
+      ],
+      "windows": {
+        "PREMONSOON": [
+          "2025-04-01",
+          "2025-06-01"
+        ],
+        "POSTMONSOON": [
+          "2025-10-01",
+          "2025-12-01"
+        ]
+      },
+      "date_timezone": "UTC",
+      "processing_level": "L2SP",
+      "cloud_cover_min_inclusive": 0,
+      "cloud_cover_max_exclusive": 30,
+      "qa_pixel_reject_bits": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "qa_radsat_require_zero": true,
+      "reflectance_scale": 2.75e-05,
+      "reflectance_offset": -0.2,
+      "st_scale_K_per_DN": 0.00341802,
+      "st_offset_K": 149.0,
+      "K_to_C": 273.15,
+      "index_method": "explicit ratio on nonnegative reflectance; positive denominator",
+      "NDVI_bands": [
+        "SR_B5",
+        "SR_B4"
+      ],
+      "NDBI_bands": [
+        "SR_B6",
+        "SR_B5"
+      ],
+      "scene_to_grid": "reduceResolution(mean); native support weighted by output-cell overlap",
+      "temporal_composite": "median AFTER scene aggregation to common grid",
+      "minimum_scene_count": 1,
+      "minimum_cell_observations": 1,
+      "reduce_resolution_max_pixels": 4096,
+      "lst_validation_range_C": [
+        -80.0,
+        90.0
+      ]
+    },
+    "ghsl": {
+      "collection": "JRC/GHSL/P2023A/GHS_BUILT_S",
+      "version": "P2023A (R2023A)",
+      "epoch": 2020,
+      "band": "built_surface",
+      "source_unit": "m2 per 100 m cell",
+      "catalog_cell_area_m2": 10000.0,
+      "spatial_method": "native built_surface/native projected cell area; overlap-weighted mean to common grid"
+    },
+    "hotspot": {
+      "sigma_multiplier": 1.0,
+      "std_ddof": 0,
+      "built_quantile": 0.75,
+      "quantile_method": "linear",
+      "connectivity": 4,
+      "minimum_component_cells": 5,
+      "minimum_joint_valid_cells": 100,
+      "threshold_population": "LST: valid in both seasons; built: all valid boundary cells",
+      "selection_order": [
+        "built_weighted_area_m2 descending",
+        "mean_pre_excess_C descending",
+        "n_cells descending",
+        "component_id ascending"
+      ]
+    },
+    "weather": {
+      "collection": "ECMWF/ERA5_LAND/HOURLY",
+      "bands": [
+        "temperature_2m",
+        "u_component_of_wind_10m",
+        "v_component_of_wind_10m",
+        "surface_solar_radiation_downwards_hourly",
+        "surface_thermal_radiation_downwards_hourly"
+      ],
+      "spatial_scope": "SELECTED_HOTSPOT_NATIVE_ERA5_CELL",
+      "location_method": "selected cell center nearest built-fraction-weighted hotspot centroid; row-major tie",
+      "extraction_method": "Image.sample at hotspot point; exact native projection; no scale/factor/numPixels; dropNulls=False",
+      "catalog_nominal_resolution_m": 11132,
+      "max_pixels": 1000000,
+      "tile_scale": 2,
+      "source_radiation_interval": "[system:time_start - 1 hour, system:time_start)",
+      "source_radiation_units": "J/m2",
+      "output_radiation_units": "W/m2 interval mean",
+      "source_temperature_wind": "instantaneous at system:time_start",
+      "target_temperature_wind": "sample at interval midpoint; bracketed linear interpolation only",
+      "source_padding_hours": 1,
+      "shortwave_physical_qc": {
+        "maximum_correctable_negative_magnitude_Jm2": 5.0,
+        "physical_minimum_Jm2": 0.0,
+        "operation": "negative source increments in [-5,0) J/m2 set to 0 for model input only",
+        "larger_negative_policy": "hard failure requiring provider source review",
+        "raw_policy": "preserve every acquired value and acquisition artifact exactly",
+        "basis": "explicit user-approved provider shortwave quantization/deaccumulation physical QC"
+      },
+      "air_validation_range_C": [
+        -80.0,
+        60.0
+      ]
+    },
+    "pcm_screen": {
+      "lst_percentile": 95.0,
+      "quantile_method": "linear",
+      "round_decimals": 1,
+      "air_timezone": "Asia/Kolkata",
+      "required_hours_per_local_day": 24,
+      "lower_statistic": "mean of complete local daily Tmax from hourly hotspot T_air_C",
+      "air_missing_policy": "fail on missing/duplicate/extra hours or days; no interpolation/substitution",
+      "rule": "MELTING_INTERVAL_OVERLAP_INCLUSIVE_V1",
+      "pass_equation": "Tm_high_C >= lower_C AND Tm_low_C <= upper_C; PCM_RUNNABLE only",
+      "boundary_contact_passes": true,
+      "table": "Section-0 PCM_RUNNABLE only; all workbook rows retained for audit",
+      "review_status": "REVIEW_REQUIRED_BEFORE_CATEGORY1"
+    },
+    "download": {
+      "format": "GEO_TIFF",
+      "tile_cells": 256,
+      "timeout_seconds": 180,
+      "output_dtype": "float64",
+      "nodata_encoding": -9999.0,
+      "cache_policy": "write acquired artifacts only; no automatic cache reads"
+    },
+    "figures": {
+      "dpi": 180,
+      "map_size": [
+        12,
+        6
+      ],
+      "relationship_size": [
+        12,
+        5
+      ],
+      "hexbin_gridsize": 45
+    }
+  },
+  "grid": {
+    "crs": "EPSG:32643",
+    "shape": [
+      352,
+      331
+    ],
+    "transform": [
+      150.0,
+      0.0,
+      679200.0,
+      0.0,
+      -150.0,
+      3197100.0
+    ],
+    "bounds_xy_m": [
+      679200.0,
+      3144300.0,
+      728850.0,
+      3197100.0
+    ],
+    "resolution_m": [
+      150.0,
+      150.0
+    ],
+    "axis_convention": "north-up; row 0 north"
+  },
+  "handoff_objects": [
+    "COMMON_GRID",
+    "DELHI_BOUNDARY",
+    "LST_PREMONSOON_C",
+    "LST_POSTMONSOON_C",
+    "NDVI_PREMONSOON",
+    "NDVI_POSTMONSOON",
+    "NDBI_PREMONSOON",
+    "NDBI_POSTMONSOON",
+    "BUILT_FRACTION",
+    "HOTSPOT_MASK",
+    "HOTSPOT_SUMMARY",
+    "ERA5_SHORTWAVE_QC_SOURCE",
+    "ERA5_SHORTWAVE_CORRECTION_LEDGER",
+    "ERA5_SHORTWAVE_QC_SUMMARY",
+    "ANNUAL_WEATHER",
+    "HOTSPOT_WEATHER_LOCATION",
+    "PCM_SCREEN_LOCAL_DAILY_AUDIT",
+    "PCM_TEMP_SCREEN",
+    "PCM_PRELIM_CANDIDATES",
+    "PCM_PRELIM_CANDIDATE_IDS",
+    "PRELIM_PROVENANCE",
+    "PCM_SCREEN_DERIVATION",
+    "PRELIM_CONFIG",
+    "PRELIM_ARTIFACT_DIR",
+    "PRELIM_RUN_ID",
+    "CUMULATIVE_RUN_ID",
+    "CUMULATIVE_SOURCE_IDENTITY",
+    "PCM_SCREEN_METHOD",
+    "PRELIM_REVIEW_STATUS"
+  ],
+  "annual_weather_contract": {
+    "canonical_object": "ANNUAL_WEATHER",
+    "intended_use": "Category 1 selected hotspot",
+    "file": "data/inputs/weather/annual_weather.csv",
+    "raw_source_file": "data/inputs/weather/era5_hourly_raw.csv",
+    "spatial_support": {
+      "spatial_scope": "SELECTED_HOTSPOT_NATIVE_ERA5_CELL",
+      "hotspot_location": {
+        "spatial_scope": "SELECTED_HOTSPOT_NATIVE_ERA5_CELL",
+        "location_method": "selected cell center nearest built-fraction-weighted hotspot centroid; row-major tie",
+        "selected_grid_row": 147,
+        "selected_grid_col": 79,
+        "point_xy_m": [
+          691125.0,
+          3174975.0
+        ],
+        "point_lon_lat": [
+          76.95621601352588,
+          28.687899639119852
+        ],
+        "point_crs": "EPSG:4326",
+        "weighted_centroid_xy_m": [
+          691143.2565834251,
+          3174946.6584667945
+        ],
+        "selected_hotspot_cells": 44,
+        "location_grid": {
+          "crs": "EPSG:32643",
+          "shape": [
+            352,
+            331
+          ],
+          "transform": [
+            150.0,
+            0.0,
+            679200.0,
+            0.0,
+            -150.0,
+            3197100.0
+          ],
+          "bounds_xy_m": [
+            679200.0,
+            3144300.0,
+            728850.0,
+            3197100.0
+          ],
+          "resolution_m": [
+            150.0,
+            150.0
+          ],
+          "axis_convention": "north-up; row 0 north"
+        },
+        "hotspot_mask_numeric_sha256": "8ca31fccf54f64100821b8b6dbf63de341a3e3527296fc8e8dfa8eed22c69e2a",
+        "selected_built_numeric_sha256": "da7686bdff927969fcb026cef27e35dacb581bef57e7e8f1d44e1c9fe6862a0f",
+        "weather_resolution_note": "150 m grid locates hotspot only; weather remains one coarse native ERA5-Land cell."
+      },
+      "extraction_method": "Image.sample at hotspot point; exact native projection; no scale/factor/numPixels; dropNulls=False",
+      "native_projection": {
+        "crs": "EPSG:4326",
+        "transform": [
+          0.1,
+          0.0,
+          -360.05,
+          0.0,
+          -0.1,
+          90.05
+        ]
+      },
+      "native_provider_projection_metadata": {
+        "type": "Projection",
+        "crs": "EPSG:4326",
+        "transform": [
+          0.1,
+          0,
+          -360.05,
+          0,
+          -0.1,
+          90.05
+        ]
+      },
+      "native_crs_definition": "EPSG:4326",
+      "native_transform": [
+        0.1,
+        0.0,
+        -360.05,
+        0.0,
+        -0.1,
+        90.05
+      ],
+      "native_nominal_scale_m": 11131.949079327358,
+      "catalog_nominal_resolution_m": 11132,
+      "sampled_native_cell_center_lon_lat": [
+        77.0,
+        28.699999999999996
+      ],
+      "native_pixel_col_row": [
+        4370,
+        613
+      ],
+      "pixel_coordinate_convention": "EE pixelCoordinates continuous center=(col+0.5,row+0.5); integer containing-cell indices=floor(coordinates).",
+      "native_cells_per_hour": 1,
+      "weather_resampled_to_common_grid": false,
+      "projection_validation": "Every source hour and required band: semantic CRS + six numeric affine coefficients; fixed integer pixel and center containing hotspot point.",
+      "affine_absolute_tolerance": 1e-12,
+      "cell_center_absolute_tolerance_degrees": 1e-12,
+      "support_limitation": "Single coarse regional reanalysis cell at hotspot location; no 150 m meteorological resolution."
+    },
+    "raw_source_sha256": "92c1e00bd19369723cf94e04e8019f43c6bcefdd995cc5b8546ef565fe005ab1",
+    "shortwave_physical_qc": {
+      "policy": {
+        "maximum_correctable_negative_magnitude_Jm2": 5.0,
+        "physical_minimum_Jm2": 0.0,
+        "operation": "negative source increments in [-5,0) J/m2 set to 0 for model input only",
+        "larger_negative_policy": "hard failure requiring provider source review",
+        "raw_policy": "preserve every acquired value and acquisition artifact exactly",
+        "basis": "explicit user-approved provider shortwave quantization/deaccumulation physical QC"
+      },
+      "source_hour_count": 8763,
+      "corrected_padded_source_hours": 142,
+      "corrected_source_hours_overlapping_annual_targets": 142,
+      "corrected_target_intervals": 256,
+      "correction_overlap_rows": 284,
+      "minimum_raw_shortwave_increment_Jm2": -4.0,
+      "total_padded_source_correction_Jm2": 166.7190704345703,
+      "total_annual_correction_energy_Jm2": 166.7190704345703,
+      "total_annual_model_shortwave_energy_Jm2": 6630640591.547195,
+      "minimum_canonical_G_Wm2": 0.0,
+      "canonical_nonnegative_all_intervals": true,
+      "raw_values_preserved": true,
+      "other_weather_fields_modified": false,
+      "source_qc_file": "results/preliminary/era5_shortwave_source_qc.csv",
+      "correction_ledger_file": "results/preliminary/era5_shortwave_correction_ledger.csv"
+    },
+    "radiation_overlap_ledger_file": "results/preliminary/era5_radiation_overlap_ledger.csv",
+    "time_semantics": {
+      "data_nature": "REAL",
+      "source": "ECMWF/ERA5_LAND/HOURLY",
+      "units": {
+        "T_air_C": "degC",
+        "u10_ms": "m/s",
+        "v10_ms": "m/s",
+        "wind10_ms": "m/s",
+        "G_Wm2": "W/m2 interval mean",
+        "LW_down_Wm2": "W/m2 interval mean",
+        "shortwave_energy_Jm2": "J/m2 target interval",
+        "longwave_energy_Jm2": "J/m2 target interval",
+        "raw_shortwave_energy_Jm2": "J/m2 raw source overlap sum",
+        "shortwave_qc_correction_Jm2": "J/m2 positive correction to target interval"
+      },
+      "timestamp_label": "start",
+      "timezone": "Asia/Kolkata",
+      "instantaneous_sample": "midpoint",
+      "review_status": "PRELIMINARY_ONLY",
+      "spatial_support": {
+        "spatial_scope": "SELECTED_HOTSPOT_NATIVE_ERA5_CELL",
+        "hotspot_location": {
+          "spatial_scope": "SELECTED_HOTSPOT_NATIVE_ERA5_CELL",
+          "location_method": "selected cell center nearest built-fraction-weighted hotspot centroid; row-major tie",
+          "selected_grid_row": 147,
+          "selected_grid_col": 79,
+          "point_xy_m": [
+            691125.0,
+            3174975.0
+          ],
+          "point_lon_lat": [
+            76.95621601352588,
+            28.687899639119852
+          ],
+          "point_crs": "EPSG:4326",
+          "weighted_centroid_xy_m": [
+            691143.2565834251,
+            3174946.6584667945
+          ],
+          "selected_hotspot_cells": 44,
+          "location_grid": {
+            "crs": "EPSG:32643",
+            "shape": [
+              352,
+              331
+            ],
+            "transform": [
+              150.0,
+              0.0,
+              679200.0,
+              0.0,
+              -150.0,
+              3197100.0
+            ],
+            "bounds_xy_m": [
+              679200.0,
+              3144300.0,
+              728850.0,
+              3197100.0
+            ],
+            "resolution_m": [
+              150.0,
+              150.0
+            ],
+            "axis_convention": "north-up; row 0 north"
+          },
+          "hotspot_mask_numeric_sha256": "8ca31fccf54f64100821b8b6dbf63de341a3e3527296fc8e8dfa8eed22c69e2a",
+          "selected_built_numeric_sha256": "da7686bdff927969fcb026cef27e35dacb581bef57e7e8f1d44e1c9fe6862a0f",
+          "weather_resolution_note": "150 m grid locates hotspot only; weather remains one coarse native ERA5-Land cell."
+        },
+        "extraction_method": "Image.sample at hotspot point; exact native projection; no scale/factor/numPixels; dropNulls=False",
+        "native_projection": {
+          "crs": "EPSG:4326",
+          "transform": [
+            0.1,
+            0.0,
+            -360.05,
+            0.0,
+            -0.1,
+            90.05
+          ]
+        },
+        "native_provider_projection_metadata": {
+          "type": "Projection",
+          "crs": "EPSG:4326",
+          "transform": [
+            0.1,
+            0,
+            -360.05,
+            0,
+            -0.1,
+            90.05
+          ]
+        },
+        "native_crs_definition": "EPSG:4326",
+        "native_transform": [
+          0.1,
+          0.0,
+          -360.05,
+          0.0,
+          -0.1,
+          90.05
+        ],
+        "native_nominal_scale_m": 11131.949079327358,
+        "catalog_nominal_resolution_m": 11132,
+        "sampled_native_cell_center_lon_lat": [
+          77.0,
+          28.699999999999996
+        ],
+        "native_pixel_col_row": [
+          4370,
+          613
+        ],
+        "pixel_coordinate_convention": "EE pixelCoordinates continuous center=(col+0.5,row+0.5); integer containing-cell indices=floor(coordinates).",
+        "native_cells_per_hour": 1,
+        "weather_resampled_to_common_grid": false,
+        "projection_validation": "Every source hour and required band: semantic CRS + six numeric affine coefficients; fixed integer pixel and center containing hotspot point.",
+        "affine_absolute_tolerance": 1e-12,
+        "cell_center_absolute_tolerance_degrees": 1e-12,
+        "support_limitation": "Single coarse regional reanalysis cell at hotspot location; no 150 m meteorological resolution."
+      },
+      "shortwave_physical_qc": {
+        "policy": {
+          "maximum_correctable_negative_magnitude_Jm2": 5.0,
+          "physical_minimum_Jm2": 0.0,
+          "operation": "negative source increments in [-5,0) J/m2 set to 0 for model input only",
+          "larger_negative_policy": "hard failure requiring provider source review",
+          "raw_policy": "preserve every acquired value and acquisition artifact exactly",
+          "basis": "explicit user-approved provider shortwave quantization/deaccumulation physical QC"
+        },
+        "source_hour_count": 8763,
+        "corrected_padded_source_hours": 142,
+        "corrected_source_hours_overlapping_annual_targets": 142,
+        "corrected_target_intervals": 256,
+        "correction_overlap_rows": 284,
+        "minimum_raw_shortwave_increment_Jm2": -4.0,
+        "total_padded_source_correction_Jm2": 166.7190704345703,
+        "total_annual_correction_energy_Jm2": 166.7190704345703,
+        "total_annual_model_shortwave_energy_Jm2": 6630640591.547195,
+        "minimum_canonical_G_Wm2": 0.0,
+        "canonical_nonnegative_all_intervals": true,
+        "raw_values_preserved": true,
+        "other_weather_fields_modified": false,
+        "source_qc_file": "results/preliminary/era5_shortwave_source_qc.csv",
+        "correction_ledger_file": "results/preliminary/era5_shortwave_correction_ledger.csv"
+      }
+    }
+  },
+  "pcm_screen_lower_contract": {
+    "source": "ANNUAL_WEATHER.T_air_C",
+    "method": "mean of complete local daily Tmax from hourly hotspot T_air_C",
+    "timezone": "Asia/Kolkata",
+    "audit_file": "results/preliminary/pcm_screen_local_daily_audit.csv",
+    "derivation_file": "manifests/preliminary/pcm_screen_derivation.json",
+    "coverage": {
+      "source": "ECMWF/ERA5_LAND/HOURLY",
+      "derived_from": "ANNUAL_WEATHER.T_air_C",
+      "raw_source_file": "data/inputs/weather/era5_hourly_raw.csv",
+      "annual_source_file": "data/inputs/weather/annual_weather.csv",
+      "temperature_band": "temperature_2m",
+      "timezone": "Asia/Kolkata",
+      "window": [
+        "2025-04-01",
+        "2025-06-01"
+      ],
+      "window_basis": "local calendar dates; [local midnight start, local midnight stop)",
+      "local_start_inclusive": "2025-04-01T00:00:00+05:30",
+      "local_end_exclusive": "2025-06-01T00:00:00+05:30",
+      "UTC_start_inclusive": "2025-03-31T18:30:00+00:00",
+      "UTC_end_exclusive": "2025-05-31T18:30:00+00:00",
+      "hourly_sample_semantics": "instantaneous canonical midpoint; exact acquired UTC source hour; no interpolation",
+      "first_sample_local": "2025-04-01T00:30:00+05:30",
+      "last_sample_local": "2025-05-31T23:30:00+05:30",
+      "expected_day_count": 61,
+      "observed_day_count": 61,
+      "required_hours_per_day": 24,
+      "expected_hour_count": 1464,
+      "observed_hour_count": 1464,
+      "complete_local_days": true,
+      "missing_policy": "fail on missing/duplicate/extra hours or days; no interpolation/substitution",
+      "unrounded_lower_C": 37.784155073322246,
+      "statistic": "mean of complete local daily Tmax from hourly hotspot T_air_C",
+      "spatial_support": {
+        "spatial_scope": "SELECTED_HOTSPOT_NATIVE_ERA5_CELL",
+        "hotspot_location": {
+          "spatial_scope": "SELECTED_HOTSPOT_NATIVE_ERA5_CELL",
+          "location_method": "selected cell center nearest built-fraction-weighted hotspot centroid; row-major tie",
+          "selected_grid_row": 147,
+          "selected_grid_col": 79,
+          "point_xy_m": [
+            691125.0,
+            3174975.0
+          ],
+          "point_lon_lat": [
+            76.95621601352588,
+            28.687899639119852
+          ],
+          "point_crs": "EPSG:4326",
+          "weighted_centroid_xy_m": [
+            691143.2565834251,
+            3174946.6584667945
+          ],
+          "selected_hotspot_cells": 44,
+          "location_grid": {
+            "crs": "EPSG:32643",
+            "shape": [
+              352,
+              331
+            ],
+            "transform": [
+              150.0,
+              0.0,
+              679200.0,
+              0.0,
+              -150.0,
+              3197100.0
+            ],
+            "bounds_xy_m": [
+              679200.0,
+              3144300.0,
+              728850.0,
+              3197100.0
+            ],
+            "resolution_m": [
+              150.0,
+              150.0
+            ],
+            "axis_convention": "north-up; row 0 north"
+          },
+          "hotspot_mask_numeric_sha256": "8ca31fccf54f64100821b8b6dbf63de341a3e3527296fc8e8dfa8eed22c69e2a",
+          "selected_built_numeric_sha256": "da7686bdff927969fcb026cef27e35dacb581bef57e7e8f1d44e1c9fe6862a0f",
+          "weather_resolution_note": "150 m grid locates hotspot only; weather remains one coarse native ERA5-Land cell."
+        },
+        "extraction_method": "Image.sample at hotspot point; exact native projection; no scale/factor/numPixels; dropNulls=False",
+        "native_projection": {
+          "crs": "EPSG:4326",
+          "transform": [
+            0.1,
+            0.0,
+            -360.05,
+            0.0,
+            -0.1,
+            90.05
+          ]
+        },
+        "native_provider_projection_metadata": {
+          "type": "Projection",
+          "crs": "EPSG:4326",
+          "transform": [
+            0.1,
+            0,
+            -360.05,
+            0,
+            -0.1,
+            90.05
+          ]
+        },
+        "native_crs_definition": "EPSG:4326",
+        "native_transform": [
+          0.1,
+          0.0,
+          -360.05,
+          0.0,
+          -0.1,
+          90.05
+        ],
+        "native_nominal_scale_m": 11131.949079327358,
+        "catalog_nominal_resolution_m": 11132,
+        "sampled_native_cell_center_lon_lat": [
+          77.0,
+          28.699999999999996
+        ],
+        "native_pixel_col_row": [
+          4370,
+          613
+        ],
+        "pixel_coordinate_convention": "EE pixelCoordinates continuous center=(col+0.5,row+0.5); integer containing-cell indices=floor(coordinates).",
+        "native_cells_per_hour": 1,
+        "weather_resampled_to_common_grid": false,
+        "projection_validation": "Every source hour and required band: semantic CRS + six numeric affine coefficients; fixed integer pixel and center containing hotspot point.",
+        "affine_absolute_tolerance": 1e-12,
+        "cell_center_absolute_tolerance_degrees": 1e-12,
+        "support_limitation": "Single coarse regional reanalysis cell at hotspot location; no 150 m meteorological resolution."
+      },
+      "data_nature": "REAL"
+    }
+  },
+  "validation": [
+    {
+      "name": "LST_OBS_COUNT_PREMONSOON",
+      "result": "PASS",
+      "detail": "66761 finite valid cells; range, missingness and full grid checked."
+    },
+    {
+      "name": "LST_PREMONSOON_C",
+      "result": "PASS",
+      "detail": "66761 finite valid cells; range, missingness and full grid checked."
+    },
+    {
+      "name": "NDVI_OBS_COUNT_PREMONSOON",
+      "result": "PASS",
+      "detail": "66761 finite valid cells; range, missingness and full grid checked."
+    },
+    {
+      "name": "NDVI_PREMONSOON",
+      "result": "PASS",
+      "detail": "66761 finite valid cells; range, missingness and full grid checked."
+    },
+    {
+      "name": "NDBI_OBS_COUNT_PREMONSOON",
+      "result": "PASS",
+      "detail": "66761 finite valid cells; range, missingness and full grid checked."
+    },
+    {
+      "name": "NDBI_PREMONSOON",
+      "result": "PASS",
+      "detail": "66761 finite valid cells; range, missingness and full grid checked."
+    },
+    {
+      "name": "Landsat_C2_L2_physical_scaling",
+      "result": "PASS",
+      "detail": "Expected source science/QA bands present; configured factors match fixed official product contract."
+    },
+    {
+      "name": "LST_OBS_COUNT_POSTMONSOON",
+      "result": "PASS",
+      "detail": "66761 finite valid cells; range, missingness and full grid checked."
+    },
+    {
+      "name": "LST_POSTMONSOON_C",
+      "result": "PASS",
+      "detail": "66761 finite valid cells; range, missingness and full grid checked."
+    },
+    {
+      "name": "NDVI_OBS_COUNT_POSTMONSOON",
+      "result": "PASS",
+      "detail": "66761 finite valid cells; range, missingness and full grid checked."
+    },
+    {
+      "name": "NDVI_POSTMONSOON",
+      "result": "PASS",
+      "detail": "66761 finite valid cells; range, missingness and full grid checked."
+    },
+    {
+      "name": "NDBI_OBS_COUNT_POSTMONSOON",
+      "result": "PASS",
+      "detail": "66761 finite valid cells; range, missingness and full grid checked."
+    },
+    {
+      "name": "NDBI_POSTMONSOON",
+      "result": "PASS",
+      "detail": "66761 finite valid cells; range, missingness and full grid checked."
+    },
+    {
+      "name": "Landsat_C2_L2_physical_scaling",
+      "result": "PASS",
+      "detail": "Expected source science/QA bands present; configured factors match fixed official product contract."
+    },
+    {
+      "name": "BUILT_FRACTION",
+      "result": "PASS",
+      "detail": "66761 finite valid cells; range, missingness and full grid checked."
+    },
+    {
+      "name": "provider_shortwave_physical_qc",
+      "result": "PASS",
+      "detail": "Raw increments preserved; only [-5,0) J/m2 mapped to zero before overlap integration; below -5 hard-fails; correction ledgers reconcile; canonical G>=0."
+    },
+    {
+      "name": "hotspot_native_cell_support",
+      "result": "PASS",
+      "detail": "Reproducible point inside selected hotspot; exactly one unchanged native ERA5 cell each hour; projection and scale retained."
+    },
+    {
+      "name": "annual_hourly_coverage_and_physical_units",
+      "result": "PASS",
+      "detail": "8760 exact intervals; raw native hours checked; finite quantities; real band identities."
+    },
+    {
+      "name": "radiation_overlap_equivalence",
+      "result": "PASS",
+      "detail": "Loop integral equals independently constructed source/target overlap ledger; J/m2 divided by 3600 seconds."
+    },
+    {
+      "name": "hotspot_local_daily_Tmax_complete",
+      "result": "PASS",
+      "detail": "61 complete Asia/Kolkata days; exactly 24 acquired hourly observations per day; no interpolation."
+    },
+    {
+      "name": "inclusive_overlap_eight_boundary_cases",
+      "result": "PASS",
+      "detail": "All eight isolated overlap cases pass; zero-width boundary contact passes; no ranking."
+    },
+    {
+      "name": "shortwave_physical_qc_reproducibility_and_raw_preservation",
+      "result": "PASS",
+      "detail": "Source/target flags, correction magnitudes, annual energy and both ledgers reproduced; raw acquisition file and values unchanged; all canonical G>=0."
+    },
+    {
+      "name": "hotspot_weather_and_local_daily_reproducibility",
+      "result": "PASS",
+      "detail": "Native hotspot location, source-linked radiation ledger, complete local-day audit and unrounded lower bound reproduced."
+    },
+    {
+      "name": "whole_grid_and_numeric_identity",
+      "result": "PASS",
+      "detail": "All raster files, affines, CRS, dimensions and numeric hashes match."
+    },
+    {
+      "name": "hotspot_reproducibility",
+      "result": "PASS",
+      "detail": "Same rule reproduces the mask, areas, counts and thresholds."
+    },
+    {
+      "name": "PCM_screen_and_workbook_integrity",
+      "result": "PASS",
+      "detail": "Pinned workbook unchanged; all rows audited; derived bounds/candidate IDs reproduced."
+    },
+    {
+      "name": "provenance_completeness",
+      "result": "PASS",
+      "detail": "All required environmental inputs have authenticated source records and passing checks."
+    }
+  ],
+  "source_registry_file": "manifests/preliminary/provenance_registry.json",
+  "candidate_review_required": true
+}

@@ -1,0 +1,22 @@
+{
+  "status": "PASS_STAGE_A",
+  "category3_scientific_execution": false,
+  "category3_ready": false,
+  "math_tests": "PASS",
+  "roof_geometry": "0773b0dd490362352fc7e1efb0822b24dabae7a75bd030bf55a51ce1b265446c",
+  "hotspot_area_m2": 990000.0,
+  "footprint_union_m2": 491600.70733718254,
+  "baseline_treated_roof_m2": 344120.4951360407,
+  "source_integral_m2": 344120.49513604067,
+  "actual_weather_dt_min_s": 5.19123226109734,
+  "pilot_selection": {
+    "selection_rule": "Hottest mean-Tair 48h window beginning at IST midnight; earliest start breaks ties. Weather only; no PCM cooling selection.",
+    "start_hour": 3888,
+    "hours": 48,
+    "start_UTC": "2025-06-11 18:30:00+00:00",
+    "end_UTC_exclusive": "2025-06-13 18:30:00+00:00",
+    "start_IST": "2025-06-12 00:00:00+05:30",
+    "mean_T_air_C": 36.361303583780945,
+    "weather_content_sha256": "0025060b2506d4d69d5bf361c37c1f2786fefbd745e40f4d19acb186a4e13d83"
+  }
+}

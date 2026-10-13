@@ -1,0 +1,59 @@
+{
+  "status": "ACCEPTED_BASELINES_REPLOTTED",
+  "baseline_receipt": "Original dependency retained privately; see DATA_AVAILABILITY.md",
+  "baseline_receipt_sha256": "1e99de98dbfae208d20a6bc15cef3e29a00d6a0c17d9f4b10de3eba3e357aff0",
+  "candidate_ids": [
+    "PCM-011",
+    "PCM-067",
+    "PCM-069"
+  ],
+  "scientific_solvers_invoked": false,
+  "created_at_UTC": "2026-10-10T05:26:23.896654+00:00",
+  "spatial_extent_identity_check": "PASS",
+  "readiness_claim": "ANNUAL_BASELINE_ONLY",
+  "spatial_bounds_UTM_m": [
+    684600.0,
+    3167850.0,
+    697800.0,
+    3181800.0
+  ],
+  "spatial_zoom_UTM_m": [
+    688600.0,
+    693800.0,
+    3171850.0,
+    3177800.0
+  ],
+  "source_files": {
+    "results/category3/accepted_baselines/eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553/local_month_summary.csv": "966c4c0d578c5266d7b42fa2c41e27df9ce3be62ee536a22aa9a40c80c9c26e3",
+    "results/category3/accepted_baselines/eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553/numerical_convergence.csv": "a7fd4fe25df27aac4ace363ccc1bd62af2dd94113eb7ece6478642d09a7c5e69",
+    "results/category3/accepted_baselines/eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553/summary.json": "272b03be845becddc6309d9d276e8670f0c10678d43ddb22fd5243c833e7cc23",
+    "results/category3/accepted_baselines/eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553/local_hour_summary.csv": "147b079b1156f17b7699f2f4c6a968e8781b9b9b44c59d49ad337f1b159f5721",
+    "results/category3/accepted_baselines/eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553/spatial_diagnostics.npz": "29ebe0be6bc9a9d4d527deded33b4eaff3eeb349a9e18be967d82e51c0939361",
+    "results/category3/accepted_baselines/eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553/hourly_statistics.csv": "80849c89fa91d114032fb849f2ea78c29d0cf71d28762886cb3faa395db55a10",
+    "results/category3/accepted_baselines/eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553/seasonal_summary.csv": "b387cd96536f4cc69acd12088884a4a9a7fa4da305b7b85d639a99a46bbdba51",
+    "results/category3/accepted_baselines/eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553/run_identity.json": "bc23b4ff7e38c2ae7fdd7d484ccb9651c6546752bd7a030af5c04154df722367",
+    "figures/04_results_and_discussion/4_5_1_diurnal_and_extreme_heat_response/PCM011_Monthly_Gross_And_Diurnal_Air_Anomalies.png": "89e9b8a54ce7d4e2cb408237f932faf81ad2ddbd387496c3b6175ca1184bae9f",
+    "results/category3/accepted_baselines/eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553/extreme_heat_summary.csv": "e1ca0f518958c1f710446e39a9c331d11c0f4e3b17fdd0d27693b128411d4450",
+    "results/category3/accepted_baselines/4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463/local_month_summary.csv": "57640195c79b7d9ccbd4a69c576ae54bb3a015d10f14c787452e28d6242da32a",
+    "results/category3/accepted_baselines/4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463/numerical_convergence.csv": "44bba81c4de581a0baf6dfe8b825db7baed9e6787f1500d44f2081c8c557c8f6",
+    "results/category3/accepted_baselines/4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463/summary.json": "350e98a0c3ffbf42fe8c6a82b5a6822610cba071838e3e694585e0e991962a16",
+    "results/category3/accepted_baselines/4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463/local_hour_summary.csv": "6772b9b904119c9e9885532440ca04613844386aec50b99f1e865eca6c2299e0",
+    "results/category3/accepted_baselines/4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463/spatial_diagnostics.npz": "dced411bfa98619ee426ae9d5818e12aebaffd4284f5b7357f552673fb649819",
+    "results/category3/accepted_baselines/4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463/hourly_statistics.csv": "14b71be41099c445a38d7b811e4137ea772b065c721da35eab12b00efc30c8d5",
+    "results/category3/accepted_baselines/4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463/seasonal_summary.csv": "8a448b2b54c0dcddd98dcd2bdc6be5be505d39a36c928b9d5b910a79af22bd20",
+    "results/category3/accepted_baselines/4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463/run_identity.json": "639ab8490f2dfe34de375e4458b6d39161cff33ca41e0cf3216d0c397efd0c42",
+    "figures/03_data_and_methods/3_5_evaluation_metrics_and_numerical_checks/PCM067_Annual_Atmospheric_Numerical_Refinement.png": "d08ad1a9f4011a40c05710c4bf908a2692daf4950c7f5ddb5936b82e31700bf8",
+    "figures/04_results_and_discussion/4_5_1_diurnal_and_extreme_heat_response/PCM067_Monthly_Gross_And_Diurnal_Air_Anomalies.png": "915b64de7f6238ed4a93123432df755bb6a784e549a997f4e0ac7d4485207ab4",
+    "results/category3/accepted_baselines/4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463/extreme_heat_summary.csv": "68a5d984dba583ca4cf248b0cbdfcba7d9f12e506a6071f03c810a848a6a68f1",
+    "results/category3/accepted_baselines/fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13/local_month_summary.csv": "01057eff654ffff7058d11f211ee66a705133b825d6f060d6ab48413c4aea795",
+    "results/category3/accepted_baselines/fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13/numerical_convergence.csv": "3089ed0475f0715acd33f03721e03ac96be9c10b1d9db9f807f199d31e52e450",
+    "results/category3/accepted_baselines/fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13/summary.json": "bce2e21232ca9b9da9aedb2b3f8a345c780da76b25e60ee33092fe07cfe962d2",
+    "results/category3/accepted_baselines/fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13/local_hour_summary.csv": "3306a255045e85b8a9edbca389c20d0325ad96e688a2565f019cd475be5ec5b8",
+    "results/category3/accepted_baselines/fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13/spatial_diagnostics.npz": "a963ca394c2b9da1693ce28733555645fa09890562c614d2015f30d0c6a80882",
+    "results/category3/accepted_baselines/fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13/hourly_statistics.csv": "cf2171ff682bb5a0146012841ea2341fc55df1dfbd00bfb0fc248018ff34ecf8",
+    "results/category3/accepted_baselines/fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13/seasonal_summary.csv": "70f6fbde9a12f6e39bbc70b7e7dcac3971eec3908cbca89dd66eefa15d6ac0ca",
+    "results/category3/accepted_baselines/fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13/run_identity.json": "f5940372837a971cf54316e5dff46d579b48bc446575b0f5f63b14f9433cad5a",
+    "figures/04_results_and_discussion/4_5_1_diurnal_and_extreme_heat_response/PCM069_Monthly_Gross_And_Diurnal_Air_Anomalies.png": "607c3c83223775e70e0a1369b7c05cd2fb7d1da5133dc62c7b96963563ee3f9a",
+    "results/category3/accepted_baselines/fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13/extreme_heat_summary.csv": "abbb5f6961a37dabfd84c4e177f653b5a0e8abfb534ef1ab509f2d2baf891ea6"
+  }
+}

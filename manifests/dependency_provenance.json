@@ -1,0 +1,2037 @@
+{
+  "scope": "Scientific source dependencies for saved derived tables; original filesystem locations are omitted.",
+  "dependencies": [
+    {
+      "source_id": "private-source-sha256:00b2a06595808a87e06674c7046fae0ce9885393e6ea49f5f77e3d7f6ee42c87",
+      "sha256": "00b2a06595808a87e06674c7046fae0ce9885393e6ea49f5f77e3d7f6ee42c87",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 3360,
+          "end_hour_exclusive": 3528
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:01c28c9d9ea46f3d553259de0a75d4279814a7cde18c0a10d9ac10bd16e5e1d4",
+      "sha256": "01c28c9d9ea46f3d553259de0a75d4279814a7cde18c0a10d9ac10bd16e5e1d4",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 8400,
+          "end_hour_exclusive": 8568
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:051c1097db3bb5f6da6475a20d1254d69ce450d757272d9e7510c1996f437f33",
+      "sha256": "051c1097db3bb5f6da6475a20d1254d69ce450d757272d9e7510c1996f437f33",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 1512,
+          "end_hour_exclusive": 1680
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:0933005642ef73628a4db9a7b6b2aa0d4ed390be2b36d2571eac7308deb2471a",
+      "sha256": "0933005642ef73628a4db9a7b6b2aa0d4ed390be2b36d2571eac7308deb2471a",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 5880,
+          "end_hour_exclusive": 6048
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:0eb19cc438328cfa96ae6c6b1ac09249fb0bf981c990537a122a97066d9949bd",
+      "sha256": "0eb19cc438328cfa96ae6c6b1ac09249fb0bf981c990537a122a97066d9949bd",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 8400,
+          "end_hour_exclusive": 8568
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:1139a6cf48699b080fb2c969458cf2f544ee81906d6c1de761d4673ec00d8a99",
+      "sha256": "1139a6cf48699b080fb2c969458cf2f544ee81906d6c1de761d4673ec00d8a99",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 6216,
+          "end_hour_exclusive": 6384
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:12869a029e4c79adbde3391e3ae5f151c369d6a6d85c51c6cd01235e275faa8d",
+      "sha256": "12869a029e4c79adbde3391e3ae5f151c369d6a6d85c51c6cd01235e275faa8d",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 7560,
+          "end_hour_exclusive": 7728
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:13e93eece210f9314e783fccfa70bc4d7612f19c2b00557eafdfbb373e97ab12",
+      "sha256": "13e93eece210f9314e783fccfa70bc4d7612f19c2b00557eafdfbb373e97ab12",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 7224,
+          "end_hour_exclusive": 7392
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:13ed41476321f6033f6efc1a35d009f805842791b4efdc12edaac04a97d9bc97",
+      "sha256": "13ed41476321f6033f6efc1a35d009f805842791b4efdc12edaac04a97d9bc97",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 3864,
+          "end_hour_exclusive": 4032
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:14e4389884fdc9166d9e40edc177edc2c825ed3d175eb4f69769f9ad18eb96a0",
+      "sha256": "14e4389884fdc9166d9e40edc177edc2c825ed3d175eb4f69769f9ad18eb96a0",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 5544,
+          "end_hour_exclusive": 5712
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:154775a9c8455e5c4a07ebc43c48ae7b7897960679dd3b878911dd4f5a760824",
+      "sha256": "154775a9c8455e5c4a07ebc43c48ae7b7897960679dd3b878911dd4f5a760824",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 3192,
+          "end_hour_exclusive": 3360
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:17489661eb4a6d0c7fb39468cd94313036d23ce533384c5f71f0a681ca133954",
+      "sha256": "17489661eb4a6d0c7fb39468cd94313036d23ce533384c5f71f0a681ca133954",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 7896,
+          "end_hour_exclusive": 8064
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:17f1beedee91ea8d1ad254243aeb2aff80f3d178fcb444371e0ea1da96d3be66",
+      "sha256": "17f1beedee91ea8d1ad254243aeb2aff80f3d178fcb444371e0ea1da96d3be66",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 2184,
+          "end_hour_exclusive": 2352
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:1a55aed0bd726c0d6cda93fcca1c50c295f33a2761d5ca7c2c0da3a00b254eca",
+      "sha256": "1a55aed0bd726c0d6cda93fcca1c50c295f33a2761d5ca7c2c0da3a00b254eca",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 7560,
+          "end_hour_exclusive": 7728
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:1b8a540c4b4c08283cec43a0ad1abb3e9d38b7446d52dc0c2475388c8f8f6586",
+      "sha256": "1b8a540c4b4c08283cec43a0ad1abb3e9d38b7446d52dc0c2475388c8f8f6586",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 5376,
+          "end_hour_exclusive": 5544
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:215f49f729b891f80671e1b7a7637996e5c5f7c251b8feaa1b4e967a424d20b3",
+      "sha256": "215f49f729b891f80671e1b7a7637996e5c5f7c251b8feaa1b4e967a424d20b3",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 1008,
+          "end_hour_exclusive": 1176
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:26177e1cdea002a9b63e8596f8d8668df289986611b0123ad165c4bc641c3902",
+      "sha256": "26177e1cdea002a9b63e8596f8d8668df289986611b0123ad165c4bc641c3902",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 4872,
+          "end_hour_exclusive": 5040
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:26f6ed790d7d70d07645ae48ac09b8a4c07e6e57cda2e6d69951d207bd3c21f4",
+      "sha256": "26f6ed790d7d70d07645ae48ac09b8a4c07e6e57cda2e6d69951d207bd3c21f4",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 8064,
+          "end_hour_exclusive": 8232
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:27680780f97683bac7f2fca7073fd6d6979d9301ccf506a8593b5ee240917fde",
+      "sha256": "27680780f97683bac7f2fca7073fd6d6979d9301ccf506a8593b5ee240917fde",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 4200,
+          "end_hour_exclusive": 4368
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:27da67110e36f9aceef80a555f85800537f54c7520d5273e25770b819aa7eaf1",
+      "sha256": "27da67110e36f9aceef80a555f85800537f54c7520d5273e25770b819aa7eaf1",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 5544,
+          "end_hour_exclusive": 5712
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:286cb7b6ccd631a0455276c0f0d9344cbe63739193d5483990f03823db362d74",
+      "sha256": "286cb7b6ccd631a0455276c0f0d9344cbe63739193d5483990f03823db362d74",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 3864,
+          "end_hour_exclusive": 4032
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:28fc18a50e002d8d4a9c9578a93b7a53dc687d0002c818472285e2a21cd664c8",
+      "sha256": "28fc18a50e002d8d4a9c9578a93b7a53dc687d0002c818472285e2a21cd664c8",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 6720,
+          "end_hour_exclusive": 6888
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:2aeaf7266c0b277914e9ba83e9119ab59e7c9ff42c63e5040af534067ce0954d",
+      "sha256": "2aeaf7266c0b277914e9ba83e9119ab59e7c9ff42c63e5040af534067ce0954d",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 8736,
+          "end_hour_exclusive": 8760
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:2f7363572cc69bb1a14d47dbb153a5b4d082c0ba596d8536fe0482cadb81ea1a",
+      "sha256": "2f7363572cc69bb1a14d47dbb153a5b4d082c0ba596d8536fe0482cadb81ea1a",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 672,
+          "end_hour_exclusive": 840
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:310eeb9373fb725764f0c8927d6ef1698692ef4e075fc510554dcb40642ebc90",
+      "sha256": "310eeb9373fb725764f0c8927d6ef1698692ef4e075fc510554dcb40642ebc90",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 4368,
+          "end_hour_exclusive": 4536
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:33362d78085c008879a92d6c2581fd359e384cdbf976a1c6838f3655b8cf260b",
+      "sha256": "33362d78085c008879a92d6c2581fd359e384cdbf976a1c6838f3655b8cf260b",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 6888,
+          "end_hour_exclusive": 7056
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:3490c38b44c8ba1a83642c2e30d35e4112c527ba7e605cb0bd0e903d11670506",
+      "sha256": "3490c38b44c8ba1a83642c2e30d35e4112c527ba7e605cb0bd0e903d11670506",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 4536,
+          "end_hour_exclusive": 4704
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:35e4e6e03170e9ce61e8f57b796597922b79e1aad0acccbe785f69e1ca5356f4",
+      "sha256": "35e4e6e03170e9ce61e8f57b796597922b79e1aad0acccbe785f69e1ca5356f4",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 6552,
+          "end_hour_exclusive": 6720
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:3786fd6466e8ab8eaaf5ef5aefd0c8182ffc0440e37111f70eebce1d7150c4e2",
+      "sha256": "3786fd6466e8ab8eaaf5ef5aefd0c8182ffc0440e37111f70eebce1d7150c4e2",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 5712,
+          "end_hour_exclusive": 5880
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:3789a0d5c2b5ded60a2c15ea390cd3323274a79802f392ac64636708c6380899",
+      "sha256": "3789a0d5c2b5ded60a2c15ea390cd3323274a79802f392ac64636708c6380899",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 1176,
+          "end_hour_exclusive": 1344
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:3b615c01d19c891dab416ffb27b554891b45724d43c1b1a109f0279adb54b3a0",
+      "sha256": "3b615c01d19c891dab416ffb27b554891b45724d43c1b1a109f0279adb54b3a0",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 8232,
+          "end_hour_exclusive": 8400
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:3de689bbabb0441d1e84ad314dd08e8d69a612f37fee94ba1c32b74a6aa78e8e",
+      "sha256": "3de689bbabb0441d1e84ad314dd08e8d69a612f37fee94ba1c32b74a6aa78e8e",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 4536,
+          "end_hour_exclusive": 4704
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:3e9614102f5819c0e25a0b77f08ae6952899f0a431b5d74f3566ab94d46914cc",
+      "sha256": "3e9614102f5819c0e25a0b77f08ae6952899f0a431b5d74f3566ab94d46914cc",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 6384,
+          "end_hour_exclusive": 6552
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:3ffcd822166bca1be2c05b8d9b9e278c0c2fc0b30827b7177a5b94bdebdd5e02",
+      "sha256": "3ffcd822166bca1be2c05b8d9b9e278c0c2fc0b30827b7177a5b94bdebdd5e02",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 2856,
+          "end_hour_exclusive": 3024
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:40853eba9a74f406532067f12ac0eb7c9fa564a2de5a29c1e3daa876fc1e9037",
+      "sha256": "40853eba9a74f406532067f12ac0eb7c9fa564a2de5a29c1e3daa876fc1e9037",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 2016,
+          "end_hour_exclusive": 2184
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:409c52b36ef2531e27823ce99edf576b31718a598e23162c4cb32e14587127dd",
+      "sha256": "409c52b36ef2531e27823ce99edf576b31718a598e23162c4cb32e14587127dd",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 3528,
+          "end_hour_exclusive": 3696
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:415998f9208bbcbff7e5d826ccbc0454c742b431c2616164c98ef90539551a13",
+      "sha256": "415998f9208bbcbff7e5d826ccbc0454c742b431c2616164c98ef90539551a13",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 1848,
+          "end_hour_exclusive": 2016
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:41fae3e37f0b90a6898c312fd04a2aaa4163f82af6c2ac41f40cd343be1fef90",
+      "sha256": "41fae3e37f0b90a6898c312fd04a2aaa4163f82af6c2ac41f40cd343be1fef90",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 6048,
+          "end_hour_exclusive": 6216
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:422e1554bcf723cf503eb7d515cc14052bc3378eb6ab658bf4a327c4c0759907",
+      "sha256": "422e1554bcf723cf503eb7d515cc14052bc3378eb6ab658bf4a327c4c0759907",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 5040,
+          "end_hour_exclusive": 5208
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:42dfc74b063ad6ade0a822cb6cf1b464661361ba9391629257eb010328ea61b6",
+      "sha256": "42dfc74b063ad6ade0a822cb6cf1b464661361ba9391629257eb010328ea61b6",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 6384,
+          "end_hour_exclusive": 6552
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:43f2f41a38e2212789afef277682b253d95762bf9d5d08e7f5e2d95801c87762",
+      "sha256": "43f2f41a38e2212789afef277682b253d95762bf9d5d08e7f5e2d95801c87762",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 336,
+          "end_hour_exclusive": 504
+        },
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 336,
+          "end_hour_exclusive": 504
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:444a89c483c89879d2e2408c624933d206ce6867a130b7983cd9df572c85d8f1",
+      "sha256": "444a89c483c89879d2e2408c624933d206ce6867a130b7983cd9df572c85d8f1",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 3528,
+          "end_hour_exclusive": 3696
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:46f7b0e7956e966d95085d7504e261324d484f509323c0aaca4f385d073d901d",
+      "sha256": "46f7b0e7956e966d95085d7504e261324d484f509323c0aaca4f385d073d901d",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 6720,
+          "end_hour_exclusive": 6888
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:4716072b96606273c9a4d2295e6404bccabb39e4cf4d894d32f801cef994eb6e",
+      "sha256": "4716072b96606273c9a4d2295e6404bccabb39e4cf4d894d32f801cef994eb6e",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 504,
+          "end_hour_exclusive": 672
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:48507035f28d0e0dec5371c9086b22f9c2bcafe0efd71914ea6a214d15c223d7",
+      "sha256": "48507035f28d0e0dec5371c9086b22f9c2bcafe0efd71914ea6a214d15c223d7",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 2520,
+          "end_hour_exclusive": 2688
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:4c2697f4c6b610ba6462caa7a7e9c674cb23359ebd32a502e04282cc38e74c51",
+      "sha256": "4c2697f4c6b610ba6462caa7a7e9c674cb23359ebd32a502e04282cc38e74c51",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 7392,
+          "end_hour_exclusive": 7560
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:4c7b2092619c59b01e1120d8ea3f4a22a3c070fb9d0bce90e7633a9030b29920",
+      "sha256": "4c7b2092619c59b01e1120d8ea3f4a22a3c070fb9d0bce90e7633a9030b29920",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 7392,
+          "end_hour_exclusive": 7560
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:4da1cc3879669e90b6f6326b4a70a961c64de945106427c3e3f96e4c7c6a0fed",
+      "sha256": "4da1cc3879669e90b6f6326b4a70a961c64de945106427c3e3f96e4c7c6a0fed",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 4368,
+          "end_hour_exclusive": 4536
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:4f9acd2f9d85f9b5e18d01355cc9eabd30c7930214181aa789872be79d2f51cc",
+      "sha256": "4f9acd2f9d85f9b5e18d01355cc9eabd30c7930214181aa789872be79d2f51cc",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 8568,
+          "end_hour_exclusive": 8736
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:507b1627e18c784a510114ecb2331f0820c15d43a4370a243c0c13138027cf7d",
+      "sha256": "507b1627e18c784a510114ecb2331f0820c15d43a4370a243c0c13138027cf7d",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 168,
+          "end_hour_exclusive": 336
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:5226e58ae91c061b96363686bc30c2d3b94eee771dd8b3197a0cd86f26e29cfc",
+      "sha256": "5226e58ae91c061b96363686bc30c2d3b94eee771dd8b3197a0cd86f26e29cfc",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 2688,
+          "end_hour_exclusive": 2856
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:58559ba4b2eeabba25d4ee6bc090d350ccec5ac70be433357e4b0544078425ce",
+      "sha256": "58559ba4b2eeabba25d4ee6bc090d350ccec5ac70be433357e4b0544078425ce",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 6888,
+          "end_hour_exclusive": 7056
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:589293f6b52893f143fd63f9dc17fa8df4199707973930a142bfcddd6560bc80",
+      "sha256": "589293f6b52893f143fd63f9dc17fa8df4199707973930a142bfcddd6560bc80",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 4200,
+          "end_hour_exclusive": 4368
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:591598d3bfa144efed1a538b5dbbaae3248fa38ec78fb3a3a593c076a52e5ff9",
+      "sha256": "591598d3bfa144efed1a538b5dbbaae3248fa38ec78fb3a3a593c076a52e5ff9",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 5880,
+          "end_hour_exclusive": 6048
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:59a6cb682364c5dc25e99d8e2379cd84898ea415a0b473d67a822de4ca8495cb",
+      "sha256": "59a6cb682364c5dc25e99d8e2379cd84898ea415a0b473d67a822de4ca8495cb",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 6552,
+          "end_hour_exclusive": 6720
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:5a7ac7b1eb999b4a6d4bc5e04a98bae6b6c2e15e791870041b201ea3450c0779",
+      "sha256": "5a7ac7b1eb999b4a6d4bc5e04a98bae6b6c2e15e791870041b201ea3450c0779",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 8400,
+          "end_hour_exclusive": 8568
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:5f627646d6280d8703c02087f7d9a4e01d2735b883852ba847c3201c1b69ebe2",
+      "sha256": "5f627646d6280d8703c02087f7d9a4e01d2735b883852ba847c3201c1b69ebe2",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 2184,
+          "end_hour_exclusive": 2352
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:6096815cb099b287dad6ae975b8e3f1dd7951b7f36ff0a87e2167b4e06da203d",
+      "sha256": "6096815cb099b287dad6ae975b8e3f1dd7951b7f36ff0a87e2167b4e06da203d",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 8232,
+          "end_hour_exclusive": 8400
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:61a9b75e183484a0c0068d304957cb67082e546a4c88ad1d234037ff10138613",
+      "sha256": "61a9b75e183484a0c0068d304957cb67082e546a4c88ad1d234037ff10138613",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 2352,
+          "end_hour_exclusive": 2520
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:65ef2db826970be6ad1d845bceab08391a9e1b8cd94b3a2e7893fdef9ec659bc",
+      "sha256": "65ef2db826970be6ad1d845bceab08391a9e1b8cd94b3a2e7893fdef9ec659bc",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 3024,
+          "end_hour_exclusive": 3192
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:660ecd30da0da2d9930be5927fc0800ac024bfd29f540527e186defcd5da6b3a",
+      "sha256": "660ecd30da0da2d9930be5927fc0800ac024bfd29f540527e186defcd5da6b3a",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 1344,
+          "end_hour_exclusive": 1512
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:670ff1857f8f9a8d786fc5256f55d82e1bdf5e89118ae18dc03d8ac926a047fc",
+      "sha256": "670ff1857f8f9a8d786fc5256f55d82e1bdf5e89118ae18dc03d8ac926a047fc",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 2352,
+          "end_hour_exclusive": 2520
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:6978714dfa8b6b26347828c5c02ad50e7274d842647809d2873acd555a28d130",
+      "sha256": "6978714dfa8b6b26347828c5c02ad50e7274d842647809d2873acd555a28d130",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 3528,
+          "end_hour_exclusive": 3696
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:6a7f7b4043779cd8dcf4e565bd57dcd0d2325431e7d76e0f57a8f645b37ad547",
+      "sha256": "6a7f7b4043779cd8dcf4e565bd57dcd0d2325431e7d76e0f57a8f645b37ad547",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 6216,
+          "end_hour_exclusive": 6384
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:6ab48e04651eba218ed65f390a09e3251d56d8ebc092d50dbbbe4e18610e33de",
+      "sha256": "6ab48e04651eba218ed65f390a09e3251d56d8ebc092d50dbbbe4e18610e33de",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 7224,
+          "end_hour_exclusive": 7392
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:6b877e099bf1f23487ed16e059a4b96a9e24b5e54311d24f3f06206acbde4c40",
+      "sha256": "6b877e099bf1f23487ed16e059a4b96a9e24b5e54311d24f3f06206acbde4c40",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 6048,
+          "end_hour_exclusive": 6216
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:6f31ea9b7c5e49dfd4363ced52de72fe755ca8512ed2942d41928f2c3ff0a6ba",
+      "sha256": "6f31ea9b7c5e49dfd4363ced52de72fe755ca8512ed2942d41928f2c3ff0a6ba",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 168,
+          "end_hour_exclusive": 336
+        },
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 168,
+          "end_hour_exclusive": 336
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:71ecfc07f29497eac9960d7d6b67e9b43fd89a1fa0a52204ed4ea43323147070",
+      "sha256": "71ecfc07f29497eac9960d7d6b67e9b43fd89a1fa0a52204ed4ea43323147070",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 8064,
+          "end_hour_exclusive": 8232
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:746bf0047ffad06936f29a5365dc28185ec1512c58496cb72f87ceb188a38337",
+      "sha256": "746bf0047ffad06936f29a5365dc28185ec1512c58496cb72f87ceb188a38337",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 8736,
+          "end_hour_exclusive": 8760
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:74aceb19072ace0124638251319d6dd4fbcaede7c99fa433c3845254ff22f9c7",
+      "sha256": "74aceb19072ace0124638251319d6dd4fbcaede7c99fa433c3845254ff22f9c7",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 0,
+          "end_hour_exclusive": 168
+        },
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 0,
+          "end_hour_exclusive": 168
+        },
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 0,
+          "end_hour_exclusive": 168
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:74f4be4d5528cc3578390ccc33f649ada981f9f1d8a7623fec73c772f735af1e",
+      "sha256": "74f4be4d5528cc3578390ccc33f649ada981f9f1d8a7623fec73c772f735af1e",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 2856,
+          "end_hour_exclusive": 3024
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:74f8d504e2ec4d2173b07cee4c65d57cd27a543679a03245762bd5b865ac0340",
+      "sha256": "74f8d504e2ec4d2173b07cee4c65d57cd27a543679a03245762bd5b865ac0340",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 672,
+          "end_hour_exclusive": 840
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:778a8c842b9e944a77f772632419364229e0ba746d3d1c2bc7bf13c300d00519",
+      "sha256": "778a8c842b9e944a77f772632419364229e0ba746d3d1c2bc7bf13c300d00519",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 840,
+          "end_hour_exclusive": 1008
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:77af6a890d724640b3df87cf3f3e764c69cd5f3f1baa66969cc115a3512b1592",
+      "sha256": "77af6a890d724640b3df87cf3f3e764c69cd5f3f1baa66969cc115a3512b1592",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 2688,
+          "end_hour_exclusive": 2856
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:78890fb8d39382e19f7510ff4a8a6e13adc6c8ceab32719b42b631d8a9522df9",
+      "sha256": "78890fb8d39382e19f7510ff4a8a6e13adc6c8ceab32719b42b631d8a9522df9",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 4032,
+          "end_hour_exclusive": 4200
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:79bbf2afbc44d5e43ea0d11d336d24faa108b01f2de42e633452fdcd61a15a95",
+      "sha256": "79bbf2afbc44d5e43ea0d11d336d24faa108b01f2de42e633452fdcd61a15a95",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 6720,
+          "end_hour_exclusive": 6888
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:79f42c4377be6a54f4ea2ce1dd62914a64a04b753139fb7b7c5337f16e1666f7",
+      "sha256": "79f42c4377be6a54f4ea2ce1dd62914a64a04b753139fb7b7c5337f16e1666f7",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 2520,
+          "end_hour_exclusive": 2688
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:7cafae57a2d73d3ad29f80817e8cd63f65d25fd5ef1a0d859f0b57bb304e7984",
+      "sha256": "7cafae57a2d73d3ad29f80817e8cd63f65d25fd5ef1a0d859f0b57bb304e7984",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 1176,
+          "end_hour_exclusive": 1344
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:7e71b4f34c2d5a552b00f180695011b416ed33a2cff3b791faf002ac197f6f90",
+      "sha256": "7e71b4f34c2d5a552b00f180695011b416ed33a2cff3b791faf002ac197f6f90",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 3360,
+          "end_hour_exclusive": 3528
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:801628be6be453230ded9c376ad31bd11cf555f57d1f71eeb270c57297fc07da",
+      "sha256": "801628be6be453230ded9c376ad31bd11cf555f57d1f71eeb270c57297fc07da",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 8568,
+          "end_hour_exclusive": 8736
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:88417a25fa3398d3ccb9069b3c184d6e58a27632a8962e73809c9401d966f1bf",
+      "sha256": "88417a25fa3398d3ccb9069b3c184d6e58a27632a8962e73809c9401d966f1bf",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 3024,
+          "end_hour_exclusive": 3192
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:885c505f8523f6215d4dc2c1b1f3c3a28ff624eb0948ec3e05ac68d38b1b6209",
+      "sha256": "885c505f8523f6215d4dc2c1b1f3c3a28ff624eb0948ec3e05ac68d38b1b6209",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 7056,
+          "end_hour_exclusive": 7224
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:890ebf16b6268e9cc52da61254ac288b24f118d10fbc30670ea1db623e3e6745",
+      "sha256": "890ebf16b6268e9cc52da61254ac288b24f118d10fbc30670ea1db623e3e6745",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 7896,
+          "end_hour_exclusive": 8064
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:8a4ba7f7d180c7a5d4f40944742ff9447bedad1b5894285b645ba1dfc192ae72",
+      "sha256": "8a4ba7f7d180c7a5d4f40944742ff9447bedad1b5894285b645ba1dfc192ae72",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 6048,
+          "end_hour_exclusive": 6216
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:8cda1e4b725098b5c9d2ecc528ef6bc63f978f60c83a5f9cc0af7f019f43450e",
+      "sha256": "8cda1e4b725098b5c9d2ecc528ef6bc63f978f60c83a5f9cc0af7f019f43450e",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 4704,
+          "end_hour_exclusive": 4872
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:8dd769260e66970bc1d979f2692a25fd395dcfe3b0b6504c1f09ebfffaaffa75",
+      "sha256": "8dd769260e66970bc1d979f2692a25fd395dcfe3b0b6504c1f09ebfffaaffa75",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 8568,
+          "end_hour_exclusive": 8736
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:9230147213db5e93f86d5765181700401dfb98441e3f6253df201608dc278cf8",
+      "sha256": "9230147213db5e93f86d5765181700401dfb98441e3f6253df201608dc278cf8",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 4368,
+          "end_hour_exclusive": 4536
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:923c5eef72d7729bbab43de9597c24e836279bf87e6783523953908602d62b85",
+      "sha256": "923c5eef72d7729bbab43de9597c24e836279bf87e6783523953908602d62b85",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 8064,
+          "end_hour_exclusive": 8232
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:93bdb4f4ca0bb18a9379444d2d4ca9b6234dc566a2cc29bc1643788bc2a8a144",
+      "sha256": "93bdb4f4ca0bb18a9379444d2d4ca9b6234dc566a2cc29bc1643788bc2a8a144",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 1008,
+          "end_hour_exclusive": 1176
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:943785e041d799fcd701a9cd3c677b70e2deac5d95745cdaa491d7ed8b1c23ca",
+      "sha256": "943785e041d799fcd701a9cd3c677b70e2deac5d95745cdaa491d7ed8b1c23ca",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 840,
+          "end_hour_exclusive": 1008
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:952ab769df242fd195c3b5f90b1713f8abc96fe67db240f5feee960681fa9b3c",
+      "sha256": "952ab769df242fd195c3b5f90b1713f8abc96fe67db240f5feee960681fa9b3c",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 840,
+          "end_hour_exclusive": 1008
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:954f5be69e1ef63bb1ee6c6d48cb3358284a2d215b0fc856a228c5f7895ecda8",
+      "sha256": "954f5be69e1ef63bb1ee6c6d48cb3358284a2d215b0fc856a228c5f7895ecda8",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 3696,
+          "end_hour_exclusive": 3864
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:963eb03139ae51b3d2e24e8542b6b7d1b044718ae94544ee8431cf1ac9fe596f",
+      "sha256": "963eb03139ae51b3d2e24e8542b6b7d1b044718ae94544ee8431cf1ac9fe596f",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 5376,
+          "end_hour_exclusive": 5544
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:96c514b46583e98f688f5e9dd21d63dce629fbfaedf9a279923d586294e1f355",
+      "sha256": "96c514b46583e98f688f5e9dd21d63dce629fbfaedf9a279923d586294e1f355",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 2520,
+          "end_hour_exclusive": 2688
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:9774a0f4a04219e3667e5e04efb75a9439659bda611c7f474e0e094a5aae5b35",
+      "sha256": "9774a0f4a04219e3667e5e04efb75a9439659bda611c7f474e0e094a5aae5b35",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 3024,
+          "end_hour_exclusive": 3192
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:9880fbbb0241fdbfb493c664935a310967d1088e939b7c8e812e78e9d87b8d9b",
+      "sha256": "9880fbbb0241fdbfb493c664935a310967d1088e939b7c8e812e78e9d87b8d9b",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 4200,
+          "end_hour_exclusive": 4368
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:9b069e054e078e3aa515bb1120db8edcb3d71224b0cb211f7726327ea26a7a41",
+      "sha256": "9b069e054e078e3aa515bb1120db8edcb3d71224b0cb211f7726327ea26a7a41",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 4032,
+          "end_hour_exclusive": 4200
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:9befbe52379fb0efb659cbc170a3b18cdc0cb95b4b314532f05ff01534bb87e9",
+      "sha256": "9befbe52379fb0efb659cbc170a3b18cdc0cb95b4b314532f05ff01534bb87e9",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 8232,
+          "end_hour_exclusive": 8400
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:9e9ddb44ce7064c9962c8cb0bfd05cb0cf3ac753d740b656e001aa605ee9fd22",
+      "sha256": "9e9ddb44ce7064c9962c8cb0bfd05cb0cf3ac753d740b656e001aa605ee9fd22",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 3192,
+          "end_hour_exclusive": 3360
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:9f04dc442419e07854b1fe46787d5a57d86c84399fad4640deddca0886c6bb72",
+      "sha256": "9f04dc442419e07854b1fe46787d5a57d86c84399fad4640deddca0886c6bb72",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 6888,
+          "end_hour_exclusive": 7056
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:9f1cc8db184b60fb921d3e5f8eb837ec4e940d1a9d1a5d92dde43f8d2ed2b826",
+      "sha256": "9f1cc8db184b60fb921d3e5f8eb837ec4e940d1a9d1a5d92dde43f8d2ed2b826",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 5712,
+          "end_hour_exclusive": 5880
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:a03a2a81d916bb849534fb5c8f082a7d9e96f9f7c4b7d4121058a1d5e0fb9810",
+      "sha256": "a03a2a81d916bb849534fb5c8f082a7d9e96f9f7c4b7d4121058a1d5e0fb9810",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 6216,
+          "end_hour_exclusive": 6384
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:a0835e0aabc471abb7f37a8aca8d024aed546984437853c0567c1948b34d3771",
+      "sha256": "a0835e0aabc471abb7f37a8aca8d024aed546984437853c0567c1948b34d3771",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 7056,
+          "end_hour_exclusive": 7224
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:a3e478b76d57577d6c73f0912e6ef9a8e0cf1c8e6e41198a0732b2d88476dcd1",
+      "sha256": "a3e478b76d57577d6c73f0912e6ef9a8e0cf1c8e6e41198a0732b2d88476dcd1",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 4872,
+          "end_hour_exclusive": 5040
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:a4477419ab26010990e88e0dc69e7358998b32b2b09c9a2637434fbf6ecfa811",
+      "sha256": "a4477419ab26010990e88e0dc69e7358998b32b2b09c9a2637434fbf6ecfa811",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 1512,
+          "end_hour_exclusive": 1680
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:a53f0d51a580e16dbe2fe07a2f15a9c57c540c2ca46bd5fb3506dcb4cbf082ec",
+      "sha256": "a53f0d51a580e16dbe2fe07a2f15a9c57c540c2ca46bd5fb3506dcb4cbf082ec",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 1848,
+          "end_hour_exclusive": 2016
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:a773afb08af5ef7431b9be68e49d5a57606c1eb4e7325e30922081420e6edd80",
+      "sha256": "a773afb08af5ef7431b9be68e49d5a57606c1eb4e7325e30922081420e6edd80",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 3696,
+          "end_hour_exclusive": 3864
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:a7a7bb0ebaf8fb3b23dc95d48e918f26ff2c526aab74ab19eb5d612acad62e83",
+      "sha256": "a7a7bb0ebaf8fb3b23dc95d48e918f26ff2c526aab74ab19eb5d612acad62e83",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 5040,
+          "end_hour_exclusive": 5208
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:a7f33ceb575c9259606056fb20b8d6b2735ba518d5f4b45216bcc3f1116b3615",
+      "sha256": "a7f33ceb575c9259606056fb20b8d6b2735ba518d5f4b45216bcc3f1116b3615",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 7224,
+          "end_hour_exclusive": 7392
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:a7f77299158c33569d651cf467fec0d645dc0cd133e89b3b2dc2475ab940e461",
+      "sha256": "a7f77299158c33569d651cf467fec0d645dc0cd133e89b3b2dc2475ab940e461",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 4032,
+          "end_hour_exclusive": 4200
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:aa0ef44b3ef638817f2cee29bd49243fe952cc98c737b603db2eb28bdfe614b7",
+      "sha256": "aa0ef44b3ef638817f2cee29bd49243fe952cc98c737b603db2eb28bdfe614b7",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 7560,
+          "end_hour_exclusive": 7728
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:ad24c2252957a10a88a0d0138e731a260d384598e9816c7a000d858bd133e166",
+      "sha256": "ad24c2252957a10a88a0d0138e731a260d384598e9816c7a000d858bd133e166",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 1512,
+          "end_hour_exclusive": 1680
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:b1b9650066ce46f8db4c594e0e3ba657b8a54dca3c1aac0b01f57135b336cc0a",
+      "sha256": "b1b9650066ce46f8db4c594e0e3ba657b8a54dca3c1aac0b01f57135b336cc0a",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 5376,
+          "end_hour_exclusive": 5544
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:b6c0812dc3cfd835bc8710c28cfea6a9002fd941504f1f3956016cf9a978d981",
+      "sha256": "b6c0812dc3cfd835bc8710c28cfea6a9002fd941504f1f3956016cf9a978d981",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 4872,
+          "end_hour_exclusive": 5040
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:b7e1257e33533245adbd7cccf09df66f4e5b6c5e7e3aca52e289e801b6c1d9f3",
+      "sha256": "b7e1257e33533245adbd7cccf09df66f4e5b6c5e7e3aca52e289e801b6c1d9f3",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 1176,
+          "end_hour_exclusive": 1344
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:ba1601bdbaaea951de396437fbda01a6169d0f9902fccaf24761c0a0f43fda3f",
+      "sha256": "ba1601bdbaaea951de396437fbda01a6169d0f9902fccaf24761c0a0f43fda3f",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 7728,
+          "end_hour_exclusive": 7896
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:ba3da3be6a8a7d0c5ffa1e3f4b201ff066b54c824f89f0a3c3c7e1617f10d5df",
+      "sha256": "ba3da3be6a8a7d0c5ffa1e3f4b201ff066b54c824f89f0a3c3c7e1617f10d5df",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 504,
+          "end_hour_exclusive": 672
+        },
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 504,
+          "end_hour_exclusive": 672
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:bb39e66e7a32d07040c90752040dab1ecd7669cd4ea7834b2c23c90936f022bc",
+      "sha256": "bb39e66e7a32d07040c90752040dab1ecd7669cd4ea7834b2c23c90936f022bc",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 8736,
+          "end_hour_exclusive": 8760
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:bb9f9f992eed211af67a831bc1358f89e463a2b9988962e78467a257c993feac",
+      "sha256": "bb9f9f992eed211af67a831bc1358f89e463a2b9988962e78467a257c993feac",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 4536,
+          "end_hour_exclusive": 4704
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:be1a70bbd27e01e6f44401975981625a9c17686c8f0c0c1a0cc7f04d599a0e11",
+      "sha256": "be1a70bbd27e01e6f44401975981625a9c17686c8f0c0c1a0cc7f04d599a0e11",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 7896,
+          "end_hour_exclusive": 8064
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:bebc7ed51da931d27bff349076b27c771dd5766015809dd64af08ace58af0ab6",
+      "sha256": "bebc7ed51da931d27bff349076b27c771dd5766015809dd64af08ace58af0ab6",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 7728,
+          "end_hour_exclusive": 7896
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:c17adc5ec019faf42e80d425354bd0c1050fbc946844c794b226a80cf22dfd6d",
+      "sha256": "c17adc5ec019faf42e80d425354bd0c1050fbc946844c794b226a80cf22dfd6d",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 5208,
+          "end_hour_exclusive": 5376
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:c25039881958683f3cf9724077531f0e487f46a808c9f315b77feb1ec90fe8f0",
+      "sha256": "c25039881958683f3cf9724077531f0e487f46a808c9f315b77feb1ec90fe8f0",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 5544,
+          "end_hour_exclusive": 5712
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:c263cfdc1d1b23b51a95c9eb4fd6c9495c2bd2a833bd83436f7a36df92a0d2e4",
+      "sha256": "c263cfdc1d1b23b51a95c9eb4fd6c9495c2bd2a833bd83436f7a36df92a0d2e4",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 3192,
+          "end_hour_exclusive": 3360
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:c30da77c3f3315342ba18d29e4d6be448afc9d84d88132d4338f35217264c0ed",
+      "sha256": "c30da77c3f3315342ba18d29e4d6be448afc9d84d88132d4338f35217264c0ed",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 2856,
+          "end_hour_exclusive": 3024
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:c4c31b487ff7eda13edcf3f908b87b5c87abbfae53789c625d699c001c405889",
+      "sha256": "c4c31b487ff7eda13edcf3f908b87b5c87abbfae53789c625d699c001c405889",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 1008,
+          "end_hour_exclusive": 1176
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:c536da724f95c2bc202b0bf42b0d352a0988db100fc72c4720de44897ce9eb89",
+      "sha256": "c536da724f95c2bc202b0bf42b0d352a0988db100fc72c4720de44897ce9eb89",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 5208,
+          "end_hour_exclusive": 5376
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:c74d81709b458e1a373ae83522581066d50db8d7f92d73314ea9690b723ef55b",
+      "sha256": "c74d81709b458e1a373ae83522581066d50db8d7f92d73314ea9690b723ef55b",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 3864,
+          "end_hour_exclusive": 4032
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:c9dbb2ab21879f65271bd1e6673bb56864bbd801210570bcc25f8e0c89d2b784",
+      "sha256": "c9dbb2ab21879f65271bd1e6673bb56864bbd801210570bcc25f8e0c89d2b784",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 5712,
+          "end_hour_exclusive": 5880
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:cdfa03412888e0f9c01e71049844539257ea2cdfd53c8522c512f66c3d1a1388",
+      "sha256": "cdfa03412888e0f9c01e71049844539257ea2cdfd53c8522c512f66c3d1a1388",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 2184,
+          "end_hour_exclusive": 2352
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:cf15e935a2ba426cd592f7ab44cb733ac3af98a1335288276cca38af2dab678b",
+      "sha256": "cf15e935a2ba426cd592f7ab44cb733ac3af98a1335288276cca38af2dab678b",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 7728,
+          "end_hour_exclusive": 7896
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:d0f06d55e11bbf88f3cbb3bb4ff8cef8d3d7edf123466de050adb880732507fd",
+      "sha256": "d0f06d55e11bbf88f3cbb3bb4ff8cef8d3d7edf123466de050adb880732507fd",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 3360,
+          "end_hour_exclusive": 3528
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:d3a17bc079886de008b9c1eaf3f06ecab7efe6adfc861041952355816e1e79b4",
+      "sha256": "d3a17bc079886de008b9c1eaf3f06ecab7efe6adfc861041952355816e1e79b4",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 5040,
+          "end_hour_exclusive": 5208
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:d3deecb26340f84bfa33b3bdd6b4716f742cc09a2745afa16e224e22b6209f3e",
+      "sha256": "d3deecb26340f84bfa33b3bdd6b4716f742cc09a2745afa16e224e22b6209f3e",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 5880,
+          "end_hour_exclusive": 6048
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:d8138a17c66d0fd1ef9d40cc1b6bc2ad9c583b1083824d57cde356123c9a096e",
+      "sha256": "d8138a17c66d0fd1ef9d40cc1b6bc2ad9c583b1083824d57cde356123c9a096e",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 4704,
+          "end_hour_exclusive": 4872
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:d830179241b5f4edb9142a5f58f4dc847d98334f608e00dd86a16e581194fbb8",
+      "sha256": "d830179241b5f4edb9142a5f58f4dc847d98334f608e00dd86a16e581194fbb8",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 3696,
+          "end_hour_exclusive": 3864
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:dbd9772f0e25aced8386f38fc4f32c6f943b2b838531451d5f553b3c1da69d05",
+      "sha256": "dbd9772f0e25aced8386f38fc4f32c6f943b2b838531451d5f553b3c1da69d05",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 5208,
+          "end_hour_exclusive": 5376
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:de25ab9107ace71e3f6e306bc0282387ec5f7f75dd441b3d005bd6d84194271a",
+      "sha256": "de25ab9107ace71e3f6e306bc0282387ec5f7f75dd441b3d005bd6d84194271a",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 2688,
+          "end_hour_exclusive": 2856
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:e17bab329cfcb5d804ff01a9173269e38a6a20a35deb44376521c86816142de7",
+      "sha256": "e17bab329cfcb5d804ff01a9173269e38a6a20a35deb44376521c86816142de7",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 2016,
+          "end_hour_exclusive": 2184
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:e208b19e08490a22c57642218210974b528f0a7fba9a3fb617b1d54cc1425e41",
+      "sha256": "e208b19e08490a22c57642218210974b528f0a7fba9a3fb617b1d54cc1425e41",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 1680,
+          "end_hour_exclusive": 1848
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:e3a567277de399139b860a1d336ec986a3cccaf114bbe68c7858798c59441bf5",
+      "sha256": "e3a567277de399139b860a1d336ec986a3cccaf114bbe68c7858798c59441bf5",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 1848,
+          "end_hour_exclusive": 2016
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:e5b6c73257ae92956ed82daa4022ac16dc8aa7c70ac3672050edfa05f865e019",
+      "sha256": "e5b6c73257ae92956ed82daa4022ac16dc8aa7c70ac3672050edfa05f865e019",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 4704,
+          "end_hour_exclusive": 4872
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:e671e864c6dcff1865e10de9db04b838904477b43b0a3a1c3765297edb54b9c9",
+      "sha256": "e671e864c6dcff1865e10de9db04b838904477b43b0a3a1c3765297edb54b9c9",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 6384,
+          "end_hour_exclusive": 6552
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:e8c6992176578d6d2a71234bfbcfe627689e63e2c45c8c13ffa8b49be68c94a3",
+      "sha256": "e8c6992176578d6d2a71234bfbcfe627689e63e2c45c8c13ffa8b49be68c94a3",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 672,
+          "end_hour_exclusive": 840
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:e9ba9a944dd7d1b12aec1add317fdc17e275c09a81b9972fc211f6d5cd4f8996",
+      "sha256": "e9ba9a944dd7d1b12aec1add317fdc17e275c09a81b9972fc211f6d5cd4f8996",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 1344,
+          "end_hour_exclusive": 1512
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:ec3a2fd50e8773f4c9577f5a19248b0055ab48542a9cc00caae532d95ba8ab1e",
+      "sha256": "ec3a2fd50e8773f4c9577f5a19248b0055ab48542a9cc00caae532d95ba8ab1e",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 7056,
+          "end_hour_exclusive": 7224
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:eda5890196c6fb1a9cef7f5a21b727ab201fe80836cd1b1202dc1ac43470f738",
+      "sha256": "eda5890196c6fb1a9cef7f5a21b727ab201fe80836cd1b1202dc1ac43470f738",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 7392,
+          "end_hour_exclusive": 7560
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:efb86b43cda397c697e61052ca99362c8fca4ccc067d4bb5e1cb1df4127f0098",
+      "sha256": "efb86b43cda397c697e61052ca99362c8fca4ccc067d4bb5e1cb1df4127f0098",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 2016,
+          "end_hour_exclusive": 2184
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:f10dc4610842769a5cdefc9266feb2f02e1605da68d9ec1c1f920ffcc202d431",
+      "sha256": "f10dc4610842769a5cdefc9266feb2f02e1605da68d9ec1c1f920ffcc202d431",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 6552,
+          "end_hour_exclusive": 6720
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:f4f540e997d927b279c516379535d3afb95eeaa202f7b339815974590233714b",
+      "sha256": "f4f540e997d927b279c516379535d3afb95eeaa202f7b339815974590233714b",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 1680,
+          "end_hour_exclusive": 1848
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:f61a6552e564fe30c957600a1835a23c19f3de4e7bed6d42c2343d761cc1de29",
+      "sha256": "f61a6552e564fe30c957600a1835a23c19f3de4e7bed6d42c2343d761cc1de29",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 1680,
+          "end_hour_exclusive": 1848
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:f7a015f0d8d51a82aa5384e9185098c38a425e793bad5f5adc1c7c6b66b62dbe",
+      "sha256": "f7a015f0d8d51a82aa5384e9185098c38a425e793bad5f5adc1c7c6b66b62dbe",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 336,
+          "end_hour_exclusive": 504
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:f8da8132eab1b4e1269867b3d8a8dd61dd6b09fdf733d63836ae43539e469b53",
+      "sha256": "f8da8132eab1b4e1269867b3d8a8dd61dd6b09fdf733d63836ae43539e469b53",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 2352,
+          "end_hour_exclusive": 2520
+        }
+      ]
+    },
+    {
+      "source_id": "private-source-sha256:fad6931b193995a055b8f7b3a6307735f74c2956a01aa2bf1ceb061d8c78b3b2",
+      "sha256": "fad6931b193995a055b8f7b3a6307735f74c2956a01aa2bf1ceb061d8c78b3b2",
+      "availability": "RETAINED_PRIVATELY",
+      "occurrences": [
+        {
+          "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+          "kind": "computational checkpoint arrays",
+          "start_hour": 1344,
+          "end_hour_exclusive": 1512
+        }
+      ]
+    }
+  ]
+}

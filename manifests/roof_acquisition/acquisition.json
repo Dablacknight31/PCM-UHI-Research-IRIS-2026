@@ -1,0 +1,16 @@
+{
+  "key": "4bcf4b6fc23475c31bbfc019a42ab6d899a74e3259544ab03a4330a5e943465f",
+  "sha256": "c8a6e62a137ddd795bebd086caea9667bafb35fb5282b2e7951c50baf478ae04",
+  "data_nature": "REAL",
+  "asset": "GOOGLE/Research/open-buildings/v3/polygons",
+  "catalog": "https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_Research_open-buildings_v3_polygons",
+  "inference_epoch": "May 2023",
+  "study_year": 2025,
+  "epoch_mismatch": "Static inferred 2023 footprints used for 2025; not surveyed 2025 roofs.",
+  "confidence_min": 0.75,
+  "features": 1461,
+  "scope": "treatment hotspot only",
+  "acquired_UTC": "2026-10-09T21:01:17.838767+00:00",
+  "license": "CC-BY-4.0; attribution Google Research Open Buildings",
+  "footprint_proxy": "roof-plan proxy, with no retrofit/structural certification"
+}

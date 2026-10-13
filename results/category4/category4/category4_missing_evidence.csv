@@ -1,0 +1,31 @@
+pcm_id,stage,criterion,missing_evidence,source
+PCM-011,4A,fire_safety,Candidate-specific test evidence for the declared rooftop assembly and exposure conditions,
+PCM-011,4A,leakage_encapsulation,Candidate-specific test evidence for the declared rooftop assembly and exposure conditions,
+PCM-011,4A,corrosion_compatibility,Candidate-specific test evidence for the declared rooftop assembly and exposure conditions,
+PCM-011,4A,structural_load,Complete sourced assembly loading and building-specific structural capacity assessment,
+PCM-011,4A,conductivity_heat_transfer,Candidate-specific test evidence for the declared rooftop assembly and exposure conditions,https://doi.org/10.3390/ma6104758
+PCM-011,4A,thermal_cycling_stability,Measured latent/property retention and assembly integrity over relevant thermal cycles,verified Category-1 pair 0c5db7baea65af58855c1bd8b15aa7735d5aebba78e33c88c37e0572ca43e5eb; input 0253f50c53cb872523d60e81319c9e0656a6a39b2afb925bb7f866d944f01188
+PCM-011,4A,nighttime_regeneration,"Real formulation-specific freezing, supercooling and field regeneration validation; numerical reset is not durability evidence",verified Category-1 pair 0c5db7baea65af58855c1bd8b15aa7735d5aebba78e33c88c37e0572ca43e5eb; input 0253f50c53cb872523d60e81319c9e0656a6a39b2afb925bb7f866d944f01188
+PCM-011,4A,durability_weather_exposure,Candidate-specific test evidence for the declared rooftop assembly and exposure conditions,
+PCM-011,4B,completed_atmospheric_assessment,"Verified full Category-3 completion, deployment/atmospheric ensemble, day-night sensitivity and feedback adequacy",
+PCM-011,4B,declared_objectives,"Declared evaluation objectives, units, rationale and acceptable atmospheric sensitivity spread",
+PCM-067,4A,fire_safety,Candidate-specific test evidence for the declared rooftop assembly and exposure conditions,
+PCM-067,4A,leakage_encapsulation,Candidate-specific test evidence for the declared rooftop assembly and exposure conditions,
+PCM-067,4A,corrosion_compatibility,Candidate-specific test evidence for the declared rooftop assembly and exposure conditions,
+PCM-067,4A,structural_load,Complete sourced assembly loading and building-specific structural capacity assessment,
+PCM-067,4A,conductivity_heat_transfer,Candidate-specific test evidence for the declared rooftop assembly and exposure conditions,https://pluss.co.in/wp-content/themes/pluss/assets/image/Literature-PLUSS/Data-Sheets/PCM/Doc%20187_PCM_OM42_TDS.pdf
+PCM-067,4A,thermal_cycling_stability,Measured latent/property retention and assembly integrity over relevant thermal cycles,verified Category-1 pair 7a9f9aeff09e754ee88736cc11e7b62f0f6b9564073cd6cdba5782c4333171f9; input 0253f50c53cb872523d60e81319c9e0656a6a39b2afb925bb7f866d944f01188
+PCM-067,4A,nighttime_regeneration,"Real formulation-specific freezing, supercooling and field regeneration validation; numerical reset is not durability evidence",verified Category-1 pair 7a9f9aeff09e754ee88736cc11e7b62f0f6b9564073cd6cdba5782c4333171f9; input 0253f50c53cb872523d60e81319c9e0656a6a39b2afb925bb7f866d944f01188
+PCM-067,4A,durability_weather_exposure,Candidate-specific test evidence for the declared rooftop assembly and exposure conditions,
+PCM-067,4B,completed_atmospheric_assessment,"Verified full Category-3 completion, deployment/atmospheric ensemble, day-night sensitivity and feedback adequacy",
+PCM-067,4B,declared_objectives,"Declared evaluation objectives, units, rationale and acceptable atmospheric sensitivity spread",
+PCM-069,4A,fire_safety,Candidate-specific test evidence for the declared rooftop assembly and exposure conditions,
+PCM-069,4A,leakage_encapsulation,Candidate-specific test evidence for the declared rooftop assembly and exposure conditions,
+PCM-069,4A,corrosion_compatibility,Candidate-specific test evidence for the declared rooftop assembly and exposure conditions,
+PCM-069,4A,structural_load,Complete sourced assembly loading and building-specific structural capacity assessment,
+PCM-069,4A,conductivity_heat_transfer,Candidate-specific test evidence for the declared rooftop assembly and exposure conditions,https://doi.org/10.1016/j.isci.2025.113206
+PCM-069,4A,thermal_cycling_stability,Measured latent/property retention and assembly integrity over relevant thermal cycles,verified Category-1 pair c82225819336c3315c0679160c0b3823e36bb5cb3ac86ea021bd1034239cb735; input 0253f50c53cb872523d60e81319c9e0656a6a39b2afb925bb7f866d944f01188
+PCM-069,4A,nighttime_regeneration,"Real formulation-specific freezing, supercooling and field regeneration validation; numerical reset is not durability evidence",verified Category-1 pair c82225819336c3315c0679160c0b3823e36bb5cb3ac86ea021bd1034239cb735; input 0253f50c53cb872523d60e81319c9e0656a6a39b2afb925bb7f866d944f01188
+PCM-069,4A,durability_weather_exposure,Candidate-specific test evidence for the declared rooftop assembly and exposure conditions,
+PCM-069,4B,completed_atmospheric_assessment,"Verified full Category-3 completion, deployment/atmospheric ensemble, day-night sensitivity and feedback adequacy",
+PCM-069,4B,declared_objectives,"Declared evaluation objectives, units, rationale and acceptable atmospheric sensitivity spread",

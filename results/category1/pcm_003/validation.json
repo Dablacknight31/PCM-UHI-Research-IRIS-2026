@@ -1,0 +1,51 @@
+{
+  "pcm": {
+    "status": "PASS",
+    "solver_status": "ALL_ACCEPTED_STEPS_CONVERGED",
+    "unresolved_solver_failures": 0,
+    "weather_hash": "09fd319630e011c6f5eecb06c04e14266fd67aa7526b2c8bea5e2ddc1936f1e4",
+    "run_id": "PCM-069_07afcda7c83b",
+    "annual_stored_change_Jm2": -781395.4757552113,
+    "annual_boundary_input_Jm2": -781395.5181969397,
+    "annual_energy_residual_Jm2": 0.0424417284084484,
+    "annual_energy_relative_residual": 2.0472092067594764e-11,
+    "annual_absolute_boundary_energy_Jm2": 2073150524.5440612,
+    "annual_energy_tolerance_Jm2": 207.3650524544061,
+    "max_abs_hourly_energy_residual_Jm2": 0.0013175251078791916,
+    "max_step_energy_residual_Jm2": 5.696953576261876e-05,
+    "max_surface_residual_Wm2": 9.999610028899042e-10,
+    "max_cell_residual_Wm2": 3.155806140853201e-07,
+    "solver_retry_count": 0,
+    "max_nonlinear_iterations_used": 4,
+    "minimum_accepted_dt_s": 60.0,
+    "latent_accounting_residual_Jm2": 1.1920928955078125e-07,
+    "state_continuity_status": "PASS"
+  },
+  "L0": {
+    "status": "PASS",
+    "solver_status": "ALL_ACCEPTED_STEPS_CONVERGED",
+    "unresolved_solver_failures": 0,
+    "weather_hash": "09fd319630e011c6f5eecb06c04e14266fd67aa7526b2c8bea5e2ddc1936f1e4",
+    "run_id": "PCM-069_d748fc4f37fa",
+    "annual_stored_change_Jm2": -781395.4757552113,
+    "annual_boundary_input_Jm2": -781395.5390761103,
+    "annual_energy_residual_Jm2": 0.06332089903298765,
+    "annual_energy_relative_residual": 5.987870355436073e-11,
+    "annual_absolute_boundary_energy_Jm2": 1057486139.0494525,
+    "annual_energy_tolerance_Jm2": 105.79861390494524,
+    "max_abs_hourly_energy_residual_Jm2": 0.0002931863400590373,
+    "max_step_energy_residual_Jm2": 1.4795842091075428e-05,
+    "max_surface_residual_Wm2": 9.99268223722538e-10,
+    "max_cell_residual_Wm2": 2.7226833765325864e-07,
+    "solver_retry_count": 0,
+    "max_nonlinear_iterations_used": 3,
+    "minimum_accepted_dt_s": 60.0,
+    "latent_accounting_residual_Jm2": 0.0,
+    "state_continuity_status": "PASS"
+  },
+  "pair": {
+    "status": "PASS",
+    "difference": "L_Jkg only",
+    "initial_equivalence": "identical cell temperatures; own enthalpy laws"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "spatial_scope": "SELECTED_HOTSPOT_NATIVE_ERA5_CELL",
+  "location_method": "selected cell center nearest built-fraction-weighted hotspot centroid; row-major tie",
+  "selected_grid_row": 147,
+  "selected_grid_col": 79,
+  "point_xy_m": [
+    691125.0,
+    3174975.0
+  ],
+  "point_lon_lat": [
+    76.95621601352588,
+    28.687899639119852
+  ],
+  "point_crs": "EPSG:4326",
+  "weighted_centroid_xy_m": [
+    691143.2565834251,
+    3174946.6584667945
+  ],
+  "selected_hotspot_cells": 44,
+  "location_grid": {
+    "crs": "EPSG:32643",
+    "shape": [
+      352,
+      331
+    ],
+    "transform": [
+      150.0,
+      0.0,
+      679200.0,
+      0.0,
+      -150.0,
+      3197100.0
+    ],
+    "bounds_xy_m": [
+      679200.0,
+      3144300.0,
+      728850.0,
+      3197100.0
+    ],
+    "resolution_m": [
+      150.0,
+      150.0
+    ],
+    "axis_convention": "north-up; row 0 north"
+  },
+  "hotspot_mask_numeric_sha256": "8ca31fccf54f64100821b8b6dbf63de341a3e3527296fc8e8dfa8eed22c69e2a",
+  "selected_built_numeric_sha256": "da7686bdff927969fcb026cef27e35dacb581bef57e7e8f1d44e1c9fe6862a0f",
+  "weather_resolution_note": "150 m grid locates hotspot only; weather remains one coarse native ERA5-Land cell."
+}

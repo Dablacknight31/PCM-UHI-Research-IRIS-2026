@@ -1,0 +1,25 @@
+{
+  "policy": {
+    "maximum_correctable_negative_magnitude_Jm2": 5.0,
+    "physical_minimum_Jm2": 0.0,
+    "operation": "negative source increments in [-5,0) J/m2 set to 0 for model input only",
+    "larger_negative_policy": "hard failure requiring provider source review",
+    "raw_policy": "preserve every acquired value and acquisition artifact exactly",
+    "basis": "explicit user-approved provider shortwave quantization/deaccumulation physical QC"
+  },
+  "source_hour_count": 8763,
+  "corrected_padded_source_hours": 142,
+  "corrected_source_hours_overlapping_annual_targets": 142,
+  "corrected_target_intervals": 256,
+  "correction_overlap_rows": 284,
+  "minimum_raw_shortwave_increment_Jm2": -4.0,
+  "total_padded_source_correction_Jm2": 166.7190704345703,
+  "total_annual_correction_energy_Jm2": 166.7190704345703,
+  "total_annual_model_shortwave_energy_Jm2": 6630640591.547195,
+  "minimum_canonical_G_Wm2": 0.0,
+  "canonical_nonnegative_all_intervals": true,
+  "raw_values_preserved": true,
+  "other_weather_fields_modified": false,
+  "source_qc_file": "results/preliminary/era5_shortwave_source_qc.csv",
+  "correction_ledger_file": "results/preliminary/era5_shortwave_correction_ledger.csv"
+}

@@ -1,0 +1,47 @@
+{
+  "status": "VERIFIED_SAVED_DATA_AGGREGATION",
+  "scientific_solvers_invoked": false,
+  "date": "2026-10-13",
+  "derivation": "Read original saved hourly CSVs with float parsing; PCM-L0 T_surface_C grouped by IST hour. Air uses hotspot_mean_K. Annual \u0394H from saved annual summary, checked separately against forcing series. Instantaneous cooling from synchronous peak field, independently checked against hourly cell extrema. No new model result.",
+  "materials": [
+    {
+      "pcm_id": "PCM-067",
+      "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+      "roof_mean_diurnal_peak_cooling_C": 3.00689300417151,
+      "roof_mean_diurnal_peak_warming_C": 2.3890709758492736,
+      "hotspot_air_mean_diurnal_peak_cooling_C": 0.08022383655892759,
+      "maximum_hourly_hotspot_cooling_C": 0.5006854979984261,
+      "maximum_instantaneous_grid_cell_cooling_C": 0.796938813589327,
+      "signed_annual_mean_hotspot_air_anomaly_C": 0.000105404926460287,
+      "hottest_weather_subset_mean_cooling_C": 0.09507284320142655,
+      "hottest_weather_hours": 438,
+      "signed_annual_mean_delta_H_Wm2": 0.5408565097753841
+    },
+    {
+      "pcm_id": "PCM-011",
+      "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+      "roof_mean_diurnal_peak_cooling_C": 2.2726043296227276,
+      "roof_mean_diurnal_peak_warming_C": 1.7503892572474198,
+      "hotspot_air_mean_diurnal_peak_cooling_C": 0.061752614679817686,
+      "maximum_hourly_hotspot_cooling_C": 0.4563246878260078,
+      "maximum_instantaneous_grid_cell_cooling_C": 0.6970107014615362,
+      "signed_annual_mean_hotspot_air_anomaly_C": -0.0002144133714224054,
+      "hottest_weather_subset_mean_cooling_C": 0.0910073650436167,
+      "hottest_weather_hours": 438,
+      "signed_annual_mean_delta_H_Wm2": 0.459694439751288
+    },
+    {
+      "pcm_id": "PCM-069",
+      "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+      "roof_mean_diurnal_peak_cooling_C": 3.921454194818303,
+      "roof_mean_diurnal_peak_warming_C": 2.747214893569054,
+      "hotspot_air_mean_diurnal_peak_cooling_C": 0.10237667891077018,
+      "maximum_hourly_hotspot_cooling_C": 0.5027136129365047,
+      "maximum_instantaneous_grid_cell_cooling_C": 0.8190039070259171,
+      "signed_annual_mean_hotspot_air_anomaly_C": 0.001815948189861175,
+      "hottest_weather_subset_mean_cooling_C": 0.11925868247797608,
+      "hottest_weather_hours": 438,
+      "signed_annual_mean_delta_H_Wm2": 0.5877499907994277
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "source": "LANDSAT/LC08/C02/T1_L2; LANDSAT/LC09/C02/T1_L2",
+  "units": "contributing scenes per common-grid cell",
+  "study_year": 2025,
+  "data_window": [
+    "2025-04-01",
+    "2025-06-01"
+  ],
+  "timezone": "Asia/Kolkata",
+  "data_nature": "REAL",
+  "status": "VALIDATED_REAL_SOURCE",
+  "run_id": "20261009T205224821456Z_f21f8449",
+  "acquired_at_UTC": "2026-10-09T20:54:01.570400+00:00",
+  "grid": {
+    "crs": "EPSG:32643",
+    "shape": [
+      352,
+      331
+    ],
+    "transform": [
+      150.0,
+      0.0,
+      679200.0,
+      0.0,
+      -150.0,
+      3197100.0
+    ],
+    "bounds_xy_m": [
+      679200.0,
+      3144300.0,
+      728850.0,
+      3197100.0
+    ],
+    "resolution_m": [
+      150.0,
+      150.0
+    ],
+    "axis_convention": "north-up; row 0 north"
+  },
+  "config": {
+    "ee_auth_mode_colab": "colab",
+    "boundary": {
+      "collection": "FAO/GAUL/2015/level1",
+      "version": "2015",
+      "filters": {
+        "ADM0_NAME": "India",
+        "ADM1_NAME": "Delhi"
+      },
+      "required_feature_count": 1,
+      "geographic_crs": "EPSG:4326",
+      "raster_membership": "cell center; all_touched=False"
+    },
+    "landsat": {
+      "collections": [
+        "LANDSAT/LC08/C02/T1_L2",
+        "LANDSAT/LC09/C02/T1_L2"
+      ],
+      "windows": {
+        "PREMONSOON": [
+          "2025-04-01",
+          "2025-06-01"
+        ],
+        "POSTMONSOON": [
+          "2025-10-01",
+          "2025-12-01"
+        ]
+      },
+      "date_timezone": "UTC",
+      "processing_level": "L2SP",
+      "cloud_cover_min_inclusive": 0,
+      "cloud_cover_max_exclusive": 30,
+      "qa_pixel_reject_bits": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "qa_radsat_require_zero": true,
+      "reflectance_scale": 2.75e-05,
+      "reflectance_offset": -0.2,
+      "st_scale_K_per_DN": 0.00341802,
+      "st_offset_K": 149.0,
+      "K_to_C": 273.15,
+      "index_method": "explicit ratio on nonnegative reflectance; positive denominator",
+      "NDVI_bands": [
+        "SR_B5",
+        "SR_B4"
+      ],
+      "NDBI_bands": [
+        "SR_B6",
+        "SR_B5"
+      ],
+      "scene_to_grid": "reduceResolution(mean); native support weighted by output-cell overlap",
+      "temporal_composite": "median AFTER scene aggregation to common grid",
+      "minimum_scene_count": 1,
+      "minimum_cell_observations": 1,
+      "reduce_resolution_max_pixels": 4096,
+      "lst_validation_range_C": [
+        -80.0,
+        90.0
+      ]
+    },
+    "ghsl": {
+      "collection": "JRC/GHSL/P2023A/GHS_BUILT_S",
+      "version": "P2023A (R2023A)",
+      "epoch": 2020,
+      "band": "built_surface",
+      "source_unit": "m2 per 100 m cell",
+      "catalog_cell_area_m2": 10000.0,
+      "spatial_method": "native built_surface/native projected cell area; overlap-weighted mean to common grid"
+    },
+    "hotspot": {
+      "sigma_multiplier": 1.0,
+      "std_ddof": 0,
+      "built_quantile": 0.75,
+      "quantile_method": "linear",
+      "connectivity": 4,
+      "minimum_component_cells": 5,
+      "minimum_joint_valid_cells": 100,
+      "threshold_population": "LST: valid in both seasons; built: all valid boundary cells",
+      "selection_order": [
+        "built_weighted_area_m2 descending",
+        "mean_pre_excess_C descending",
+        "n_cells descending",
+        "component_id ascending"
+      ]
+    },
+    "weather": {
+      "collection": "ECMWF/ERA5_LAND/HOURLY",
+      "bands": [
+        "temperature_2m",
+        "u_component_of_wind_10m",
+        "v_component_of_wind_10m",
+        "surface_solar_radiation_downwards_hourly",
+        "surface_thermal_radiation_downwards_hourly"
+      ],
+      "spatial_scope": "SELECTED_HOTSPOT_NATIVE_ERA5_CELL",
+      "location_method": "selected cell center nearest built-fraction-weighted hotspot centroid; row-major tie",
+      "extraction_method": "Image.sample at hotspot point; exact native projection; no scale/factor/numPixels; dropNulls=False",
+      "catalog_nominal_resolution_m": 11132,
+      "max_pixels": 1000000,
+      "tile_scale": 2,
+      "source_radiation_interval": "[system:time_start - 1 hour, system:time_start)",
+      "source_radiation_units": "J/m2",
+      "output_radiation_units": "W/m2 interval mean",
+      "source_temperature_wind": "instantaneous at system:time_start",
+      "target_temperature_wind": "sample at interval midpoint; bracketed linear interpolation only",
+      "source_padding_hours": 1,
+      "shortwave_physical_qc": {
+        "maximum_correctable_negative_magnitude_Jm2": 5.0,
+        "physical_minimum_Jm2": 0.0,
+        "operation": "negative source increments in [-5,0) J/m2 set to 0 for model input only",
+        "larger_negative_policy": "hard failure requiring provider source review",
+        "raw_policy": "preserve every acquired value and acquisition artifact exactly",
+        "basis": "explicit user-approved provider shortwave quantization/deaccumulation physical QC"
+      },
+      "air_validation_range_C": [
+        -80.0,
+        60.0
+      ]
+    },
+    "pcm_screen": {
+      "lst_percentile": 95.0,
+      "quantile_method": "linear",
+      "round_decimals": 1,
+      "air_timezone": "Asia/Kolkata",
+      "required_hours_per_local_day": 24,
+      "lower_statistic": "mean of complete local daily Tmax from hourly hotspot T_air_C",
+      "air_missing_policy": "fail on missing/duplicate/extra hours or days; no interpolation/substitution",
+      "rule": "MELTING_INTERVAL_OVERLAP_INCLUSIVE_V1",
+      "pass_equation": "Tm_high_C >= lower_C AND Tm_low_C <= upper_C; PCM_RUNNABLE only",
+      "boundary_contact_passes": true,
+      "table": "Section-0 PCM_RUNNABLE only; all workbook rows retained for audit",
+      "review_status": "REVIEW_REQUIRED_BEFORE_CATEGORY1"
+    },
+    "download": {
+      "format": "GEO_TIFF",
+      "tile_cells": 256,
+      "timeout_seconds": 180,
+      "output_dtype": "float64",
+      "nodata_encoding": -9999.0,
+      "cache_policy": "write acquired artifacts only; no automatic cache reads"
+    },
+    "figures": {
+      "dpi": 180,
+      "map_size": [
+        12,
+        6
+      ],
+      "relationship_size": [
+        12,
+        5
+      ],
+      "hexbin_gridsize": 45
+    }
+  },
+  "season": "PREMONSOON",
+  "source_scene_count": 13,
+  "source_scene_catalog": "results/preliminary/landsat_premonsoon_scenes.csv",
+  "QA_method": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "aggregation": "reduceResolution(mean); native support weighted by output-cell overlap",
+  "composite": "median AFTER scene aggregation to common grid",
+  "numeric_sha256": "0bad61adec4d8396f40886cc0efaab878c90951632f00ae18e2ff8950d816b7c",
+  "file_info": {
+    "file_path": "Original dependency retained privately; see DATA_AVAILABILITY.md",
+    "sha256": "810cc56b849a7dd2f87691974f298061e01c16332d484b5499397c03eef7df68",
+    "file_size_bytes": 15852,
+    "file_modified_at_UTC": "2026-10-09T20:54:01.612258+00:00"
+  }
+}

@@ -1,0 +1,27 @@
+# Local execution and authentication
+runtime/
+.pcm_uhi_cache/
+.venv/
+.python-runtime/
+.local_cache/
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+credentials*.json
+service-account*.json
+token*.json
+.config/earthengine/
+*.pickle
+*.pkl
+*.zip
+local_archive/
+
+# Unresolved release assets (restore only after permission review)
+data/inputs/materials/PCM_Details_As_Executed.xlsx
+docs/material_evidence/
+docs/paper/
+data/inputs/geospatial/delhi_boundary.*
+data/inputs/geospatial/DELHI_MASK.tif
+data/inputs/geospatial/preliminary_numeric_layers.npz

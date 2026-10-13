@@ -1,0 +1,7 @@
+season,band,scene_count,valid_cells,boundary_cells,valid_fraction,min_count_on_valid,median_count_on_valid,max_count_on_valid
+PREMONSOON,LST,13,66761,66761,1.0,5.0,11.0,12.0
+PREMONSOON,NDVI,13,66761,66761,1.0,5.0,11.0,12.0
+PREMONSOON,NDBI,13,66761,66761,1.0,5.0,11.0,12.0
+POSTMONSOON,LST,15,66761,66761,1.0,2.0,10.0,11.0
+POSTMONSOON,NDVI,15,66761,66761,1.0,2.0,10.0,11.0
+POSTMONSOON,NDBI,15,66761,66761,1.0,2.0,10.0,11.0

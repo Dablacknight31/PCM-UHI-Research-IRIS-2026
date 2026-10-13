@@ -1,0 +1,2395 @@
+{
+  "result_use": "DEVELOPMENT",
+  "candidate_population_final": false,
+  "cumulative_run_id": "through_category4_20261009T205224361728Z_745195a6",
+  "cumulative_source_identity": {
+    "source_content_sha256": "39f3a8d6707020cd2d67e7d97ba50fd3345e7e7f19ce208c523227e26ec91ca5",
+    "executable_source_sha256": "5a44293120e3b2ee58f12718fcc86772f91212c530ca6a8c39d4eeec3f0010bc",
+    "fingerprint_policy": "Recorded source fingerprint; private source evidence is not distributed."
+  },
+  "screen_method": "MELTING_INTERVAL_OVERLAP_INCLUSIVE_V1",
+  "study_year": 2025,
+  "scientific_reality_status": "REAL",
+  "data_nature": "REAL",
+  "config": {
+    "year": 2025,
+    "A_m2": 1.0,
+    "d_m": 0.02,
+    "alpha_s": 0.6,
+    "epsilon_LW": 0.9,
+    "bottom_boundary": "adiabatic",
+    "surface_boundary": "environment",
+    "wind_reference_height_m": 10.0,
+    "N_cells": 10,
+    "dt_s": 60.0,
+    "T_ref_C": 0.0,
+    "initial_temperature_C": 26.0,
+    "initial_liquid_fraction_at_transition": 0.0,
+    "T_base_C": 26.0,
+    "f_sat": 0.99,
+    "f_solid": 0.01,
+    "r_tol_per_h": 0.005,
+    "reset_limit": 0.1,
+    "morning_checkpoint": "06:00",
+    "weather_time_label": "midpoint",
+    "report_start_IST": null,
+    "report_end_IST": null,
+    "solver_max_iterations": 40,
+    "solver_atol_Wm2": 1e-07,
+    "solver_rtol": 1e-09,
+    "minimum_dt_s": 0.9375,
+    "energy_atol_Jm2": 0.05,
+    "energy_rtol": 1e-07,
+    "prescribed_top_flux_Wm2": 0.0,
+    "save_cell_states": true
+  },
+  "acceptance_limits": {
+    "surface_atol_Wm2": 1e-07,
+    "step_energy_atol_Jm2": 0.05,
+    "annual_energy_atol_Jm2": 0.05,
+    "annual_energy_rtol": 1e-07,
+    "latent_accounting_atol_Jm2": 0.05,
+    "latent_accounting_rtol": 1e-07,
+    "continuity_atol_Jkg": 1e-08,
+    "automatic_scientific_cache_reuse": false
+  },
+  "model_version": "category1-cumulative-exact-L0-coexistence-2.0.0",
+  "code_sha256": "e1fdf0c47feb74751b824ca14946c7c3ecd1a7222ff24b111536e7c9ff10af95",
+  "workbook_sha256": "0dda90b01987f99819c24ff1f7b18d51bfee4d3ea73358f73c7e616977e76aed",
+  "weather_content_sha256": "0025060b2506d4d69d5bf361c37c1f2786fefbd745e40f4d19acb186a4e13d83",
+  "weather_artifact_sha256": "a5ca03d46a1c7605dc94fb2acdb579165aee5cc29d8a1809feb3f3fc1329b221",
+  "input_identity": "0253f50c53cb872523d60e81319c9e0656a6a39b2afb925bb7f866d944f01188",
+  "units": {
+    "T_surface_C": "degC",
+    "T_surface_end_C": "degC",
+    "T_PCM_C": "degC",
+    "T_PCM_end_C": "degC",
+    "h_mean_Jkg": "J/kg",
+    "H_area_start_Jm2": "J/m2",
+    "H_area_Jm2": "J/m2",
+    "q_top_mean_Wm2": "W/m2",
+    "q_solar_mean_Wm2": "W/m2",
+    "q_convection_mean_Wm2": "W/m2",
+    "q_longwave_mean_Wm2": "W/m2",
+    "hc_Wm2K": "W/m2/K",
+    "wind_mean_ms": "m/s",
+    "f_start": "1",
+    "f_end": "1",
+    "f_min": "1",
+    "f_max": "1",
+    "f_mean": "1",
+    "latent_uptake_Jm2": "J/m2",
+    "latent_release_Jm2": "J/m2",
+    "cooling_relevant_latent_uptake_Jm2": "J/m2",
+    "cell_latent_uptake_Jm2": "J/m2",
+    "cell_latent_release_Jm2": "J/m2",
+    "active_h": "h",
+    "saturated_h": "h",
+    "unactivated_h": "h",
+    "other_no_uptake_h": "h",
+    "regenerating_h": "h",
+    "idle_h": "h",
+    "cooling_relevant_h": "h",
+    "CDH_C_h": "degC*h",
+    "energy_residual_Jm2": "J/m2",
+    "energy_relative_residual": "1",
+    "solver_retry_count": "1",
+    "solver_max_iterations_used": "1",
+    "minimum_accepted_dt_s": "s",
+    "surface_balance_max_residual_Wm2": "W/m2",
+    "q_top_positive_energy_Jm2": "J/m2",
+    "q_top_negative_energy_Jm2": "J/m2",
+    "solver_max_cell_residual_Wm2": "W/m2",
+    "max_step_energy_residual_Jm2": "J/m2",
+    "raw_saturated_h": "h",
+    "raw_saturation_onsets": "1",
+    "first_saturated_substep_end_s": "s",
+    "last_saturated_substep_end_s": "s",
+    "T_air_C": "degC",
+    "u10_ms": "m/s",
+    "v10_ms": "m/s",
+    "wind10_ms": "m/s",
+    "G_Wm2": "W/m2 interval mean",
+    "LW_down_Wm2": "W/m2 interval mean",
+    "shortwave_energy_Jm2": "J/m2 target interval",
+    "longwave_energy_Jm2": "J/m2 target interval",
+    "wind_ms": "m/s",
+    "H_total_J": "J",
+    "H_PCM_Wm2": "W/m2",
+    "H_L0_Wm2": "W/m2",
+    "delta_H_Wm2": "W/m2",
+    "q_bottom_mean_Wm2": "W/m2",
+    "fraction_change_rate_mean_per_h": "1/h",
+    "h_Jkg": "J/kg",
+    "T_C": "degC",
+    "f": "1",
+    "x_center_m": "m",
+    "datetime_UTC_ns": "ns since Unix epoch UTC",
+    "timestamps": "timezone-aware ISO 8601",
+    "sign_convention": "q_* positive into roof; H_* positive roof into atmosphere; delta_H=H_PCM-H_L0"
+  },
+  "provenance": {
+    "inputs": {
+      "weather": {
+        "source": "ECMWF/ERA5_LAND/HOURLY",
+        "units": {
+          "T_air_C": "degC",
+          "u10_ms": "m/s",
+          "v10_ms": "m/s",
+          "wind10_ms": "m/s",
+          "G_Wm2": "W/m2 interval mean",
+          "LW_down_Wm2": "W/m2 interval mean",
+          "shortwave_energy_Jm2": "J/m2 target interval",
+          "longwave_energy_Jm2": "J/m2 target interval",
+          "raw_shortwave_energy_Jm2": "J/m2 raw source overlap sum",
+          "shortwave_qc_correction_Jm2": "J/m2 positive correction to target interval"
+        },
+        "study_year": 2025,
+        "data_window": [
+          "2025-01-01",
+          "2026-01-01"
+        ],
+        "timezone": "Asia/Kolkata",
+        "data_nature": "REAL",
+        "status": "VALIDATED_REAL_SOURCE",
+        "run_id": "20261009T205224821456Z_f21f8449",
+        "acquired_at_UTC": "2026-10-09T20:58:40.062904+00:00",
+        "grid": null,
+        "config": {
+          "ee_auth_mode_colab": "colab",
+          "boundary": {
+            "collection": "FAO/GAUL/2015/level1",
+            "version": "2015",
+            "filters": {
+              "ADM0_NAME": "India",
+              "ADM1_NAME": "Delhi"
+            },
+            "required_feature_count": 1,
+            "geographic_crs": "EPSG:4326",
+            "raster_membership": "cell center; all_touched=False"
+          },
+          "landsat": {
+            "collections": [
+              "LANDSAT/LC08/C02/T1_L2",
+              "LANDSAT/LC09/C02/T1_L2"
+            ],
+            "windows": {
+              "PREMONSOON": [
+                "2025-04-01",
+                "2025-06-01"
+              ],
+              "POSTMONSOON": [
+                "2025-10-01",
+                "2025-12-01"
+              ]
+            },
+            "date_timezone": "UTC",
+            "processing_level": "L2SP",
+            "cloud_cover_min_inclusive": 0,
+            "cloud_cover_max_exclusive": 30,
+            "qa_pixel_reject_bits": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "qa_radsat_require_zero": true,
+            "reflectance_scale": 2.75e-05,
+            "reflectance_offset": -0.2,
+            "st_scale_K_per_DN": 0.00341802,
+            "st_offset_K": 149.0,
+            "K_to_C": 273.15,
+            "index_method": "explicit ratio on nonnegative reflectance; positive denominator",
+            "NDVI_bands": [
+              "SR_B5",
+              "SR_B4"
+            ],
+            "NDBI_bands": [
+              "SR_B6",
+              "SR_B5"
+            ],
+            "scene_to_grid": "reduceResolution(mean); native support weighted by output-cell overlap",
+            "temporal_composite": "median AFTER scene aggregation to common grid",
+            "minimum_scene_count": 1,
+            "minimum_cell_observations": 1,
+            "reduce_resolution_max_pixels": 4096,
+            "lst_validation_range_C": [
+              -80.0,
+              90.0
+            ]
+          },
+          "ghsl": {
+            "collection": "JRC/GHSL/P2023A/GHS_BUILT_S",
+            "version": "P2023A (R2023A)",
+            "epoch": 2020,
+            "band": "built_surface",
+            "source_unit": "m2 per 100 m cell",
+            "catalog_cell_area_m2": 10000.0,
+            "spatial_method": "native built_surface/native projected cell area; overlap-weighted mean to common grid"
+          },
+          "hotspot": {
+            "sigma_multiplier": 1.0,
+            "std_ddof": 0,
+            "built_quantile": 0.75,
+            "quantile_method": "linear",
+            "connectivity": 4,
+            "minimum_component_cells": 5,
+            "minimum_joint_valid_cells": 100,
+            "threshold_population": "LST: valid in both seasons; built: all valid boundary cells",
+            "selection_order": [
+              "built_weighted_area_m2 descending",
+              "mean_pre_excess_C descending",
+              "n_cells descending",
+              "component_id ascending"
+            ]
+          },
+          "weather": {
+            "collection": "ECMWF/ERA5_LAND/HOURLY",
+            "bands": [
+              "temperature_2m",
+              "u_component_of_wind_10m",
+              "v_component_of_wind_10m",
+              "surface_solar_radiation_downwards_hourly",
+              "surface_thermal_radiation_downwards_hourly"
+            ],
+            "spatial_scope": "SELECTED_HOTSPOT_NATIVE_ERA5_CELL",
+            "location_method": "selected cell center nearest built-fraction-weighted hotspot centroid; row-major tie",
+            "extraction_method": "Image.sample at hotspot point; exact native projection; no scale/factor/numPixels; dropNulls=False",
+            "catalog_nominal_resolution_m": 11132,
+            "max_pixels": 1000000,
+            "tile_scale": 2,
+            "source_radiation_interval": "[system:time_start - 1 hour, system:time_start)",
+            "source_radiation_units": "J/m2",
+            "output_radiation_units": "W/m2 interval mean",
+            "source_temperature_wind": "instantaneous at system:time_start",
+            "target_temperature_wind": "sample at interval midpoint; bracketed linear interpolation only",
+            "source_padding_hours": 1,
+            "shortwave_physical_qc": {
+              "maximum_correctable_negative_magnitude_Jm2": 5.0,
+              "physical_minimum_Jm2": 0.0,
+              "operation": "negative source increments in [-5,0) J/m2 set to 0 for model input only",
+              "larger_negative_policy": "hard failure requiring provider source review",
+              "raw_policy": "preserve every acquired value and acquisition artifact exactly",
+              "basis": "explicit user-approved provider shortwave quantization/deaccumulation physical QC"
+            },
+            "air_validation_range_C": [
+              -80.0,
+              60.0
+            ]
+          },
+          "pcm_screen": {
+            "lst_percentile": 95.0,
+            "quantile_method": "linear",
+            "round_decimals": 1,
+            "air_timezone": "Asia/Kolkata",
+            "required_hours_per_local_day": 24,
+            "lower_statistic": "mean of complete local daily Tmax from hourly hotspot T_air_C",
+            "air_missing_policy": "fail on missing/duplicate/extra hours or days; no interpolation/substitution",
+            "rule": "MELTING_INTERVAL_OVERLAP_INCLUSIVE_V1",
+            "pass_equation": "Tm_high_C >= lower_C AND Tm_low_C <= upper_C; PCM_RUNNABLE only",
+            "boundary_contact_passes": true,
+            "table": "Section-0 PCM_RUNNABLE only; all workbook rows retained for audit",
+            "review_status": "REVIEW_REQUIRED_BEFORE_CATEGORY1"
+          },
+          "download": {
+            "format": "GEO_TIFF",
+            "tile_cells": 256,
+            "timeout_seconds": 180,
+            "output_dtype": "float64",
+            "nodata_encoding": -9999.0,
+            "cache_policy": "write acquired artifacts only; no automatic cache reads"
+          },
+          "figures": {
+            "dpi": 180,
+            "map_size": [
+              12,
+              6
+            ],
+            "relationship_size": [
+              12,
+              5
+            ],
+            "hexbin_gridsize": 45
+          }
+        },
+        "source_metadata": {
+          "collection": "ECMWF/ERA5_LAND/HOURLY",
+          "native_projection": {
+            "crs": "EPSG:4326",
+            "transform": [
+              0.1,
+              0.0,
+              -360.05,
+              0.0,
+              -0.1,
+              90.05
+            ]
+          },
+          "native_provider_projection_metadata": {
+            "type": "Projection",
+            "crs": "EPSG:4326",
+            "transform": [
+              0.1,
+              0,
+              -360.05,
+              0,
+              -0.1,
+              90.05
+            ]
+          },
+          "native_crs_definition": "EPSG:4326",
+          "native_transform": [
+            0.1,
+            0.0,
+            -360.05,
+            0.0,
+            -0.1,
+            90.05
+          ],
+          "spatial_support": {
+            "spatial_scope": "SELECTED_HOTSPOT_NATIVE_ERA5_CELL",
+            "hotspot_location": {
+              "spatial_scope": "SELECTED_HOTSPOT_NATIVE_ERA5_CELL",
+              "location_method": "selected cell center nearest built-fraction-weighted hotspot centroid; row-major tie",
+              "selected_grid_row": 147,
+              "selected_grid_col": 79,
+              "point_xy_m": [
+                691125.0,
+                3174975.0
+              ],
+              "point_lon_lat": [
+                76.95621601352588,
+                28.687899639119852
+              ],
+              "point_crs": "EPSG:4326",
+              "weighted_centroid_xy_m": [
+                691143.2565834251,
+                3174946.6584667945
+              ],
+              "selected_hotspot_cells": 44,
+              "location_grid": {
+                "crs": "EPSG:32643",
+                "shape": [
+                  352,
+                  331
+                ],
+                "transform": [
+                  150.0,
+                  0.0,
+                  679200.0,
+                  0.0,
+                  -150.0,
+                  3197100.0
+                ],
+                "bounds_xy_m": [
+                  679200.0,
+                  3144300.0,
+                  728850.0,
+                  3197100.0
+                ],
+                "resolution_m": [
+                  150.0,
+                  150.0
+                ],
+                "axis_convention": "north-up; row 0 north"
+              },
+              "hotspot_mask_numeric_sha256": "8ca31fccf54f64100821b8b6dbf63de341a3e3527296fc8e8dfa8eed22c69e2a",
+              "selected_built_numeric_sha256": "da7686bdff927969fcb026cef27e35dacb581bef57e7e8f1d44e1c9fe6862a0f",
+              "weather_resolution_note": "150 m grid locates hotspot only; weather remains one coarse native ERA5-Land cell."
+            },
+            "extraction_method": "Image.sample at hotspot point; exact native projection; no scale/factor/numPixels; dropNulls=False",
+            "native_projection": {
+              "crs": "EPSG:4326",
+              "transform": [
+                0.1,
+                0.0,
+                -360.05,
+                0.0,
+                -0.1,
+                90.05
+              ]
+            },
+            "native_provider_projection_metadata": {
+              "type": "Projection",
+              "crs": "EPSG:4326",
+              "transform": [
+                0.1,
+                0,
+                -360.05,
+                0,
+                -0.1,
+                90.05
+              ]
+            },
+            "native_crs_definition": "EPSG:4326",
+            "native_transform": [
+              0.1,
+              0.0,
+              -360.05,
+              0.0,
+              -0.1,
+              90.05
+            ],
+            "native_nominal_scale_m": 11131.949079327358,
+            "catalog_nominal_resolution_m": 11132,
+            "sampled_native_cell_center_lon_lat": [
+              77.0,
+              28.699999999999996
+            ],
+            "native_pixel_col_row": [
+              4370,
+              613
+            ],
+            "pixel_coordinate_convention": "EE pixelCoordinates continuous center=(col+0.5,row+0.5); integer containing-cell indices=floor(coordinates).",
+            "native_cells_per_hour": 1,
+            "weather_resampled_to_common_grid": false,
+            "projection_validation": "Every source hour and required band: semantic CRS + six numeric affine coefficients; fixed integer pixel and center containing hotspot point.",
+            "affine_absolute_tolerance": 1e-12,
+            "cell_center_absolute_tolerance_degrees": 1e-12,
+            "support_limitation": "Single coarse regional reanalysis cell at hotspot location; no 150 m meteorological resolution."
+          },
+          "fetch_start_UTC": "2024-12-31T17:00:00+00:00",
+          "fetch_end_UTC_exclusive": "2025-12-31T20:00:00+00:00",
+          "batches": [
+            {
+              "start_UTC": "2024-12-31T17:00:00+00:00",
+              "end_UTC_exclusive": "2025-01-01T00:00:00+00:00",
+              "count": 7,
+              "band_native_projections": {
+                "temperature_2m": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "u_component_of_wind_10m": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "v_component_of_wind_10m": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "surface_solar_radiation_downwards_hourly": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "surface_thermal_radiation_downwards_hourly": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                }
+              }
+            },
+            {
+              "start_UTC": "2025-01-01T00:00:00+00:00",
+              "end_UTC_exclusive": "2025-02-01T00:00:00+00:00",
+              "count": 744,
+              "band_native_projections": {
+                "temperature_2m": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "u_component_of_wind_10m": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "v_component_of_wind_10m": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "surface_solar_radiation_downwards_hourly": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "surface_thermal_radiation_downwards_hourly": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                }
+              }
+            },
+            {
+              "start_UTC": "2025-02-01T00:00:00+00:00",
+              "end_UTC_exclusive": "2025-03-01T00:00:00+00:00",
+              "count": 672,
+              "band_native_projections": {
+                "temperature_2m": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "u_component_of_wind_10m": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "v_component_of_wind_10m": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "surface_solar_radiation_downwards_hourly": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "surface_thermal_radiation_downwards_hourly": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                }
+              }
+            },
+            {
+              "start_UTC": "2025-03-01T00:00:00+00:00",
+              "end_UTC_exclusive": "2025-04-01T00:00:00+00:00",
+              "count": 744,
+              "band_native_projections": {
+                "temperature_2m": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "u_component_of_wind_10m": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "v_component_of_wind_10m": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "surface_solar_radiation_downwards_hourly": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "surface_thermal_radiation_downwards_hourly": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                }
+              }
+            },
+            {
+              "start_UTC": "2025-04-01T00:00:00+00:00",
+              "end_UTC_exclusive": "2025-05-01T00:00:00+00:00",
+              "count": 720,
+              "band_native_projections": {
+                "temperature_2m": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "u_component_of_wind_10m": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "v_component_of_wind_10m": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "surface_solar_radiation_downwards_hourly": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "surface_thermal_radiation_downwards_hourly": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                }
+              }
+            },
+            {
+              "start_UTC": "2025-05-01T00:00:00+00:00",
+              "end_UTC_exclusive": "2025-06-01T00:00:00+00:00",
+              "count": 744,
+              "band_native_projections": {
+                "temperature_2m": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "u_component_of_wind_10m": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "v_component_of_wind_10m": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "surface_solar_radiation_downwards_hourly": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "surface_thermal_radiation_downwards_hourly": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                }
+              }
+            },
+            {
+              "start_UTC": "2025-06-01T00:00:00+00:00",
+              "end_UTC_exclusive": "2025-07-01T00:00:00+00:00",
+              "count": 720,
+              "band_native_projections": {
+                "temperature_2m": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "u_component_of_wind_10m": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "v_component_of_wind_10m": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "surface_solar_radiation_downwards_hourly": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "surface_thermal_radiation_downwards_hourly": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                }
+              }
+            },
+            {
+              "start_UTC": "2025-07-01T00:00:00+00:00",
+              "end_UTC_exclusive": "2025-08-01T00:00:00+00:00",
+              "count": 744,
+              "band_native_projections": {
+                "temperature_2m": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "u_component_of_wind_10m": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "v_component_of_wind_10m": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "surface_solar_radiation_downwards_hourly": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "surface_thermal_radiation_downwards_hourly": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                }
+              }
+            },
+            {
+              "start_UTC": "2025-08-01T00:00:00+00:00",
+              "end_UTC_exclusive": "2025-09-01T00:00:00+00:00",
+              "count": 744,
+              "band_native_projections": {
+                "temperature_2m": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "u_component_of_wind_10m": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "v_component_of_wind_10m": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "surface_solar_radiation_downwards_hourly": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "surface_thermal_radiation_downwards_hourly": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                }
+              }
+            },
+            {
+              "start_UTC": "2025-09-01T00:00:00+00:00",
+              "end_UTC_exclusive": "2025-10-01T00:00:00+00:00",
+              "count": 720,
+              "band_native_projections": {
+                "temperature_2m": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "u_component_of_wind_10m": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "v_component_of_wind_10m": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "surface_solar_radiation_downwards_hourly": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "surface_thermal_radiation_downwards_hourly": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                }
+              }
+            },
+            {
+              "start_UTC": "2025-10-01T00:00:00+00:00",
+              "end_UTC_exclusive": "2025-11-01T00:00:00+00:00",
+              "count": 744,
+              "band_native_projections": {
+                "temperature_2m": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "u_component_of_wind_10m": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "v_component_of_wind_10m": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "surface_solar_radiation_downwards_hourly": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "surface_thermal_radiation_downwards_hourly": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                }
+              }
+            },
+            {
+              "start_UTC": "2025-11-01T00:00:00+00:00",
+              "end_UTC_exclusive": "2025-12-01T00:00:00+00:00",
+              "count": 720,
+              "band_native_projections": {
+                "temperature_2m": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "u_component_of_wind_10m": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "v_component_of_wind_10m": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "surface_solar_radiation_downwards_hourly": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "surface_thermal_radiation_downwards_hourly": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                }
+              }
+            },
+            {
+              "start_UTC": "2025-12-01T00:00:00+00:00",
+              "end_UTC_exclusive": "2025-12-31T20:00:00+00:00",
+              "count": 740,
+              "band_native_projections": {
+                "temperature_2m": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "u_component_of_wind_10m": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "v_component_of_wind_10m": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "surface_solar_radiation_downwards_hourly": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                },
+                "surface_thermal_radiation_downwards_hourly": {
+                  "type": "Projection",
+                  "crs": "EPSG:4326",
+                  "transform": [
+                    0.1,
+                    0,
+                    -360.05,
+                    0,
+                    -0.1,
+                    90.05
+                  ]
+                }
+              }
+            }
+          ],
+          "source_hour_count": 8763,
+          "radiation_units": "J/m2",
+          "source_interval": "[system:time_start - 1 hour, system:time_start)",
+          "data_nature": "REAL"
+        },
+        "spatial_support": {
+          "spatial_scope": "SELECTED_HOTSPOT_NATIVE_ERA5_CELL",
+          "hotspot_location": {
+            "spatial_scope": "SELECTED_HOTSPOT_NATIVE_ERA5_CELL",
+            "location_method": "selected cell center nearest built-fraction-weighted hotspot centroid; row-major tie",
+            "selected_grid_row": 147,
+            "selected_grid_col": 79,
+            "point_xy_m": [
+              691125.0,
+              3174975.0
+            ],
+            "point_lon_lat": [
+              76.95621601352588,
+              28.687899639119852
+            ],
+            "point_crs": "EPSG:4326",
+            "weighted_centroid_xy_m": [
+              691143.2565834251,
+              3174946.6584667945
+            ],
+            "selected_hotspot_cells": 44,
+            "location_grid": {
+              "crs": "EPSG:32643",
+              "shape": [
+                352,
+                331
+              ],
+              "transform": [
+                150.0,
+                0.0,
+                679200.0,
+                0.0,
+                -150.0,
+                3197100.0
+              ],
+              "bounds_xy_m": [
+                679200.0,
+                3144300.0,
+                728850.0,
+                3197100.0
+              ],
+              "resolution_m": [
+                150.0,
+                150.0
+              ],
+              "axis_convention": "north-up; row 0 north"
+            },
+            "hotspot_mask_numeric_sha256": "8ca31fccf54f64100821b8b6dbf63de341a3e3527296fc8e8dfa8eed22c69e2a",
+            "selected_built_numeric_sha256": "da7686bdff927969fcb026cef27e35dacb581bef57e7e8f1d44e1c9fe6862a0f",
+            "weather_resolution_note": "150 m grid locates hotspot only; weather remains one coarse native ERA5-Land cell."
+          },
+          "extraction_method": "Image.sample at hotspot point; exact native projection; no scale/factor/numPixels; dropNulls=False",
+          "native_projection": {
+            "crs": "EPSG:4326",
+            "transform": [
+              0.1,
+              0.0,
+              -360.05,
+              0.0,
+              -0.1,
+              90.05
+            ]
+          },
+          "native_provider_projection_metadata": {
+            "type": "Projection",
+            "crs": "EPSG:4326",
+            "transform": [
+              0.1,
+              0,
+              -360.05,
+              0,
+              -0.1,
+              90.05
+            ]
+          },
+          "native_crs_definition": "EPSG:4326",
+          "native_transform": [
+            0.1,
+            0.0,
+            -360.05,
+            0.0,
+            -0.1,
+            90.05
+          ],
+          "native_nominal_scale_m": 11131.949079327358,
+          "catalog_nominal_resolution_m": 11132,
+          "sampled_native_cell_center_lon_lat": [
+            77.0,
+            28.699999999999996
+          ],
+          "native_pixel_col_row": [
+            4370,
+            613
+          ],
+          "pixel_coordinate_convention": "EE pixelCoordinates continuous center=(col+0.5,row+0.5); integer containing-cell indices=floor(coordinates).",
+          "native_cells_per_hour": 1,
+          "weather_resampled_to_common_grid": false,
+          "projection_validation": "Every source hour and required band: semantic CRS + six numeric affine coefficients; fixed integer pixel and center containing hotspot point.",
+          "affine_absolute_tolerance": 1e-12,
+          "cell_center_absolute_tolerance_degrees": 1e-12,
+          "support_limitation": "Single coarse regional reanalysis cell at hotspot location; no 150 m meteorological resolution."
+        },
+        "raw_source_file": "data/inputs/weather/era5_hourly_raw.csv",
+        "raw_source_sha256": "92c1e00bd19369723cf94e04e8019f43c6bcefdd995cc5b8546ef565fe005ab1",
+        "intended_downstream_use": "Category 1 selected-hotspot weather",
+        "coverage": {
+          "coverage_status": "PASS",
+          "expected_hours": 8760,
+          "observed_hours": 8760,
+          "timestamp_label": "start",
+          "timezone": "Asia/Kolkata"
+        },
+        "time_semantics": {
+          "data_nature": "REAL",
+          "source": "ECMWF/ERA5_LAND/HOURLY",
+          "units": {
+            "T_air_C": "degC",
+            "u10_ms": "m/s",
+            "v10_ms": "m/s",
+            "wind10_ms": "m/s",
+            "G_Wm2": "W/m2 interval mean",
+            "LW_down_Wm2": "W/m2 interval mean",
+            "shortwave_energy_Jm2": "J/m2 target interval",
+            "longwave_energy_Jm2": "J/m2 target interval",
+            "raw_shortwave_energy_Jm2": "J/m2 raw source overlap sum",
+            "shortwave_qc_correction_Jm2": "J/m2 positive correction to target interval"
+          },
+          "timestamp_label": "start",
+          "timezone": "Asia/Kolkata",
+          "instantaneous_sample": "midpoint",
+          "review_status": "PRELIMINARY_ONLY",
+          "spatial_support": {
+            "spatial_scope": "SELECTED_HOTSPOT_NATIVE_ERA5_CELL",
+            "hotspot_location": {
+              "spatial_scope": "SELECTED_HOTSPOT_NATIVE_ERA5_CELL",
+              "location_method": "selected cell center nearest built-fraction-weighted hotspot centroid; row-major tie",
+              "selected_grid_row": 147,
+              "selected_grid_col": 79,
+              "point_xy_m": [
+                691125.0,
+                3174975.0
+              ],
+              "point_lon_lat": [
+                76.95621601352588,
+                28.687899639119852
+              ],
+              "point_crs": "EPSG:4326",
+              "weighted_centroid_xy_m": [
+                691143.2565834251,
+                3174946.6584667945
+              ],
+              "selected_hotspot_cells": 44,
+              "location_grid": {
+                "crs": "EPSG:32643",
+                "shape": [
+                  352,
+                  331
+                ],
+                "transform": [
+                  150.0,
+                  0.0,
+                  679200.0,
+                  0.0,
+                  -150.0,
+                  3197100.0
+                ],
+                "bounds_xy_m": [
+                  679200.0,
+                  3144300.0,
+                  728850.0,
+                  3197100.0
+                ],
+                "resolution_m": [
+                  150.0,
+                  150.0
+                ],
+                "axis_convention": "north-up; row 0 north"
+              },
+              "hotspot_mask_numeric_sha256": "8ca31fccf54f64100821b8b6dbf63de341a3e3527296fc8e8dfa8eed22c69e2a",
+              "selected_built_numeric_sha256": "da7686bdff927969fcb026cef27e35dacb581bef57e7e8f1d44e1c9fe6862a0f",
+              "weather_resolution_note": "150 m grid locates hotspot only; weather remains one coarse native ERA5-Land cell."
+            },
+            "extraction_method": "Image.sample at hotspot point; exact native projection; no scale/factor/numPixels; dropNulls=False",
+            "native_projection": {
+              "crs": "EPSG:4326",
+              "transform": [
+                0.1,
+                0.0,
+                -360.05,
+                0.0,
+                -0.1,
+                90.05
+              ]
+            },
+            "native_provider_projection_metadata": {
+              "type": "Projection",
+              "crs": "EPSG:4326",
+              "transform": [
+                0.1,
+                0,
+                -360.05,
+                0,
+                -0.1,
+                90.05
+              ]
+            },
+            "native_crs_definition": "EPSG:4326",
+            "native_transform": [
+              0.1,
+              0.0,
+              -360.05,
+              0.0,
+              -0.1,
+              90.05
+            ],
+            "native_nominal_scale_m": 11131.949079327358,
+            "catalog_nominal_resolution_m": 11132,
+            "sampled_native_cell_center_lon_lat": [
+              77.0,
+              28.699999999999996
+            ],
+            "native_pixel_col_row": [
+              4370,
+              613
+            ],
+            "pixel_coordinate_convention": "EE pixelCoordinates continuous center=(col+0.5,row+0.5); integer containing-cell indices=floor(coordinates).",
+            "native_cells_per_hour": 1,
+            "weather_resampled_to_common_grid": false,
+            "projection_validation": "Every source hour and required band: semantic CRS + six numeric affine coefficients; fixed integer pixel and center containing hotspot point.",
+            "affine_absolute_tolerance": 1e-12,
+            "cell_center_absolute_tolerance_degrees": 1e-12,
+            "support_limitation": "Single coarse regional reanalysis cell at hotspot location; no 150 m meteorological resolution."
+          },
+          "shortwave_physical_qc": {
+            "policy": {
+              "maximum_correctable_negative_magnitude_Jm2": 5.0,
+              "physical_minimum_Jm2": 0.0,
+              "operation": "negative source increments in [-5,0) J/m2 set to 0 for model input only",
+              "larger_negative_policy": "hard failure requiring provider source review",
+              "raw_policy": "preserve every acquired value and acquisition artifact exactly",
+              "basis": "explicit user-approved provider shortwave quantization/deaccumulation physical QC"
+            },
+            "source_hour_count": 8763,
+            "corrected_padded_source_hours": 142,
+            "corrected_source_hours_overlapping_annual_targets": 142,
+            "corrected_target_intervals": 256,
+            "correction_overlap_rows": 284,
+            "minimum_raw_shortwave_increment_Jm2": -4.0,
+            "total_padded_source_correction_Jm2": 166.7190704345703,
+            "total_annual_correction_energy_Jm2": 166.7190704345703,
+            "total_annual_model_shortwave_energy_Jm2": 6630640591.547195,
+            "minimum_canonical_G_Wm2": 0.0,
+            "canonical_nonnegative_all_intervals": true,
+            "raw_values_preserved": true,
+            "other_weather_fields_modified": false,
+            "source_qc_file": "results/preliminary/era5_shortwave_source_qc.csv",
+            "correction_ledger_file": "results/preliminary/era5_shortwave_correction_ledger.csv"
+          }
+        },
+        "shortwave_physical_qc": {
+          "policy": {
+            "maximum_correctable_negative_magnitude_Jm2": 5.0,
+            "physical_minimum_Jm2": 0.0,
+            "operation": "negative source increments in [-5,0) J/m2 set to 0 for model input only",
+            "larger_negative_policy": "hard failure requiring provider source review",
+            "raw_policy": "preserve every acquired value and acquisition artifact exactly",
+            "basis": "explicit user-approved provider shortwave quantization/deaccumulation physical QC"
+          },
+          "source_hour_count": 8763,
+          "corrected_padded_source_hours": 142,
+          "corrected_source_hours_overlapping_annual_targets": 142,
+          "corrected_target_intervals": 256,
+          "correction_overlap_rows": 284,
+          "minimum_raw_shortwave_increment_Jm2": -4.0,
+          "total_padded_source_correction_Jm2": 166.7190704345703,
+          "total_annual_correction_energy_Jm2": 166.7190704345703,
+          "total_annual_model_shortwave_energy_Jm2": 6630640591.547195,
+          "minimum_canonical_G_Wm2": 0.0,
+          "canonical_nonnegative_all_intervals": true,
+          "raw_values_preserved": true,
+          "other_weather_fields_modified": false,
+          "source_qc_file": "results/preliminary/era5_shortwave_source_qc.csv",
+          "correction_ledger_file": "results/preliminary/era5_shortwave_correction_ledger.csv"
+        },
+        "solar_negative_hours": 0,
+        "minimum_shortwave_Wm2": 0.0
+      },
+      "candidates": {
+        "source": "ECMWF/ERA5_LAND/HOURLY hotspot hourly local daily Tmax; real Landsat; pinned user workbook",
+        "units": "degC; pass/fail; material properties retain Section-0 units",
+        "study_year": 2025,
+        "data_window": [
+          "2025-04-01",
+          "2025-06-01"
+        ],
+        "timezone": "Asia/Kolkata",
+        "data_nature": "REAL",
+        "status": "PRELIMINARY_SCREEN_REVIEW_REQUIRED",
+        "run_id": "20261009T205224821456Z_f21f8449",
+        "acquired_at_UTC": "2026-10-09T20:58:41.646100+00:00",
+        "grid": null,
+        "config": {
+          "ee_auth_mode_colab": "colab",
+          "boundary": {
+            "collection": "FAO/GAUL/2015/level1",
+            "version": "2015",
+            "filters": {
+              "ADM0_NAME": "India",
+              "ADM1_NAME": "Delhi"
+            },
+            "required_feature_count": 1,
+            "geographic_crs": "EPSG:4326",
+            "raster_membership": "cell center; all_touched=False"
+          },
+          "landsat": {
+            "collections": [
+              "LANDSAT/LC08/C02/T1_L2",
+              "LANDSAT/LC09/C02/T1_L2"
+            ],
+            "windows": {
+              "PREMONSOON": [
+                "2025-04-01",
+                "2025-06-01"
+              ],
+              "POSTMONSOON": [
+                "2025-10-01",
+                "2025-12-01"
+              ]
+            },
+            "date_timezone": "UTC",
+            "processing_level": "L2SP",
+            "cloud_cover_min_inclusive": 0,
+            "cloud_cover_max_exclusive": 30,
+            "qa_pixel_reject_bits": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "qa_radsat_require_zero": true,
+            "reflectance_scale": 2.75e-05,
+            "reflectance_offset": -0.2,
+            "st_scale_K_per_DN": 0.00341802,
+            "st_offset_K": 149.0,
+            "K_to_C": 273.15,
+            "index_method": "explicit ratio on nonnegative reflectance; positive denominator",
+            "NDVI_bands": [
+              "SR_B5",
+              "SR_B4"
+            ],
+            "NDBI_bands": [
+              "SR_B6",
+              "SR_B5"
+            ],
+            "scene_to_grid": "reduceResolution(mean); native support weighted by output-cell overlap",
+            "temporal_composite": "median AFTER scene aggregation to common grid",
+            "minimum_scene_count": 1,
+            "minimum_cell_observations": 1,
+            "reduce_resolution_max_pixels": 4096,
+            "lst_validation_range_C": [
+              -80.0,
+              90.0
+            ]
+          },
+          "ghsl": {
+            "collection": "JRC/GHSL/P2023A/GHS_BUILT_S",
+            "version": "P2023A (R2023A)",
+            "epoch": 2020,
+            "band": "built_surface",
+            "source_unit": "m2 per 100 m cell",
+            "catalog_cell_area_m2": 10000.0,
+            "spatial_method": "native built_surface/native projected cell area; overlap-weighted mean to common grid"
+          },
+          "hotspot": {
+            "sigma_multiplier": 1.0,
+            "std_ddof": 0,
+            "built_quantile": 0.75,
+            "quantile_method": "linear",
+            "connectivity": 4,
+            "minimum_component_cells": 5,
+            "minimum_joint_valid_cells": 100,
+            "threshold_population": "LST: valid in both seasons; built: all valid boundary cells",
+            "selection_order": [
+              "built_weighted_area_m2 descending",
+              "mean_pre_excess_C descending",
+              "n_cells descending",
+              "component_id ascending"
+            ]
+          },
+          "weather": {
+            "collection": "ECMWF/ERA5_LAND/HOURLY",
+            "bands": [
+              "temperature_2m",
+              "u_component_of_wind_10m",
+              "v_component_of_wind_10m",
+              "surface_solar_radiation_downwards_hourly",
+              "surface_thermal_radiation_downwards_hourly"
+            ],
+            "spatial_scope": "SELECTED_HOTSPOT_NATIVE_ERA5_CELL",
+            "location_method": "selected cell center nearest built-fraction-weighted hotspot centroid; row-major tie",
+            "extraction_method": "Image.sample at hotspot point; exact native projection; no scale/factor/numPixels; dropNulls=False",
+            "catalog_nominal_resolution_m": 11132,
+            "max_pixels": 1000000,
+            "tile_scale": 2,
+            "source_radiation_interval": "[system:time_start - 1 hour, system:time_start)",
+            "source_radiation_units": "J/m2",
+            "output_radiation_units": "W/m2 interval mean",
+            "source_temperature_wind": "instantaneous at system:time_start",
+            "target_temperature_wind": "sample at interval midpoint; bracketed linear interpolation only",
+            "source_padding_hours": 1,
+            "shortwave_physical_qc": {
+              "maximum_correctable_negative_magnitude_Jm2": 5.0,
+              "physical_minimum_Jm2": 0.0,
+              "operation": "negative source increments in [-5,0) J/m2 set to 0 for model input only",
+              "larger_negative_policy": "hard failure requiring provider source review",
+              "raw_policy": "preserve every acquired value and acquisition artifact exactly",
+              "basis": "explicit user-approved provider shortwave quantization/deaccumulation physical QC"
+            },
+            "air_validation_range_C": [
+              -80.0,
+              60.0
+            ]
+          },
+          "pcm_screen": {
+            "lst_percentile": 95.0,
+            "quantile_method": "linear",
+            "round_decimals": 1,
+            "air_timezone": "Asia/Kolkata",
+            "required_hours_per_local_day": 24,
+            "lower_statistic": "mean of complete local daily Tmax from hourly hotspot T_air_C",
+            "air_missing_policy": "fail on missing/duplicate/extra hours or days; no interpolation/substitution",
+            "rule": "MELTING_INTERVAL_OVERLAP_INCLUSIVE_V1",
+            "pass_equation": "Tm_high_C >= lower_C AND Tm_low_C <= upper_C; PCM_RUNNABLE only",
+            "boundary_contact_passes": true,
+            "table": "Section-0 PCM_RUNNABLE only; all workbook rows retained for audit",
+            "review_status": "REVIEW_REQUIRED_BEFORE_CATEGORY1"
+          },
+          "download": {
+            "format": "GEO_TIFF",
+            "tile_cells": 256,
+            "timeout_seconds": 180,
+            "output_dtype": "float64",
+            "nodata_encoding": -9999.0,
+            "cache_policy": "write acquired artifacts only; no automatic cache reads"
+          },
+          "figures": {
+            "dpi": 180,
+            "map_size": [
+              12,
+              6
+            ],
+            "relationship_size": [
+              12,
+              5
+            ],
+            "hexbin_gridsize": 45
+          }
+        },
+        "screen_method": "MELTING_INTERVAL_OVERLAP_INCLUSIVE_V1",
+        "pass_equation": "Tm_high_C >= lower_C AND Tm_low_C <= upper_C; PCM_RUNNABLE only",
+        "workbook_sha256": "0dda90b01987f99819c24ff1f7b18d51bfee4d3ea73358f73c7e616977e76aed",
+        "candidate_population_final": false,
+        "result_use": "DEVELOPMENT",
+        "candidate_table_schema": {
+          "columns": [
+            "pcm_id",
+            "material_name",
+            "composition",
+            "Tm_low_C",
+            "Tm_high_C",
+            "Tf_low_C",
+            "Tf_high_C",
+            "L_Jkg",
+            "k_solid_WmK",
+            "k_liquid_WmK",
+            "cp_solid_JkgK",
+            "cp_liquid_JkgK",
+            "rho_ref_kgm3",
+            "supercooling_C",
+            "phase_model",
+            "evidence_tier",
+            "source",
+            "source_locator",
+            "notes",
+            "excel_row",
+            "model_readiness",
+            "input_issues",
+            "raw_pcm_id",
+            "raw_material_name",
+            "raw_composition",
+            "raw_Tm_low_C",
+            "raw_Tm_high_C",
+            "raw_Tf_low_C",
+            "raw_Tf_high_C",
+            "raw_L_Jkg",
+            "raw_k_solid_WmK",
+            "raw_k_liquid_WmK",
+            "raw_cp_solid_JkgK",
+            "raw_cp_liquid_JkgK",
+            "raw_rho_ref_kgm3",
+            "raw_supercooling_C",
+            "raw_phase_model",
+            "raw_evidence_tier",
+            "raw_source",
+            "raw_source_locator",
+            "raw_notes",
+            "legacy_model_readiness",
+            "section0_readiness",
+            "section0_additional_issues",
+            "section0_issues",
+            "evidence_metadata_issues",
+            "source_quality_status",
+            "screen_lower_C",
+            "screen_upper_C",
+            "review_status",
+            "overlap_low_C",
+            "overlap_high_C",
+            "overlap_width_C",
+            "pass",
+            "screen_status",
+            "reason",
+            "screen_method"
+          ],
+          "numeric_columns": [
+            "Tm_low_C",
+            "Tm_high_C",
+            "Tf_low_C",
+            "Tf_high_C",
+            "L_Jkg",
+            "k_solid_WmK",
+            "k_liquid_WmK",
+            "cp_solid_JkgK",
+            "cp_liquid_JkgK",
+            "rho_ref_kgm3",
+            "supercooling_C",
+            "excel_row",
+            "raw_Tm_low_C",
+            "raw_Tm_high_C",
+            "raw_Tf_low_C",
+            "raw_Tf_high_C",
+            "raw_L_Jkg",
+            "raw_k_solid_WmK",
+            "raw_k_liquid_WmK",
+            "raw_cp_solid_JkgK",
+            "raw_cp_liquid_JkgK",
+            "raw_rho_ref_kgm3",
+            "raw_supercooling_C",
+            "screen_lower_C",
+            "screen_upper_C",
+            "overlap_low_C",
+            "overlap_high_C",
+            "overlap_width_C"
+          ],
+          "boolean_columns": [
+            "pass"
+          ],
+          "null_rows": {
+            "pcm_id": [],
+            "material_name": [],
+            "composition": [],
+            "Tm_low_C": [],
+            "Tm_high_C": [],
+            "Tf_low_C": [],
+            "Tf_high_C": [],
+            "L_Jkg": [],
+            "k_solid_WmK": [],
+            "k_liquid_WmK": [],
+            "cp_solid_JkgK": [],
+            "cp_liquid_JkgK": [],
+            "rho_ref_kgm3": [],
+            "supercooling_C": [
+              0,
+              1
+            ],
+            "phase_model": [],
+            "evidence_tier": [],
+            "source": [],
+            "source_locator": [],
+            "notes": [],
+            "excel_row": [],
+            "model_readiness": [],
+            "input_issues": [],
+            "raw_pcm_id": [],
+            "raw_material_name": [],
+            "raw_composition": [],
+            "raw_Tm_low_C": [],
+            "raw_Tm_high_C": [],
+            "raw_Tf_low_C": [],
+            "raw_Tf_high_C": [],
+            "raw_L_Jkg": [],
+            "raw_k_solid_WmK": [],
+            "raw_k_liquid_WmK": [],
+            "raw_cp_solid_JkgK": [],
+            "raw_cp_liquid_JkgK": [],
+            "raw_rho_ref_kgm3": [],
+            "raw_supercooling_C": [
+              0,
+              1
+            ],
+            "raw_phase_model": [],
+            "raw_evidence_tier": [],
+            "raw_source": [],
+            "raw_source_locator": [],
+            "raw_notes": [],
+            "legacy_model_readiness": [],
+            "section0_readiness": [],
+            "section0_additional_issues": [],
+            "section0_issues": [],
+            "evidence_metadata_issues": [],
+            "source_quality_status": [],
+            "screen_lower_C": [],
+            "screen_upper_C": [],
+            "review_status": [],
+            "overlap_low_C": [],
+            "overlap_high_C": [],
+            "overlap_width_C": [],
+            "pass": [],
+            "screen_status": [],
+            "reason": [],
+            "screen_method": []
+          }
+        }
+      },
+      "screen_derivation": {
+        "method_origin": "Inclusive melting-interval overlap with hotspot local-day air maxima and premonsoon surface-temperature percentile.",
+        "lower_equation": "round(mean_local_days(max_hourly_hotspot(T_air_C per Asia/Kolkata date)), 1)",
+        "local_daily_audit_file": "results/preliminary/pcm_screen_local_daily_audit.csv",
+        "upper_equation": "round(percentile(valid Delhi pre-monsoon common-grid LST_C, 95, linear), 1)",
+        "pass_equation": "Tm_high_C >= lower_C AND Tm_low_C <= upper_C; PCM_RUNNABLE only",
+        "screen_method": "MELTING_INTERVAL_OVERLAP_INCLUSIVE_V1",
+        "boundary_contact_passes": true,
+        "purpose": "thermal relevance only; annual activation/saturation/utilisation/regeneration belong to Category 1",
+        "candidate_population_final": false,
+        "result_use": "DEVELOPMENT",
+        "daily_air": {
+          "source": "ECMWF/ERA5_LAND/HOURLY",
+          "derived_from": "ANNUAL_WEATHER.T_air_C",
+          "raw_source_file": "data/inputs/weather/era5_hourly_raw.csv",
+          "annual_source_file": "data/inputs/weather/annual_weather.csv",
+          "temperature_band": "temperature_2m",
+          "timezone": "Asia/Kolkata",
+          "window": [
+            "2025-04-01",
+            "2025-06-01"
+          ],
+          "window_basis": "local calendar dates; [local midnight start, local midnight stop)",
+          "local_start_inclusive": "2025-04-01T00:00:00+05:30",
+          "local_end_exclusive": "2025-06-01T00:00:00+05:30",
+          "UTC_start_inclusive": "2025-03-31T18:30:00+00:00",
+          "UTC_end_exclusive": "2025-05-31T18:30:00+00:00",
+          "hourly_sample_semantics": "instantaneous canonical midpoint; exact acquired UTC source hour; no interpolation",
+          "first_sample_local": "2025-04-01T00:30:00+05:30",
+          "last_sample_local": "2025-05-31T23:30:00+05:30",
+          "expected_day_count": 61,
+          "observed_day_count": 61,
+          "required_hours_per_day": 24,
+          "expected_hour_count": 1464,
+          "observed_hour_count": 1464,
+          "complete_local_days": true,
+          "missing_policy": "fail on missing/duplicate/extra hours or days; no interpolation/substitution",
+          "unrounded_lower_C": 37.784155073322246,
+          "statistic": "mean of complete local daily Tmax from hourly hotspot T_air_C",
+          "spatial_support": {
+            "spatial_scope": "SELECTED_HOTSPOT_NATIVE_ERA5_CELL",
+            "hotspot_location": {
+              "spatial_scope": "SELECTED_HOTSPOT_NATIVE_ERA5_CELL",
+              "location_method": "selected cell center nearest built-fraction-weighted hotspot centroid; row-major tie",
+              "selected_grid_row": 147,
+              "selected_grid_col": 79,
+              "point_xy_m": [
+                691125.0,
+                3174975.0
+              ],
+              "point_lon_lat": [
+                76.95621601352588,
+                28.687899639119852
+              ],
+              "point_crs": "EPSG:4326",
+              "weighted_centroid_xy_m": [
+                691143.2565834251,
+                3174946.6584667945
+              ],
+              "selected_hotspot_cells": 44,
+              "location_grid": {
+                "crs": "EPSG:32643",
+                "shape": [
+                  352,
+                  331
+                ],
+                "transform": [
+                  150.0,
+                  0.0,
+                  679200.0,
+                  0.0,
+                  -150.0,
+                  3197100.0
+                ],
+                "bounds_xy_m": [
+                  679200.0,
+                  3144300.0,
+                  728850.0,
+                  3197100.0
+                ],
+                "resolution_m": [
+                  150.0,
+                  150.0
+                ],
+                "axis_convention": "north-up; row 0 north"
+              },
+              "hotspot_mask_numeric_sha256": "8ca31fccf54f64100821b8b6dbf63de341a3e3527296fc8e8dfa8eed22c69e2a",
+              "selected_built_numeric_sha256": "da7686bdff927969fcb026cef27e35dacb581bef57e7e8f1d44e1c9fe6862a0f",
+              "weather_resolution_note": "150 m grid locates hotspot only; weather remains one coarse native ERA5-Land cell."
+            },
+            "extraction_method": "Image.sample at hotspot point; exact native projection; no scale/factor/numPixels; dropNulls=False",
+            "native_projection": {
+              "crs": "EPSG:4326",
+              "transform": [
+                0.1,
+                0.0,
+                -360.05,
+                0.0,
+                -0.1,
+                90.05
+              ]
+            },
+            "native_provider_projection_metadata": {
+              "type": "Projection",
+              "crs": "EPSG:4326",
+              "transform": [
+                0.1,
+                0,
+                -360.05,
+                0,
+                -0.1,
+                90.05
+              ]
+            },
+            "native_crs_definition": "EPSG:4326",
+            "native_transform": [
+              0.1,
+              0.0,
+              -360.05,
+              0.0,
+              -0.1,
+              90.05
+            ],
+            "native_nominal_scale_m": 11131.949079327358,
+            "catalog_nominal_resolution_m": 11132,
+            "sampled_native_cell_center_lon_lat": [
+              77.0,
+              28.699999999999996
+            ],
+            "native_pixel_col_row": [
+              4370,
+              613
+            ],
+            "pixel_coordinate_convention": "EE pixelCoordinates continuous center=(col+0.5,row+0.5); integer containing-cell indices=floor(coordinates).",
+            "native_cells_per_hour": 1,
+            "weather_resampled_to_common_grid": false,
+            "projection_validation": "Every source hour and required band: semantic CRS + six numeric affine coefficients; fixed integer pixel and center containing hotspot point.",
+            "affine_absolute_tolerance": 1e-12,
+            "cell_center_absolute_tolerance_degrees": 1e-12,
+            "support_limitation": "Single coarse regional reanalysis cell at hotspot location; no 150 m meteorological resolution."
+          },
+          "data_nature": "REAL"
+        },
+        "lower_unrounded_C": 37.784155073322246,
+        "upper_unrounded_C": 46.06435396219843,
+        "lower_C": 37.8,
+        "upper_C": 46.1,
+        "lst_sample_count": 66761,
+        "lst_percentile": 95.0,
+        "quantile_method": "linear",
+        "round_decimals": 1,
+        "workbook_sha256": "0dda90b01987f99819c24ff1f7b18d51bfee4d3ea73358f73c7e616977e76aed",
+        "evaluated_runnable_rows": 32,
+        "passing_rows": 3,
+        "candidate_order": "original verified workbook order; no ranking",
+        "material_source_quality": "NOT CHECKED; unchanged Section-0 status",
+        "review_status": "REVIEW_REQUIRED_BEFORE_CATEGORY1",
+        "limitations": "coarse hotspot hourly-sampled local daily air maxima plus Delhi overpass composite LST roof proxy; not measured roof bounds or a regeneration result"
+      },
+      "preliminary_run_id": "20261009T205224821456Z_f21f8449",
+      "artifact_directory": "Original dependency retained privately; see DATA_AVAILABILITY.md",
+      "cumulative_run_id": "through_category4_20261009T205224361728Z_745195a6",
+      "cumulative_source_identity": {
+        "source_content_sha256": "39f3a8d6707020cd2d67e7d97ba50fd3345e7e7f19ce208c523227e26ec91ca5",
+        "executable_source_sha256": "5a44293120e3b2ee58f12718fcc86772f91212c530ca6a8c39d4eeec3f0010bc",
+        "fingerprint_policy": "Recorded source fingerprint; private source evidence is not distributed."
+      },
+      "consumed_file_sha256": {
+        "annual_weather.csv": "a5ca03d46a1c7605dc94fb2acdb579165aee5cc29d8a1809feb3f3fc1329b221",
+        "annual_weather.csv.metadata.json": "22fc620903ad6c5d9948bea654e1f1f9169a1690ff3ab79e3e17d259260c8048",
+        "pcm_prelim_candidates.csv": "361bcf432a7ff4156ce9362a48b34edffe3da9d2bbc9843cd29da36a44b2cf39",
+        "pcm_prelim_candidates.csv.metadata.json": "7beaf712cae9a29a53bea831737e46d3c857d2400771bb0ac17ef2766d415f69",
+        "pcm_prelim_candidate_ids.json": "496989152a94f6759bbb6d5cafa71c6eb1b15f971711e12fa18721cf973abe49",
+        "pcm_screen_derivation.json": "fe44bc8eaf084d0289f85c1fb41ff530471c6d760be45cdc8e5852bab4f71db8"
+      },
+      "manifest_sha256": "d8429a25dbfaa6b896e11d9d5627d575002226898f0bb5bb0572729fad93b71d",
+      "input_route": "memory"
+    },
+    "workbook": {
+      "path": "Original dependency retained privately; see DATA_AVAILABILITY.md",
+      "sha256": "0dda90b01987f99819c24ff1f7b18d51bfee4d3ea73358f73c7e616977e76aed",
+      "row_count": 77,
+      "complete_equilibrium_model_rows": 32,
+      "shortlist_created": false,
+      "property_values_filled": false,
+      "physical_source_quality": "NOT CHECKED"
+    },
+    "input_identity": "0253f50c53cb872523d60e81319c9e0656a6a39b2afb925bb7f866d944f01188",
+    "code_sha256": "e1fdf0c47feb74751b824ca14946c7c3ecd1a7222ff24b111536e7c9ff10af95",
+    "environment": {
+      "python": "3.12.14",
+      "numpy": "2.2.6",
+      "pandas": "2.2.3",
+      "numba_used": true,
+      "numba": "0.61.2"
+    },
+    "cumulative_source_identity": {
+      "source_content_sha256": "39f3a8d6707020cd2d67e7d97ba50fd3345e7e7f19ce208c523227e26ec91ca5",
+      "executable_source_sha256": "5a44293120e3b2ee58f12718fcc86772f91212c530ca6a8c39d4eeec3f0010bc",
+      "fingerprint_policy": "Recorded source fingerprint; private source evidence is not distributed."
+    },
+    "cumulative_run_id": "through_category4_20261009T205224361728Z_745195a6",
+    "result_use": "DEVELOPMENT"
+  },
+  "identity": {
+    "pcm_id": "PCM-067",
+    "pcm_row_sha256": "e6087af147c31eb76e625b5e392c085c278b532d656d04863a9102559048c2a9",
+    "workbook_sha256": "0dda90b01987f99819c24ff1f7b18d51bfee4d3ea73358f73c7e616977e76aed",
+    "weather_content_sha256": "0025060b2506d4d69d5bf361c37c1f2786fefbd745e40f4d19acb186a4e13d83",
+    "weather_solver_hash": "09fd319630e011c6f5eecb06c04e14266fd67aa7526b2c8bea5e2ddc1936f1e4",
+    "weather_artifact_sha256": "a5ca03d46a1c7605dc94fb2acdb579165aee5cc29d8a1809feb3f3fc1329b221",
+    "study_year": 2025,
+    "config_sha256": "ef04ef452bf635e34b6ef207557ad0e7bfaa5ab8b68f84034bfadc623105dcd5",
+    "code_sha256": "e1fdf0c47feb74751b824ca14946c7c3ecd1a7222ff24b111536e7c9ff10af95",
+    "computational_source_sha256": "5a44293120e3b2ee58f12718fcc86772f91212c530ca6a8c39d4eeec3f0010bc",
+    "model_version": "category1-cumulative-exact-L0-coexistence-2.0.0",
+    "environment": {
+      "python": "3.12.14",
+      "numpy": "2.2.6",
+      "pandas": "2.2.3",
+      "numba_used": true,
+      "numba": "0.61.2"
+    },
+    "input_identity": "0253f50c53cb872523d60e81319c9e0656a6a39b2afb925bb7f866d944f01188",
+    "pcm_run_id": "PCM-067_c4f837d2e3ff",
+    "L0_run_id": "PCM-067_972888fd9ba6",
+    "pair_id": "7a9f9aeff09e754ee88736cc11e7b62f0f6b9564073cd6cdba5782c4333171f9"
+  },
+  "material": {
+    "pcm_id": "PCM-067",
+    "material_name": "OM 42",
+    "composition": "savE OM42 organic PCM; detailed formulation not disclosed",
+    "Tm_low_C": 41.0,
+    "Tm_high_C": 43.0,
+    "Tf_low_C": 41.0,
+    "Tf_high_C": 43.0,
+    "L_Jkg": 199000.0,
+    "k_solid_WmK": 0.2,
+    "k_liquid_WmK": 0.2,
+    "cp_solid_JkgK": 2000.0,
+    "cp_liquid_JkgK": 2000.0,
+    "rho_ref_kgm3": 850.0,
+    "supercooling_C": null,
+    "phase_model": "equilibrium_screen",
+    "evidence_tier": "Manufacturer technical datasheet",
+    "source": "https://pluss.co.in/wp-content/themes/pluss/assets/image/Literature-PLUSS/Data-Sheets/PCM/Doc%20187_PCM_OM42_TDS.pdf",
+    "source_locator": "source_citations row 68, property columns E:R",
+    "notes": "OM42 manufacturer T-history points are Tm=44 °C/Tf=43 °C (brand number is not a bound). Melting/freezing H=199000/190000 J/kg. k solid/liquid at 30/70 °C; cp at 30/55 °C; rho solid at 30 °C, liquid 863 kg/m³ at 50 °C. Nominal product values. Parsed central/point readings from source_data: Tm_low_C: 44 (point); Tm_high_C: 44 (point); Tf_low_C: 43 (point); Tf_high_C: 43 (point).",
+    "excel_row": 68,
+    "model_readiness": "READY_EQUILIBRIUM_SCREEN",
+    "input_issues": "",
+    "raw_pcm_id": "PCM-067",
+    "raw_material_name": "OM 42",
+    "raw_composition": "savE OM42 organic PCM; detailed formulation not disclosed",
+    "raw_Tm_low_C": 41.0,
+    "raw_Tm_high_C": 43.0,
+    "raw_Tf_low_C": 41.0,
+    "raw_Tf_high_C": 43.0,
+    "raw_L_Jkg": 199000.0,
+    "raw_k_solid_WmK": 0.2,
+    "raw_k_liquid_WmK": 0.2,
+    "raw_cp_solid_JkgK": 2000.0,
+    "raw_cp_liquid_JkgK": 2000.0,
+    "raw_rho_ref_kgm3": 850.0,
+    "raw_supercooling_C": null,
+    "raw_phase_model": "equilibrium_screen",
+    "raw_evidence_tier": "Manufacturer technical datasheet",
+    "raw_source": "https://pluss.co.in/wp-content/themes/pluss/assets/image/Literature-PLUSS/Data-Sheets/PCM/Doc%20187_PCM_OM42_TDS.pdf",
+    "raw_source_locator": "source_citations row 68, property columns E:R",
+    "raw_notes": "OM42 manufacturer T-history points are Tm=44 °C/Tf=43 °C (brand number is not a bound). Melting/freezing H=199000/190000 J/kg. k solid/liquid at 30/70 °C; cp at 30/55 °C; rho solid at 30 °C, liquid 863 kg/m³ at 50 °C. Nominal product values. Parsed central/point readings from source_data: Tm_low_C: 44 (point); Tm_high_C: 44 (point); Tf_low_C: 43 (point); Tf_high_C: 43 (point).",
+    "legacy_model_readiness": "READY_EQUILIBRIUM_SCREEN",
+    "section0_readiness": "RUNNABLE_SCHEMA_ONLY",
+    "section0_additional_issues": "",
+    "section0_issues": "",
+    "evidence_metadata_issues": "",
+    "source_quality_status": "NOT CHECKED",
+    "screen_lower_C": 37.8,
+    "screen_upper_C": 46.1,
+    "review_status": "REVIEW_REQUIRED_BEFORE_CATEGORY1",
+    "overlap_low_C": 41.0,
+    "overlap_high_C": 43.0,
+    "overlap_width_C": 2.0,
+    "pass": true,
+    "screen_status": "PASS",
+    "reason": "melting interval overlaps inclusive plausible thermal window; thermal relevance only",
+    "screen_method": "MELTING_INTERVAL_OVERLAP_INCLUSIVE_V1"
+  },
+  "control_material": {
+    "pcm_id": "PCM-067",
+    "material_name": "OM 42",
+    "composition": "savE OM42 organic PCM; detailed formulation not disclosed",
+    "Tm_low_C": 41.0,
+    "Tm_high_C": 43.0,
+    "Tf_low_C": 41.0,
+    "Tf_high_C": 43.0,
+    "L_Jkg": 0.0,
+    "k_solid_WmK": 0.2,
+    "k_liquid_WmK": 0.2,
+    "cp_solid_JkgK": 2000.0,
+    "cp_liquid_JkgK": 2000.0,
+    "rho_ref_kgm3": 850.0,
+    "supercooling_C": null,
+    "phase_model": "equilibrium_screen",
+    "evidence_tier": "Manufacturer technical datasheet",
+    "source": "https://pluss.co.in/wp-content/themes/pluss/assets/image/Literature-PLUSS/Data-Sheets/PCM/Doc%20187_PCM_OM42_TDS.pdf",
+    "source_locator": "source_citations row 68, property columns E:R",
+    "notes": "OM42 manufacturer T-history points are Tm=44 °C/Tf=43 °C (brand number is not a bound). Melting/freezing H=199000/190000 J/kg. k solid/liquid at 30/70 °C; cp at 30/55 °C; rho solid at 30 °C, liquid 863 kg/m³ at 50 °C. Nominal product values. Parsed central/point readings from source_data: Tm_low_C: 44 (point); Tm_high_C: 44 (point); Tf_low_C: 43 (point); Tf_high_C: 43 (point).",
+    "excel_row": 68,
+    "model_readiness": "READY_EQUILIBRIUM_SCREEN",
+    "input_issues": "",
+    "raw_pcm_id": "PCM-067",
+    "raw_material_name": "OM 42",
+    "raw_composition": "savE OM42 organic PCM; detailed formulation not disclosed",
+    "raw_Tm_low_C": 41.0,
+    "raw_Tm_high_C": 43.0,
+    "raw_Tf_low_C": 41.0,
+    "raw_Tf_high_C": 43.0,
+    "raw_L_Jkg": 199000.0,
+    "raw_k_solid_WmK": 0.2,
+    "raw_k_liquid_WmK": 0.2,
+    "raw_cp_solid_JkgK": 2000.0,
+    "raw_cp_liquid_JkgK": 2000.0,
+    "raw_rho_ref_kgm3": 850.0,
+    "raw_supercooling_C": null,
+    "raw_phase_model": "equilibrium_screen",
+    "raw_evidence_tier": "Manufacturer technical datasheet",
+    "raw_source": "https://pluss.co.in/wp-content/themes/pluss/assets/image/Literature-PLUSS/Data-Sheets/PCM/Doc%20187_PCM_OM42_TDS.pdf",
+    "raw_source_locator": "source_citations row 68, property columns E:R",
+    "raw_notes": "OM42 manufacturer T-history points are Tm=44 °C/Tf=43 °C (brand number is not a bound). Melting/freezing H=199000/190000 J/kg. k solid/liquid at 30/70 °C; cp at 30/55 °C; rho solid at 30 °C, liquid 863 kg/m³ at 50 °C. Nominal product values. Parsed central/point readings from source_data: Tm_low_C: 44 (point); Tm_high_C: 44 (point); Tf_low_C: 43 (point); Tf_high_C: 43 (point).",
+    "legacy_model_readiness": "READY_EQUILIBRIUM_SCREEN",
+    "section0_readiness": "RUNNABLE_SCHEMA_ONLY",
+    "section0_additional_issues": "",
+    "section0_issues": "",
+    "evidence_metadata_issues": "",
+    "source_quality_status": "NOT CHECKED",
+    "screen_lower_C": 37.8,
+    "screen_upper_C": 46.1,
+    "review_status": "REVIEW_REQUIRED_BEFORE_CATEGORY1",
+    "overlap_low_C": 41.0,
+    "overlap_high_C": 43.0,
+    "overlap_width_C": 2.0,
+    "pass": true,
+    "screen_status": "PASS",
+    "reason": "melting interval overlaps inclusive plausible thermal window; thermal relevance only",
+    "screen_method": "MELTING_INTERVAL_OVERLAP_INCLUSIVE_V1"
+  },
+  "initial_condition": {
+    "pcm_T_C": [
+      26.0,
+      26.0,
+      26.0,
+      26.0,
+      26.0,
+      26.0,
+      26.0,
+      26.0,
+      26.0,
+      26.0
+    ],
+    "pcm_f": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pcm_h_Jkg": [
+      52000.0,
+      52000.0,
+      52000.0,
+      52000.0,
+      52000.0,
+      52000.0,
+      52000.0,
+      52000.0,
+      52000.0,
+      52000.0
+    ],
+    "L0_T_C": [
+      26.0,
+      26.0,
+      26.0,
+      26.0,
+      26.0,
+      26.0,
+      26.0,
+      26.0,
+      26.0,
+      26.0
+    ],
+    "L0_f": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "L0_h_Jkg": [
+      52000.0,
+      52000.0,
+      52000.0,
+      52000.0,
+      52000.0,
+      52000.0,
+      52000.0,
+      52000.0,
+      52000.0,
+      52000.0
+    ],
+    "spinup": "NONE"
+  },
+  "numerical_extension": {
+    "pcm": {
+      "method": "EXACT_ZERO_WIDTH_L0_COEXISTENCE_V1",
+      "applied_to_case": false,
+      "coexistence_solver_steps": 0,
+      "null_fraction_step_count": 0,
+      "passive_fraction_rule": "retain previous fraction in an exact null Jacobian column; consistent with zero net heat as L tends to zero"
+    },
+    "L0": {
+      "method": "EXACT_ZERO_WIDTH_L0_COEXISTENCE_V1",
+      "applied_to_case": false,
+      "coexistence_solver_steps": 0,
+      "null_fraction_step_count": 0,
+      "passive_fraction_rule": "retain previous fraction in an exact null Jacobian column; consistent with zero net heat as L tends to zero"
+    }
+  }
+}

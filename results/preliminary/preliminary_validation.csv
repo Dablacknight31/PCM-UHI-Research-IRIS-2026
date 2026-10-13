@@ -1,0 +1,28 @@
+name,result,detail
+LST_OBS_COUNT_PREMONSOON,PASS,"66761 finite valid cells; range, missingness and full grid checked."
+LST_PREMONSOON_C,PASS,"66761 finite valid cells; range, missingness and full grid checked."
+NDVI_OBS_COUNT_PREMONSOON,PASS,"66761 finite valid cells; range, missingness and full grid checked."
+NDVI_PREMONSOON,PASS,"66761 finite valid cells; range, missingness and full grid checked."
+NDBI_OBS_COUNT_PREMONSOON,PASS,"66761 finite valid cells; range, missingness and full grid checked."
+NDBI_PREMONSOON,PASS,"66761 finite valid cells; range, missingness and full grid checked."
+Landsat_C2_L2_physical_scaling,PASS,Expected source science/QA bands present; configured factors match fixed official product contract.
+LST_OBS_COUNT_POSTMONSOON,PASS,"66761 finite valid cells; range, missingness and full grid checked."
+LST_POSTMONSOON_C,PASS,"66761 finite valid cells; range, missingness and full grid checked."
+NDVI_OBS_COUNT_POSTMONSOON,PASS,"66761 finite valid cells; range, missingness and full grid checked."
+NDVI_POSTMONSOON,PASS,"66761 finite valid cells; range, missingness and full grid checked."
+NDBI_OBS_COUNT_POSTMONSOON,PASS,"66761 finite valid cells; range, missingness and full grid checked."
+NDBI_POSTMONSOON,PASS,"66761 finite valid cells; range, missingness and full grid checked."
+Landsat_C2_L2_physical_scaling,PASS,Expected source science/QA bands present; configured factors match fixed official product contract.
+BUILT_FRACTION,PASS,"66761 finite valid cells; range, missingness and full grid checked."
+provider_shortwave_physical_qc,PASS,"Raw increments preserved; only [-5,0) J/m2 mapped to zero before overlap integration; below -5 hard-fails; correction ledgers reconcile; canonical G>=0."
+hotspot_native_cell_support,PASS,Reproducible point inside selected hotspot; exactly one unchanged native ERA5 cell each hour; projection and scale retained.
+annual_hourly_coverage_and_physical_units,PASS,8760 exact intervals; raw native hours checked; finite quantities; real band identities.
+radiation_overlap_equivalence,PASS,Loop integral equals independently constructed source/target overlap ledger; J/m2 divided by 3600 seconds.
+hotspot_local_daily_Tmax_complete,PASS,61 complete Asia/Kolkata days; exactly 24 acquired hourly observations per day; no interpolation.
+inclusive_overlap_eight_boundary_cases,PASS,All eight isolated overlap cases pass; zero-width boundary contact passes; no ranking.
+shortwave_physical_qc_reproducibility_and_raw_preservation,PASS,"Source/target flags, correction magnitudes, annual energy and both ledgers reproduced; raw acquisition file and values unchanged; all canonical G>=0."
+hotspot_weather_and_local_daily_reproducibility,PASS,"Native hotspot location, source-linked radiation ledger, complete local-day audit and unrounded lower bound reproduced."
+whole_grid_and_numeric_identity,PASS,"All raster files, affines, CRS, dimensions and numeric hashes match."
+hotspot_reproducibility,PASS,"Same rule reproduces the mask, areas, counts and thresholds."
+PCM_screen_and_workbook_integrity,PASS,Pinned workbook unchanged; all rows audited; derived bounds/candidate IDs reproduced.
+provenance_completeness,PASS,All required environmental inputs have authenticated source records and passing checks.

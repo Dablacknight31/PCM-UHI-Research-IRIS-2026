@@ -1,0 +1,14 @@
+# Versions recorded in the locally executed environment; Python 3.12.14.
+numpy==2.2.6
+pandas==2.2.3
+scipy==1.15.3
+numba==0.61.2
+openpyxl==3.1.5
+affine==3.0.1
+pyproj==3.8.0
+rasterio==1.5.2
+shapely==2.2.0
+matplotlib==3.11.2
+requests==2.34.2
+earthengine-api==1.7.47
+ipython==9.17.1

@@ -1,0 +1,760 @@
+{
+  "status": "COMPLETE_REAL_THROUGH_CATEGORY1",
+  "result_use": "DEVELOPMENT",
+  "candidate_population_final": false,
+  "cumulative_run_id": "through_category4_20261009T205224361728Z_745195a6",
+  "source_identity": {
+    "source_content_sha256": "39f3a8d6707020cd2d67e7d97ba50fd3345e7e7f19ce208c523227e26ec91ca5",
+    "executable_source_sha256": "5a44293120e3b2ee58f12718fcc86772f91212c530ca6a8c39d4eeec3f0010bc",
+    "fingerprint_policy": "Recorded source fingerprint; private source evidence is not distributed."
+  },
+  "preliminary_run_id": "20261009T205224821456Z_f21f8449",
+  "preliminary_manifest_file": "Original dependency retained privately; see DATA_AVAILABILITY.md",
+  "preliminary_manifest_sha256": "d8429a25dbfaa6b896e11d9d5627d575002226898f0bb5bb0572729fad93b71d",
+  "screen_method": "MELTING_INTERVAL_OVERLAP_INCLUSIVE_V1",
+  "screen_derivation": {
+    "method_origin": "Inclusive melting-interval overlap with hotspot local-day air maxima and premonsoon surface-temperature percentile.",
+    "lower_equation": "round(mean_local_days(max_hourly_hotspot(T_air_C per Asia/Kolkata date)), 1)",
+    "local_daily_audit_file": "results/preliminary/pcm_screen_local_daily_audit.csv",
+    "upper_equation": "round(percentile(valid Delhi pre-monsoon common-grid LST_C, 95, linear), 1)",
+    "pass_equation": "Tm_high_C >= lower_C AND Tm_low_C <= upper_C; PCM_RUNNABLE only",
+    "screen_method": "MELTING_INTERVAL_OVERLAP_INCLUSIVE_V1",
+    "boundary_contact_passes": true,
+    "purpose": "thermal relevance only; annual activation/saturation/utilisation/regeneration belong to Category 1",
+    "candidate_population_final": false,
+    "result_use": "DEVELOPMENT",
+    "daily_air": {
+      "source": "ECMWF/ERA5_LAND/HOURLY",
+      "derived_from": "ANNUAL_WEATHER.T_air_C",
+      "raw_source_file": "data/inputs/weather/era5_hourly_raw.csv",
+      "annual_source_file": "data/inputs/weather/annual_weather.csv",
+      "temperature_band": "temperature_2m",
+      "timezone": "Asia/Kolkata",
+      "window": [
+        "2025-04-01",
+        "2025-06-01"
+      ],
+      "window_basis": "local calendar dates; [local midnight start, local midnight stop)",
+      "local_start_inclusive": "2025-04-01T00:00:00+05:30",
+      "local_end_exclusive": "2025-06-01T00:00:00+05:30",
+      "UTC_start_inclusive": "2025-03-31T18:30:00+00:00",
+      "UTC_end_exclusive": "2025-05-31T18:30:00+00:00",
+      "hourly_sample_semantics": "instantaneous canonical midpoint; exact acquired UTC source hour; no interpolation",
+      "first_sample_local": "2025-04-01T00:30:00+05:30",
+      "last_sample_local": "2025-05-31T23:30:00+05:30",
+      "expected_day_count": 61,
+      "observed_day_count": 61,
+      "required_hours_per_day": 24,
+      "expected_hour_count": 1464,
+      "observed_hour_count": 1464,
+      "complete_local_days": true,
+      "missing_policy": "fail on missing/duplicate/extra hours or days; no interpolation/substitution",
+      "unrounded_lower_C": 37.784155073322246,
+      "statistic": "mean of complete local daily Tmax from hourly hotspot T_air_C",
+      "spatial_support": {
+        "spatial_scope": "SELECTED_HOTSPOT_NATIVE_ERA5_CELL",
+        "hotspot_location": {
+          "spatial_scope": "SELECTED_HOTSPOT_NATIVE_ERA5_CELL",
+          "location_method": "selected cell center nearest built-fraction-weighted hotspot centroid; row-major tie",
+          "selected_grid_row": 147,
+          "selected_grid_col": 79,
+          "point_xy_m": [
+            691125.0,
+            3174975.0
+          ],
+          "point_lon_lat": [
+            76.95621601352588,
+            28.687899639119852
+          ],
+          "point_crs": "EPSG:4326",
+          "weighted_centroid_xy_m": [
+            691143.2565834251,
+            3174946.6584667945
+          ],
+          "selected_hotspot_cells": 44,
+          "location_grid": {
+            "crs": "EPSG:32643",
+            "shape": [
+              352,
+              331
+            ],
+            "transform": [
+              150.0,
+              0.0,
+              679200.0,
+              0.0,
+              -150.0,
+              3197100.0
+            ],
+            "bounds_xy_m": [
+              679200.0,
+              3144300.0,
+              728850.0,
+              3197100.0
+            ],
+            "resolution_m": [
+              150.0,
+              150.0
+            ],
+            "axis_convention": "north-up; row 0 north"
+          },
+          "hotspot_mask_numeric_sha256": "8ca31fccf54f64100821b8b6dbf63de341a3e3527296fc8e8dfa8eed22c69e2a",
+          "selected_built_numeric_sha256": "da7686bdff927969fcb026cef27e35dacb581bef57e7e8f1d44e1c9fe6862a0f",
+          "weather_resolution_note": "150 m grid locates hotspot only; weather remains one coarse native ERA5-Land cell."
+        },
+        "extraction_method": "Image.sample at hotspot point; exact native projection; no scale/factor/numPixels; dropNulls=False",
+        "native_projection": {
+          "crs": "EPSG:4326",
+          "transform": [
+            0.1,
+            0.0,
+            -360.05,
+            0.0,
+            -0.1,
+            90.05
+          ]
+        },
+        "native_provider_projection_metadata": {
+          "type": "Projection",
+          "crs": "EPSG:4326",
+          "transform": [
+            0.1,
+            0,
+            -360.05,
+            0,
+            -0.1,
+            90.05
+          ]
+        },
+        "native_crs_definition": "EPSG:4326",
+        "native_transform": [
+          0.1,
+          0.0,
+          -360.05,
+          0.0,
+          -0.1,
+          90.05
+        ],
+        "native_nominal_scale_m": 11131.949079327358,
+        "catalog_nominal_resolution_m": 11132,
+        "sampled_native_cell_center_lon_lat": [
+          77.0,
+          28.699999999999996
+        ],
+        "native_pixel_col_row": [
+          4370,
+          613
+        ],
+        "pixel_coordinate_convention": "EE pixelCoordinates continuous center=(col+0.5,row+0.5); integer containing-cell indices=floor(coordinates).",
+        "native_cells_per_hour": 1,
+        "weather_resampled_to_common_grid": false,
+        "projection_validation": "Every source hour and required band: semantic CRS + six numeric affine coefficients; fixed integer pixel and center containing hotspot point.",
+        "affine_absolute_tolerance": 1e-12,
+        "cell_center_absolute_tolerance_degrees": 1e-12,
+        "support_limitation": "Single coarse regional reanalysis cell at hotspot location; no 150 m meteorological resolution."
+      },
+      "data_nature": "REAL"
+    },
+    "lower_unrounded_C": 37.784155073322246,
+    "upper_unrounded_C": 46.06435396219843,
+    "lower_C": 37.8,
+    "upper_C": 46.1,
+    "lst_sample_count": 66761,
+    "lst_percentile": 95.0,
+    "quantile_method": "linear",
+    "round_decimals": 1,
+    "workbook_sha256": "0dda90b01987f99819c24ff1f7b18d51bfee4d3ea73358f73c7e616977e76aed",
+    "evaluated_runnable_rows": 32,
+    "passing_rows": 3,
+    "candidate_order": "original verified workbook order; no ranking",
+    "material_source_quality": "NOT CHECKED; unchanged Section-0 status",
+    "review_status": "REVIEW_REQUIRED_BEFORE_CATEGORY1",
+    "limitations": "coarse hotspot hourly-sampled local daily air maxima plus Delhi overpass composite LST roof proxy; not measured roof bounds or a regeneration result"
+  },
+  "candidate_ids": [
+    "PCM-011",
+    "PCM-067",
+    "PCM-069"
+  ],
+  "candidate_content_sha256": "978dc4adf20646514b0cae2a688b7e5035891a230ee2116be373a8f9f5c410d8",
+  "weather_identity": {
+    "content_sha256": "0025060b2506d4d69d5bf361c37c1f2786fefbd745e40f4d19acb186a4e13d83",
+    "artifact_sha256": "a5ca03d46a1c7605dc94fb2acdb579165aee5cc29d8a1809feb3f3fc1329b221"
+  },
+  "workbook_identity": {
+    "path": "Original dependency retained privately; see DATA_AVAILABILITY.md",
+    "sha256": "0dda90b01987f99819c24ff1f7b18d51bfee4d3ea73358f73c7e616977e76aed",
+    "row_count": 77,
+    "complete_equilibrium_model_rows": 32,
+    "shortlist_created": false,
+    "property_values_filled": false,
+    "physical_source_quality": "NOT CHECKED"
+  },
+  "category1_input_identity": "0253f50c53cb872523d60e81319c9e0656a6a39b2afb925bb7f866d944f01188",
+  "category1_config": {
+    "year": 2025,
+    "A_m2": 1.0,
+    "d_m": 0.02,
+    "alpha_s": 0.6,
+    "epsilon_LW": 0.9,
+    "bottom_boundary": "adiabatic",
+    "surface_boundary": "environment",
+    "wind_reference_height_m": 10.0,
+    "N_cells": 10,
+    "dt_s": 60.0,
+    "T_ref_C": 0.0,
+    "initial_temperature_C": 26.0,
+    "initial_liquid_fraction_at_transition": 0.0,
+    "T_base_C": 26.0,
+    "f_sat": 0.99,
+    "f_solid": 0.01,
+    "r_tol_per_h": 0.005,
+    "reset_limit": 0.1,
+    "morning_checkpoint": "06:00",
+    "weather_time_label": "midpoint",
+    "report_start_IST": null,
+    "report_end_IST": null,
+    "solver_max_iterations": 40,
+    "solver_atol_Wm2": 1e-07,
+    "solver_rtol": 1e-09,
+    "minimum_dt_s": 0.9375,
+    "energy_atol_Jm2": 0.05,
+    "energy_rtol": 1e-07,
+    "prescribed_top_flux_Wm2": 0.0,
+    "save_cell_states": true
+  },
+  "category1_manifest_sha256": "e88c36035cb4bc544adf10a8fb29b96673db5435f8b93c061b2763431ffc99ae",
+  "category1_artifact_directory": "Original dependency retained privately; see DATA_AVAILABILITY.md",
+  "environment": {
+    "section0": {
+      "python": "3.12.14",
+      "colab": false,
+      "numpy": "2.2.6",
+      "pandas": "2.2.3",
+      "openpyxl": "3.1.5",
+      "affine": "3.0.1",
+      "pyproj": "3.8.0",
+      "rasterio": "1.5.2"
+    },
+    "preliminary": {
+      "earthengine-api": "1.7.47",
+      "requests": "2.34.2",
+      "shapely": "2.2.0",
+      "matplotlib": "3.11.2",
+      "numpy": "2.2.6",
+      "pandas": "2.2.3",
+      "rasterio": "1.5.2",
+      "pyproj": "3.8.0"
+    },
+    "category1": {
+      "python": "3.12.14",
+      "numpy": "2.2.6",
+      "pandas": "2.2.3",
+      "numba_used": true,
+      "numba": "0.61.2"
+    }
+  },
+  "validation": {
+    "preliminary": [
+      {
+        "name": "LST_OBS_COUNT_PREMONSOON",
+        "result": "PASS",
+        "detail": "66761 finite valid cells; range, missingness and full grid checked."
+      },
+      {
+        "name": "LST_PREMONSOON_C",
+        "result": "PASS",
+        "detail": "66761 finite valid cells; range, missingness and full grid checked."
+      },
+      {
+        "name": "NDVI_OBS_COUNT_PREMONSOON",
+        "result": "PASS",
+        "detail": "66761 finite valid cells; range, missingness and full grid checked."
+      },
+      {
+        "name": "NDVI_PREMONSOON",
+        "result": "PASS",
+        "detail": "66761 finite valid cells; range, missingness and full grid checked."
+      },
+      {
+        "name": "NDBI_OBS_COUNT_PREMONSOON",
+        "result": "PASS",
+        "detail": "66761 finite valid cells; range, missingness and full grid checked."
+      },
+      {
+        "name": "NDBI_PREMONSOON",
+        "result": "PASS",
+        "detail": "66761 finite valid cells; range, missingness and full grid checked."
+      },
+      {
+        "name": "Landsat_C2_L2_physical_scaling",
+        "result": "PASS",
+        "detail": "Expected source science/QA bands present; configured factors match fixed official product contract."
+      },
+      {
+        "name": "LST_OBS_COUNT_POSTMONSOON",
+        "result": "PASS",
+        "detail": "66761 finite valid cells; range, missingness and full grid checked."
+      },
+      {
+        "name": "LST_POSTMONSOON_C",
+        "result": "PASS",
+        "detail": "66761 finite valid cells; range, missingness and full grid checked."
+      },
+      {
+        "name": "NDVI_OBS_COUNT_POSTMONSOON",
+        "result": "PASS",
+        "detail": "66761 finite valid cells; range, missingness and full grid checked."
+      },
+      {
+        "name": "NDVI_POSTMONSOON",
+        "result": "PASS",
+        "detail": "66761 finite valid cells; range, missingness and full grid checked."
+      },
+      {
+        "name": "NDBI_OBS_COUNT_POSTMONSOON",
+        "result": "PASS",
+        "detail": "66761 finite valid cells; range, missingness and full grid checked."
+      },
+      {
+        "name": "NDBI_POSTMONSOON",
+        "result": "PASS",
+        "detail": "66761 finite valid cells; range, missingness and full grid checked."
+      },
+      {
+        "name": "Landsat_C2_L2_physical_scaling",
+        "result": "PASS",
+        "detail": "Expected source science/QA bands present; configured factors match fixed official product contract."
+      },
+      {
+        "name": "BUILT_FRACTION",
+        "result": "PASS",
+        "detail": "66761 finite valid cells; range, missingness and full grid checked."
+      },
+      {
+        "name": "provider_shortwave_physical_qc",
+        "result": "PASS",
+        "detail": "Raw increments preserved; only [-5,0) J/m2 mapped to zero before overlap integration; below -5 hard-fails; correction ledgers reconcile; canonical G>=0."
+      },
+      {
+        "name": "hotspot_native_cell_support",
+        "result": "PASS",
+        "detail": "Reproducible point inside selected hotspot; exactly one unchanged native ERA5 cell each hour; projection and scale retained."
+      },
+      {
+        "name": "annual_hourly_coverage_and_physical_units",
+        "result": "PASS",
+        "detail": "8760 exact intervals; raw native hours checked; finite quantities; real band identities."
+      },
+      {
+        "name": "radiation_overlap_equivalence",
+        "result": "PASS",
+        "detail": "Loop integral equals independently constructed source/target overlap ledger; J/m2 divided by 3600 seconds."
+      },
+      {
+        "name": "hotspot_local_daily_Tmax_complete",
+        "result": "PASS",
+        "detail": "61 complete Asia/Kolkata days; exactly 24 acquired hourly observations per day; no interpolation."
+      },
+      {
+        "name": "inclusive_overlap_eight_boundary_cases",
+        "result": "PASS",
+        "detail": "All eight isolated overlap cases pass; zero-width boundary contact passes; no ranking."
+      },
+      {
+        "name": "shortwave_physical_qc_reproducibility_and_raw_preservation",
+        "result": "PASS",
+        "detail": "Source/target flags, correction magnitudes, annual energy and both ledgers reproduced; raw acquisition file and values unchanged; all canonical G>=0."
+      },
+      {
+        "name": "hotspot_weather_and_local_daily_reproducibility",
+        "result": "PASS",
+        "detail": "Native hotspot location, source-linked radiation ledger, complete local-day audit and unrounded lower bound reproduced."
+      },
+      {
+        "name": "whole_grid_and_numeric_identity",
+        "result": "PASS",
+        "detail": "All raster files, affines, CRS, dimensions and numeric hashes match."
+      },
+      {
+        "name": "hotspot_reproducibility",
+        "result": "PASS",
+        "detail": "Same rule reproduces the mask, areas, counts and thresholds."
+      },
+      {
+        "name": "PCM_screen_and_workbook_integrity",
+        "result": "PASS",
+        "detail": "Pinned workbook unchanged; all rows audited; derived bounds/candidate IDs reproduced."
+      },
+      {
+        "name": "provenance_completeness",
+        "result": "PASS",
+        "detail": "All required environmental inputs have authenticated source records and passing checks."
+      }
+    ],
+    "overlap": {
+      "status": "PASS",
+      "count": 8,
+      "scientific_run": false,
+      "data_nature": "MECHANICAL_TEST_ONLY",
+      "cases": [
+        {
+          "name": "wholly_below",
+          "expected_pass": false,
+          "result": "PASS"
+        },
+        {
+          "name": "wholly_above",
+          "expected_pass": false,
+          "result": "PASS"
+        },
+        {
+          "name": "partial_from_below",
+          "expected_pass": true,
+          "result": "PASS"
+        },
+        {
+          "name": "partial_from_above",
+          "expected_pass": true,
+          "result": "PASS"
+        },
+        {
+          "name": "completely_inside",
+          "expected_pass": true,
+          "result": "PASS"
+        },
+        {
+          "name": "screen_inside_PCM",
+          "expected_pass": true,
+          "result": "PASS"
+        },
+        {
+          "name": "lower_touch",
+          "expected_pass": true,
+          "result": "PASS"
+        },
+        {
+          "name": "upper_touch",
+          "expected_pass": true,
+          "result": "PASS"
+        }
+      ]
+    },
+    "category1_mechanical": {
+      "status": "PASS",
+      "scientific_run": false,
+      "fixture_policy": "MECHANICAL_TEST_ONLY; no real registration, handoff, or scientific persistence",
+      "tests": [
+        {
+          "name": "8760-hour local-year completeness and midpoint adapter",
+          "status": "PASS",
+          "data_nature": "MECHANICAL_TEST_ONLY"
+        },
+        {
+          "name": "Missing hour refused",
+          "status": "PASS",
+          "data_nature": "MECHANICAL_TEST_ONLY"
+        },
+        {
+          "name": "Duplicate hour refused",
+          "status": "PASS",
+          "data_nature": "MECHANICAL_TEST_ONLY"
+        },
+        {
+          "name": "Out-of-order weather refused without sorting",
+          "status": "PASS",
+          "data_nature": "MECHANICAL_TEST_ONLY"
+        },
+        {
+          "name": "Wrong study year refused",
+          "status": "PASS",
+          "data_nature": "MECHANICAL_TEST_ONLY"
+        },
+        {
+          "name": "Naive timestamp refused",
+          "status": "PASS",
+          "data_nature": "MECHANICAL_TEST_ONLY"
+        },
+        {
+          "name": "Weather unit mismatch refused",
+          "status": "PASS",
+          "data_nature": "MECHANICAL_TEST_ONLY"
+        },
+        {
+          "name": "Nonfinite weather refused",
+          "status": "PASS",
+          "data_nature": "MECHANICAL_TEST_ONLY"
+        },
+        {
+          "name": "Tiny negative radiation refused without clipping",
+          "status": "PASS",
+          "data_nature": "MECHANICAL_TEST_ONLY"
+        },
+        {
+          "name": "Mechanical fixture cannot pass REAL weather gate",
+          "status": "PASS",
+          "data_nature": "MECHANICAL_TEST_ONLY"
+        },
+        {
+          "name": "Missing Preliminary shortlist refused",
+          "status": "PASS",
+          "data_nature": "MECHANICAL_TEST_ONLY"
+        },
+        {
+          "name": "Missing artifact directory never selects a workbook shortlist",
+          "status": "PASS",
+          "data_nature": "MECHANICAL_TEST_ONLY"
+        },
+        {
+          "name": "Candidate structural identity and screen bounds",
+          "status": "PASS",
+          "data_nature": "MECHANICAL_TEST_ONLY"
+        },
+        {
+          "name": "Empty candidate table refused",
+          "status": "PASS",
+          "data_nature": "MECHANICAL_TEST_ONLY"
+        },
+        {
+          "name": "Changed PCM property/workbook mismatch refused",
+          "status": "PASS",
+          "data_nature": "MECHANICAL_TEST_ONLY"
+        },
+        {
+          "name": "Missing PCM property refused without filling",
+          "status": "PASS",
+          "data_nature": "MECHANICAL_TEST_ONLY"
+        },
+        {
+          "name": "Candidate IDs must match",
+          "status": "PASS",
+          "data_nature": "MECHANICAL_TEST_ONLY"
+        },
+        {
+          "name": "Mechanical candidate cannot pass REAL candidate gate",
+          "status": "PASS",
+          "data_nature": "MECHANICAL_TEST_ONLY"
+        },
+        {
+          "name": "Enthalpy inversion solid/mushy/liquid; fraction bounds",
+          "status": "PASS",
+          "data_nature": "MECHANICAL_TEST_ONLY"
+        },
+        {
+          "name": "Conductivity interpolation and harmonic face rule",
+          "status": "PASS",
+          "data_nature": "MECHANICAL_TEST_ONLY"
+        },
+        {
+          "name": "Isothermal enthalpy plateau inversion",
+          "status": "PASS",
+          "data_nature": "MECHANICAL_TEST_ONLY"
+        },
+        {
+          "name": "Zero net environmental flux leaves uniform state fixed",
+          "status": "PASS",
+          "data_nature": "MECHANICAL_TEST_ONLY"
+        },
+        {
+          "name": "Solar limiting case heats face and drives inward conduction",
+          "status": "PASS",
+          "data_nature": "MECHANICAL_TEST_ONLY"
+        },
+        {
+          "name": "Roof-to-air convection sign limiting cases",
+          "status": "PASS",
+          "data_nature": "MECHANICAL_TEST_ONLY"
+        },
+        {
+          "name": "Insulated conduction matches independent discrete diffusion eigenmode",
+          "status": "PASS",
+          "data_nature": "MECHANICAL_TEST_ONLY"
+        },
+        {
+          "name": "Depth penetration is not a uniform lump",
+          "status": "PASS",
+          "data_nature": "MECHANICAL_TEST_ONLY"
+        },
+        {
+          "name": "Independent cell-state/hour/step energy and surface closure",
+          "status": "PASS",
+          "data_nature": "MECHANICAL_TEST_ONLY"
+        },
+        {
+          "name": "Continuous carryover across midnight and incomplete regeneration",
+          "status": "PASS",
+          "data_nature": "MECHANICAL_TEST_ONLY"
+        },
+        {
+          "name": "Matched control identity except L and initialization",
+          "status": "PASS",
+          "data_nature": "MECHANICAL_TEST_ONLY"
+        },
+        {
+          "name": "Delta H equals signed substep convection difference and remains test-only",
+          "status": "PASS",
+          "data_nature": "MECHANICAL_TEST_ONLY"
+        },
+        {
+          "name": "Delta H timestamp mismatch refused",
+          "status": "PASS",
+          "data_nature": "MECHANICAL_TEST_ONLY"
+        },
+        {
+          "name": "Control property/config mismatch refused",
+          "status": "PASS",
+          "data_nature": "MECHANICAL_TEST_ONLY"
+        },
+        {
+          "name": "Stale pair weather identity refused",
+          "status": "PASS",
+          "data_nature": "MECHANICAL_TEST_ONLY"
+        },
+        {
+          "name": "Deterministic repeatability",
+          "status": "PASS",
+          "data_nature": "MECHANICAL_TEST_ONLY"
+        },
+        {
+          "name": "Latent uptake/release/capacity accounting and equivalent cycles",
+          "status": "PASS",
+          "data_nature": "MECHANICAL_TEST_ONLY"
+        },
+        {
+          "name": "06:00 all-day reset retains final unknown checkpoint",
+          "status": "PASS",
+          "data_nature": "MECHANICAL_TEST_ONLY"
+        },
+        {
+          "name": "Descriptive label priority and thresholds unchanged",
+          "status": "PASS",
+          "data_nature": "MECHANICAL_TEST_ONLY"
+        },
+        {
+          "name": "Unconverged update refused",
+          "status": "PASS",
+          "data_nature": "MECHANICAL_TEST_ONLY"
+        },
+        {
+          "name": "Adaptive timestep reduction succeeds and preserves energy",
+          "status": "PASS",
+          "data_nature": "MECHANICAL_TEST_ONLY"
+        },
+        {
+          "name": "Independent Delta H sign examples: less=-8; more=+25 W/m2",
+          "status": "PASS",
+          "data_nature": "MECHANICAL_TEST_ONLY"
+        },
+        {
+          "name": "8760-hour annual state continuity and no daily/monthly reset",
+          "status": "PASS",
+          "data_nature": "MECHANICAL_TEST_ONLY"
+        },
+        {
+          "name": "Adaptive timestep failure at minimum step stops without result",
+          "status": "PASS",
+          "data_nature": "MECHANICAL_TEST_ONLY"
+        },
+        {
+          "name": "Energy violation is a hard refusal",
+          "status": "PASS",
+          "data_nature": "MECHANICAL_TEST_ONLY"
+        },
+        {
+          "name": "Automatic stale/filename-only cache reuse refused",
+          "status": "PASS",
+          "data_nature": "MECHANICAL_TEST_ONLY"
+        },
+        {
+          "name": "Mechanical fixture cannot enter scientific runner",
+          "status": "PASS",
+          "data_nature": "MECHANICAL_TEST_ONLY"
+        },
+        {
+          "name": "Mechanical fixture cannot be persisted as scientific output",
+          "status": "PASS",
+          "data_nature": "MECHANICAL_TEST_ONLY"
+        },
+        {
+          "name": "H/DeltaH/enthalpy/state output units are explicit and consistent",
+          "status": "PASS",
+          "data_nature": "MECHANICAL_TEST_ONLY"
+        }
+      ],
+      "count": 47,
+      "annual_continuity_fixture_hours": 8760,
+      "mechanical_annual_energy_receipt": {
+        "status": "PASS",
+        "solver_status": "ALL_ACCEPTED_STEPS_CONVERGED",
+        "unresolved_solver_failures": 0,
+        "weather_hash": "fabb25f7baf5b829cc1c1bec61946a395d49270189a2d02264f1cda86b7b4df9",
+        "run_id": "MECHANICAL_TEST_ONLY_d4bf55445aba",
+        "annual_stored_change_Jm2": 315360000.00000036,
+        "annual_boundary_input_Jm2": 315360000.0,
+        "annual_energy_residual_Jm2": 3.5762786865234375e-07,
+        "annual_energy_relative_residual": 1.1340305322562904e-15,
+        "annual_absolute_boundary_energy_Jm2": 315360000.0,
+        "annual_energy_tolerance_Jm2": 31.586,
+        "max_abs_hourly_energy_residual_Jm2": 1.1920928955078125e-07,
+        "max_step_energy_residual_Jm2": 1.5083060134202242e-08,
+        "max_surface_residual_Wm2": 0.0,
+        "max_cell_residual_Wm2": 4.6475800985490423e-10,
+        "solver_retry_count": 0,
+        "max_nonlinear_iterations_used": 2,
+        "minimum_accepted_dt_s": 3600.0,
+        "latent_accounting_residual_Jm2": 0.0,
+        "state_continuity_status": "PASS"
+      },
+      "mechanical_short_window_energy_receipt": {
+        "status": "PASS",
+        "solver_status": "ALL_ACCEPTED_STEPS_CONVERGED",
+        "unresolved_solver_failures": 0,
+        "weather_hash": "bb7c0b486b8e2b0411072408e54423ddd09d0940d1279c9888bb5c77390cd53a",
+        "run_id": "MECHANICAL_TEST_ONLY_268ce31624c6",
+        "annual_stored_change_Jm2": 201419.71761727473,
+        "annual_boundary_input_Jm2": 201419.71738064906,
+        "annual_energy_residual_Jm2": 0.00023662566673010588,
+        "annual_energy_relative_residual": 1.3098030461711214e-11,
+        "annual_absolute_boundary_energy_Jm2": 18065744.114874467,
+        "annual_energy_tolerance_Jm2": 1.8565744114874467,
+        "max_abs_hourly_energy_residual_Jm2": 6.63211103528738e-05,
+        "max_step_energy_residual_Jm2": 5.425742699571856e-06,
+        "max_surface_residual_Wm2": 7.45842498872662e-10,
+        "max_cell_residual_Wm2": 2.7078769448962703e-07,
+        "solver_retry_count": 0,
+        "max_nonlinear_iterations_used": 5,
+        "minimum_accepted_dt_s": 60.0,
+        "latent_accounting_residual_Jm2": -9.89530235528946e-10,
+        "state_continuity_status": "PASS"
+      }
+    },
+    "category1_scientific": {
+      "status": "PASS",
+      "inputs": {
+        "weather": {
+          "status": "PASS",
+          "hours": 8760,
+          "study_year": 2025,
+          "start_UTC": "2024-12-31T18:30:00+00:00",
+          "end_UTC_exclusive": "2025-12-31T18:30:00+00:00",
+          "timestamp_label": "start",
+          "solver_label": "instantaneous_sample_UTC at midpoint"
+        },
+        "candidates": {
+          "status": "PASS",
+          "candidate_ids": [
+            "PCM-011",
+            "PCM-067",
+            "PCM-069"
+          ],
+          "workbook_sha256": "0dda90b01987f99819c24ff1f7b18d51bfee4d3ea73358f73c7e616977e76aed",
+          "physical_source_quality": "NOT CHECKED",
+          "preliminary_review_status": "REVIEW_REQUIRED_BEFORE_CATEGORY1"
+        }
+      },
+      "all_candidates_completed": true
+    }
+  },
+  "synthetic_fallback_used": false,
+  "category3_added": false
+}

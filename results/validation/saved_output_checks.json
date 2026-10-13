@@ -1,0 +1,226 @@
+{
+  "status": "PASS",
+  "scientific_solvers_invoked": false,
+  "checks": [
+    {
+      "check": "As-executed workbook hash",
+      "passed": true
+    },
+    {
+      "check": "PCM-067 accepted status",
+      "passed": true
+    },
+    {
+      "check": "PCM-067 annual atmospheric rows",
+      "passed": true
+    },
+    {
+      "check": "PCM-067 weather-defined extreme mask",
+      "passed": true
+    },
+    {
+      "check": "PCM-067 438 extreme hours",
+      "passed": true
+    },
+    {
+      "check": "PCM-067 spatial dimensions",
+      "passed": true
+    },
+    {
+      "check": "PCM-067 annual roof rows",
+      "passed": true
+    },
+    {
+      "check": "PCM-067 H_PCM sign",
+      "passed": true
+    },
+    {
+      "check": "PCM-067 H_L0 sign",
+      "passed": true
+    },
+    {
+      "check": "PCM-067 delta_H equality",
+      "passed": true
+    },
+    {
+      "check": "PCM-067 paired chronology",
+      "passed": true
+    },
+    {
+      "check": "PCM-067 matched L=0",
+      "passed": true
+    },
+    {
+      "check": "PCM-067/pcm complete depth states",
+      "passed": true
+    },
+    {
+      "check": "PCM-067/L0 complete depth states",
+      "passed": true
+    },
+    {
+      "check": "PCM-067 saved numerical acceptance",
+      "passed": true
+    },
+    {
+      "check": "PCM-011 accepted status",
+      "passed": true
+    },
+    {
+      "check": "PCM-011 annual atmospheric rows",
+      "passed": true
+    },
+    {
+      "check": "PCM-011 weather-defined extreme mask",
+      "passed": true
+    },
+    {
+      "check": "PCM-011 438 extreme hours",
+      "passed": true
+    },
+    {
+      "check": "PCM-011 spatial dimensions",
+      "passed": true
+    },
+    {
+      "check": "PCM-011 annual roof rows",
+      "passed": true
+    },
+    {
+      "check": "PCM-011 H_PCM sign",
+      "passed": true
+    },
+    {
+      "check": "PCM-011 H_L0 sign",
+      "passed": true
+    },
+    {
+      "check": "PCM-011 delta_H equality",
+      "passed": true
+    },
+    {
+      "check": "PCM-011 paired chronology",
+      "passed": true
+    },
+    {
+      "check": "PCM-011 matched L=0",
+      "passed": true
+    },
+    {
+      "check": "PCM-011/pcm complete depth states",
+      "passed": true
+    },
+    {
+      "check": "PCM-011/L0 complete depth states",
+      "passed": true
+    },
+    {
+      "check": "PCM-011 saved numerical acceptance",
+      "passed": true
+    },
+    {
+      "check": "PCM-069 accepted status",
+      "passed": true
+    },
+    {
+      "check": "PCM-069 annual atmospheric rows",
+      "passed": true
+    },
+    {
+      "check": "PCM-069 weather-defined extreme mask",
+      "passed": true
+    },
+    {
+      "check": "PCM-069 438 extreme hours",
+      "passed": true
+    },
+    {
+      "check": "PCM-069 spatial dimensions",
+      "passed": true
+    },
+    {
+      "check": "PCM-069 annual roof rows",
+      "passed": true
+    },
+    {
+      "check": "PCM-069 H_PCM sign",
+      "passed": true
+    },
+    {
+      "check": "PCM-069 H_L0 sign",
+      "passed": true
+    },
+    {
+      "check": "PCM-069 delta_H equality",
+      "passed": true
+    },
+    {
+      "check": "PCM-069 paired chronology",
+      "passed": true
+    },
+    {
+      "check": "PCM-069 matched L=0",
+      "passed": true
+    },
+    {
+      "check": "PCM-069/pcm complete depth states",
+      "passed": true
+    },
+    {
+      "check": "PCM-069/L0 complete depth states",
+      "passed": true
+    },
+    {
+      "check": "PCM-069 saved numerical acceptance",
+      "passed": true
+    },
+    {
+      "check": "All three materials present",
+      "passed": true
+    },
+    {
+      "check": "Saved hotspot has 44 cells",
+      "passed": true
+    }
+  ],
+  "extrema": [
+    {
+      "pcm_id": "PCM-067",
+      "experiment_id": "4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463",
+      "maximum_hourly_hotspot_cooling_K": 0.5006854979984261,
+      "hour_start_UTC": "2025-06-07 06:30:00+00:00",
+      "maximum_hotspot_cell_substep_cooling_K": 0.796938813589327,
+      "maximum_domain_grid_cell_cooling_K": 0.796938813589327,
+      "quoted_values_match_3_decimals": true,
+      "extreme_heat_signed_mean_K": -0.09507284320142655,
+      "extreme_heat_hours": 438,
+      "source": "results/category3/accepted_baselines/4f2ebbf7311ee9cd4cc9ec8f61242abcdf779c05fa1f1f0ff5c99e6883745463/hourly_statistics.csv"
+    },
+    {
+      "pcm_id": "PCM-011",
+      "experiment_id": "eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553",
+      "maximum_hourly_hotspot_cooling_K": 0.4563246878260078,
+      "hour_start_UTC": "2025-06-14 08:30:00+00:00",
+      "maximum_hotspot_cell_substep_cooling_K": 0.6970107014615362,
+      "maximum_domain_grid_cell_cooling_K": 0.6970107014615362,
+      "quoted_values_match_3_decimals": true,
+      "extreme_heat_signed_mean_K": -0.0910073650436167,
+      "extreme_heat_hours": 438,
+      "source": "results/category3/accepted_baselines/eaf98a80cc4793b21c2c49fd3f028fe3d311d8bcf668f2e6a902ade279de4553/hourly_statistics.csv"
+    },
+    {
+      "pcm_id": "PCM-069",
+      "experiment_id": "fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13",
+      "maximum_hourly_hotspot_cooling_K": 0.5027136129365047,
+      "hour_start_UTC": "2025-05-10 07:30:00+00:00",
+      "maximum_hotspot_cell_substep_cooling_K": 0.8190039070259171,
+      "maximum_domain_grid_cell_cooling_K": 0.8190039070259171,
+      "quoted_values_match_3_decimals": true,
+      "extreme_heat_signed_mean_K": -0.11925868247797608,
+      "extreme_heat_hours": 438,
+      "source": "results/category3/accepted_baselines/fdfe12495ff02fe4244294659f579febd0e9274e86a29dfe3ea6aeecd6fd3c13/hourly_statistics.csv"
+    }
+  ],
+  "quoted_maxima_all_verified": true,
+  "limitation": "Saved relationships verified. This is not a new full-year equivalence run or empirical validation."
+}
